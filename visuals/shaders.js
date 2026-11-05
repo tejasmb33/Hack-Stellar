@@ -27,35 +27,43 @@ vec3 environment(vec3 origin,vec3 direction){
   col+=mix(vec3(.015,.035,.06),vec3(.23,.092,.022),smoothstep(.005,.15,gas))*(gas+farGas*.45)*1.7;
   return col;
 }
+// Only the pattern is advected twice. Geometric, thermal and Doppler terms
+// remain shared, avoiding duplicate volume-shading work at every ray step.
+uniform vec4 uAdvection; // previous age/anchor, current age/anchor
+uniform float uFlowBlend;
+vec2 advectedPattern(vec3 p,float radius,float flow){
+  vec2 uv=vec2(flow/6.2831853, radius*.117+sin(flow*5.+uTime*.23)*.003);
+  // Ray steps diverge per fragment: use a stable, explicit texture level.
+  vec4 field=textureLod(uMatter,uv+vec2(p.y*.04,0),0.);
+  float striation=field.g;
+  float filaments=pow(smoothstep(.19,.80,field.r),2.)*2.7 + pow(smoothstep(.18,.82,field.b),2.)*1.4;
+  float density=.045+filaments*.65+striation*.10;
+  float textureLight=.25+pow(smoothstep(.23,.78,field.r),2.)*1.8+pow(smoothstep(.18,.82,field.b),1.4)*.8;
+  // Keep the approved light lanes, texture and exact local orbital rate.
+  float feedingLane=pow(.5+.5*sin(flow*3.+radius*1.8+field.g*2.8),5.);
+  float fineStream=pow(.5+.5*sin(flow*9.+radius*5.1+field.r*4.),12.);
+  float feedingKnot=exp(-pow(sin((flow+radius*.25)*.5),2.)*18.);
+  float flowingLight=.45+feedingLane*.72+fineStream*.16+feedingKnot*.60;
+  return vec2(textureLight*flowingLight,density*(.8+feedingLane*.4));
+}
 // Continuous finite-height matter, advected at the local orbital speed.
-vec4 matter(vec3 p, vec3 direction){
+vec4 matter(vec3 p,vec3 direction){
   float radius=length(p.xz);
   float inner=smoothstep(1.78,2.12,radius);
   float outer=1.-smoothstep(7.,10.,radius);
   float angle=atan(p.z,p.x);
-  float orbital=uTime*1.28*pow(2.5/max(radius,1.8),1.5);
-  float flow=angle-orbital;
-  vec2 uv=vec2(flow/6.2831853, radius*.117+sin(flow*5.+uTime*.23)*.003);
-  // Ray steps diverge per fragment, so implicit mip derivatives are unreliable.
-  // Time-dependent UV shear must not average the moving filaments into a flat mip.
-  // Keep the existing base texture and its exact orbital phase/rate.
-  vec4 field=textureLod(uMatter,uv+vec2(p.y*.04,0),0.);
-  float striation=field.g;
-  float filaments=pow(smoothstep(.19,.80,field.r),2.)*2.7 + pow(smoothstep(.18,.82,field.b),2.)*1.4;
-  float density=(.045+filaments*.65+striation*.10)*inner*outer;
+  float speed=1.28*pow(2.5/max(radius,1.8),1.5);
+  vec2 pattern=advectedPattern(p,radius,angle-uAdvection.y-uAdvection.x*speed);
+  if(uFlowBlend>0.){
+    vec2 nextPattern=advectedPattern(p,radius,angle-uAdvection.w-uAdvection.z*speed);
+    pattern=mix(pattern,nextPattern,uFlowBlend);
+  }
   float hot=pow(2.1/max(radius,2.1),.73);
   vec3 colour=mix(vec3(.72,.20,.037),vec3(1.0,.65,.29),smoothstep(.22,.58,hot));
   colour=mix(colour,vec3(1.0,.94,.75),smoothstep(.54,.97,hot));
   vec3 velocity=normalize(vec3(-p.z,0.,p.x));
   float doppler=pow(clamp(1.+dot(velocity,-direction)*.24,.6,1.4),2.);
-  float textureLight=.25+pow(smoothstep(.23,.78,field.r),2.)*1.8+pow(smoothstep(.18,.82,field.b),1.4)*.8;
-  // Bright, shearing feeding lanes create recognizable moving landmarks.
-  // Each radius has its own phase/speed; no rigid wheel or global flashing.
-  float feedingLane=pow(.5+.5*sin(flow*3.+radius*1.8+field.g*2.8),5.);
-  float fineStream=pow(.5+.5*sin(flow*9.+radius*5.1+field.r*4.),12.);
-  float feedingKnot=exp(-pow(sin((flow+radius*.25)*.5),2.)*18.);
-  float flowingLight=.45+feedingLane*.72+fineStream*.16+feedingKnot*.60;
-  return vec4(colour*pow(hot,2.8)*doppler*3.3*textureLight*flowingLight,density*(.8+feedingLane*.4));
+  return vec4(colour*pow(hot,2.8)*doppler*3.3*pattern.x,pattern.y*inner*outer);
 }
 float erfApprox(float x){float q=x*x;return sign(x)*sqrt(max(0.,1.-exp(-q*(1.27323954+.147*q)/(1.+.147*q))));}
 float verticalAverage(float a,float b,float height){

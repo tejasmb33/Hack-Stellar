@@ -1,0 +1,593 @@
+{
+  "status": "passed",
+  "cycles": [
+    {
+      "baseline": true,
+      "cycle": 0,
+      "glError": 1282,
+      "before": {
+        "frames": 7,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 0.15920000000298024,
+        "diskPhase": 0.2037760000038147,
+        "camera": [
+          0.33388751661368676,
+          0.5584018938402874,
+          11.69908197792671
+        ],
+        "cameraZ": 11.69908197792671,
+        "center": [
+          0.6939882286730322,
+          0.40258197669723333
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            874,
+            418
+          ],
+          "volume": [
+            743,
+            355
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "after": {
+        "frames": 35,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 0.6258380000029803,
+        "diskPhase": 0.8010726400038148,
+        "camera": [
+          0.4325628535347655,
+          0.5828098396626983,
+          11.695849237132883
+        ],
+        "cameraZ": 11.695849237132883,
+        "center": [
+          0.6977829229407645,
+          0.40268195272224316
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            900,
+            440
+          ],
+          "volume": [
+            765,
+            374
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      }
+    },
+    {
+      "baseline": true,
+      "cycle": 1,
+      "glError": 1282,
+      "before": {
+        "frames": 67,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 1.1590380000029803,
+        "diskPhase": 1.4835686400038148,
+        "camera": [
+          0.542414247601443,
+          0.6097159633853569,
+          11.69126968228853
+        ],
+        "cameraZ": 11.69126968228853,
+        "center": [
+          0.6971962238305265,
+          0.40278118735966567
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            900,
+            440
+          ],
+          "volume": [
+            765,
+            374
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "after": {
+        "frames": 70,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": true,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 1.17573800000298,
+        "diskPhase": 1.5049446400038144,
+        "camera": [
+          0.5457795201635447,
+          0.6105330972864784,
+          11.691113065716626
+        ],
+        "cameraZ": 11.691113065716626,
+        "center": [
+          0.6972754795477496,
+          0.40278413564564247
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            920,
+            450
+          ],
+          "volume": [
+            782,
+            383
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      }
+    },
+    {
+      "baseline": true,
+      "cycle": 2,
+      "glError": 1282,
+      "before": {
+        "frames": 101,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 1.6757380000029802,
+        "diskPhase": 2.1449446400038146,
+        "camera": [
+          0.6437029036540879,
+          0.6340379119048999,
+          11.686130521769268
+        ],
+        "cameraZ": 11.686130521769268,
+        "center": [
+          0.6967420217881002,
+          0.40287106956387786
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            920,
+            450
+          ],
+          "volume": [
+            782,
+            383
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "after": {
+        "frames": 127,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 2.09233800000298,
+        "diskPhase": 2.6781926400038145,
+        "camera": [
+          0.720205113754318,
+          0.651904125566104,
+          11.68166531767291
+        ],
+        "cameraZ": 11.68166531767291,
+        "center": [
+          0.6964123113824208,
+          0.4029459015563255
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            940,
+            460
+          ],
+          "volume": [
+            799,
+            391
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "invalidMessages": [
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: delete: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context",
+        "WebGL: INVALID_OPERATION: deleteVertexArray: object does not belong to this context"
+      ]
+    },
+    {
+      "baseline": false,
+      "cycle": 0,
+      "glError": 0,
+      "before": {
+        "frames": 7,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 0.10529999999701976,
+        "diskPhase": 0.1347839999961853,
+        "camera": [
+          0.3224187689760036,
+          0.5555587211560803,
+          11.699403665888786
+        ],
+        "cameraZ": 11.699403665888786,
+        "center": [
+          0.694046233047355,
+          0.4025693552299656
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            874,
+            418
+          ],
+          "volume": [
+            743,
+            355
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "after": {
+        "frames": 34,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 0.5220039999970196,
+        "diskPhase": 0.6681651199961851,
+        "camera": [
+          0.41074508670917687,
+          0.5774257019438609,
+          11.69663577588634
+        ],
+        "cameraZ": 11.69663577588634,
+        "center": [
+          0.69789795863453,
+          0.4026610068708317
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            900,
+            440
+          ],
+          "volume": [
+            765,
+            374
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      }
+    },
+    {
+      "baseline": false,
+      "cycle": 1,
+      "glError": 0,
+      "before": {
+        "frames": 64,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 1.02200399999702,
+        "diskPhase": 1.3081651199961857,
+        "camera": [
+          0.5146049711342304,
+          0.6029446306212536,
+          11.692526746759398
+        ],
+        "cameraZ": 11.692526746759398,
+        "center": [
+          0.6973459016886291,
+          0.402756722185871
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            900,
+            440
+          ],
+          "volume": [
+            765,
+            374
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "after": {
+        "frames": 67,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": true,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 1.03860399999702,
+        "diskPhase": 1.3294131199961856,
+        "camera": [
+          0.5179915135517343,
+          0.6037709351037881,
+          11.692377208758208
+        ],
+        "cameraZ": 11.692377208758208,
+        "center": [
+          0.6974252090668619,
+          0.4027597148776877
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            920,
+            450
+          ],
+          "volume": [
+            782,
+            383
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      }
+    },
+    {
+      "baseline": false,
+      "cycle": 2,
+      "glError": 0,
+      "before": {
+        "frames": 98,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 1.5385039999970196,
+        "diskPhase": 1.9692851199961852,
+        "camera": [
+          0.6174206171909363,
+          0.6277878668596996,
+          11.687548578785353
+        ],
+        "cameraZ": 11.687548578785353,
+        "center": [
+          0.6968860570133221,
+          0.4028472380144033
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            920,
+            450
+          ],
+          "volume": [
+            782,
+            383
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "after": {
+        "frames": 124,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 1.9551439999970202,
+        "diskPhase": 2.5025843199961857,
+        "camera": [
+          0.6955955874384765,
+          0.6462170023952917,
+          11.683156541737173
+        ],
+        "cameraZ": 11.683156541737173,
+        "center": [
+          0.6965488036075201,
+          0.4029206446817796
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            940,
+            460
+          ],
+          "volume": [
+            799,
+            391
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "invalidMessages": []
+    }
+  ]
+}

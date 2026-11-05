@@ -58,14 +58,22 @@ export function startExperience(){
     if(!document.hidden&&!restore)raf=requestAnimationFrame(draw);
   }
   addEventListener('scroll',()=>{targetScroll=scrollY;requestStatic();},{passive:true});
-  addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();pipeline.resize(scale);requestStatic();});
+  addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();pipeline?.resize(scale);requestStatic();});
   reduced.addEventListener('change',configure);document.addEventListener('visibilitychange',configure);
-  canvas.addEventListener('webglcontextlost',event=>{event.preventDefault();restore=true;cancelAnimationFrame(raf);document.body.classList.remove('scene-ready');document.body.classList.add('scene-unavailable');});
+  canvas.addEventListener('webglcontextlost',event=>{
+    event.preventDefault();restore=true;cancelAnimationFrame(raf);
+    // Release old-context handles before Three rebuilds its GL caches on restore.
+    // Deleting them after restoration raises INVALID_OPERATION against the new
+    // context, including its texture, program and VAO state.
+    pipeline?.dispose();pipeline=null;
+    document.body.classList.remove('scene-ready');document.body.classList.add('scene-unavailable');
+  });
   canvas.addEventListener('webglcontextrestored',()=>{
-    pipeline.dispose();pipeline=createPipeline(renderer,camera,{constrained});pipeline.resize(scale);
+    if(disposed)return;
+    pipeline=createPipeline(renderer,camera,{constrained});pipeline.resize(scale);state.hdr=pipeline.hdr;
     restore=false;document.body.classList.remove('scene-unavailable');document.body.classList.add('scene-ready');configure();
   });
-  addEventListener('pagehide',event=>{cancelAnimationFrame(raf);if(!event.persisted){disposed=true;pipeline.dispose();renderer.dispose();}});
+  addEventListener('pagehide',event=>{cancelAnimationFrame(raf);if(!event.persisted){disposed=true;pipeline?.dispose();renderer.dispose();}});
   addEventListener('pageshow',()=>{if(!disposed)configure();});
   draw(performance.now());document.body.classList.add('scene-ready');configure();
 }

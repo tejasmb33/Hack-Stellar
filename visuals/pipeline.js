@@ -33,13 +33,16 @@ export function createPipeline(renderer,camera,{constrained=false}={}){
   }`);
   pass(bake,matterTarget);bake.dispose();
   const environment=createEnvironment(renderer,constrained);
-  const uniforms={uSky0:{value:environment.textures[0]},uSky1:{value:environment.textures[1]},uTime:{value:0},uInverseProjection:{value:camera.projectionMatrixInverse},uCameraWorld:{value:camera.matrixWorld},uMatter:{value:matterTarget.texture}};
+  const uniforms={uSky0:{value:environment.textures[0]},uSky1:{value:environment.textures[1]},uTime:{value:0},uAdvection:{value:new THREE.Vector4()},uFlowBlend:{value:0},uInverseProjection:{value:camera.projectionMatrixInverse},uCameraWorld:{value:camera.matrixWorld},uMatter:{value:matterTarget.texture}};
   const raySteps=constrained?120:160;
   const rayMaterial=material(blackHoleFragment,uniforms,{RAY_STEPS:raySteps});
   const copy=material(copyFragment,{uSource:{value:rayTarget.texture}});
   const blur=material(blurFragment,{uSource:{value:sceneTarget.texture},uDirection:{value:new THREE.Vector2()},uThreshold:{value:1.}});
   const finish=material(finishFragment,{uSource:{value:sceneTarget.texture},uBloom:{value:bloomB.texture},uTexel:{value:new THREE.Vector2()}});
-  const particleUniforms={uTime:uniforms.uTime,uTravel:{value:0},uViewport:{value:new THREE.Vector2()},uRayDepth:{value:rayTarget.texture}};
+  const particleUniforms={uTime:uniforms.uTime,uTravel:{value:0},uViewport:{value:new THREE.Vector2()},uRayDepth:{value:rayTarget.texture},
+    // UNORM8 stores the clear-space code .5 as 128/255, above .5001.
+    // Test between codes 128 and 129 so clear space is never a false shadow.
+    uShadowThreshold:{value:hdr?.5001:128.5/255}};
   const particleScene=new THREE.Scene();
   const particles=constrained?4000:10500;
   const dust=createDust(particles,particleUniforms);particleScene.add(dust);
@@ -58,6 +61,20 @@ export function createPipeline(renderer,camera,{constrained=false}={}){
     get resolution(){return {output:[width,height],volume:[rayTarget.width,rayTarget.height],scale};},
     render(time,travel){
       uniforms.uTime.value=time;particleUniforms.uTravel.value=travel;
+      // Bound differential shear, not the scene clock. Two overlapping fields
+      // renew only at zero weight; smoothstep makes the handoff C1 continuous.
+      // Compute these uniform phases once per frame, not at every ray sample.
+      const flowWindow=8,cycle=Math.floor(time/flowWindow),phase=time-cycle*flowWindow;
+      if(cycle===0){uniforms.uAdvection.value.set(time,0,time,0);uniforms.uFlowBlend.value=0;}
+      else{
+        const referenceSpeed=1.28*Math.pow(2.5/3.5,1.5),turn=Math.PI*2;
+        const previousAnchor=((cycle-1)*flowWindow*referenceSpeed)%turn,currentAnchor=(cycle*flowWindow*referenceSpeed)%turn;
+        uniforms.uAdvection.value.set(phase+flowWindow,previousAnchor,phase,currentAnchor);
+        // A two-second overlap keeps most frames on the original single-pattern
+        // path while retaining a smooth, zero-weight renewal every eight seconds.
+        const fraction=Math.max(0,(phase-(flowWindow-2))/2);
+        uniforms.uFlowBlend.value=fraction*fraction*(3-2*fraction);
+      }
       renderer.info.reset();
       pass(rayMaterial,rayTarget);
       pass(copy,sceneTarget);

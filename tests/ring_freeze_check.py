@@ -8,7 +8,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 from PIL import Image,ImageChops,ImageStat,ImageMath
 import json,sys,io
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'tests/ring-audit';BASE=sys.argv[1] if len(sys.argv)>1 else 'http://127.0.0.1:8000'
+ROOT=Path(__file__).resolve().parents[1];FIXTURE=ROOT/'tests/ring-audit';OUT=ROOT/'tests/lifecycle-audit/prior-regression';OUT.mkdir(parents=True,exist_ok=True);BASE=sys.argv[1] if len(sys.argv)>1 else 'http://127.0.0.1:8000'
 errors=[];results={'controlled':[],'live':[]}
 def change(a,b):
  r,g,blue=a.split();mask=ImageMath.unsafe_eval('convert((r>100)*(r*100>b*108)*255,"L")',r=r,b=blue)
@@ -17,7 +17,7 @@ def change(a,b):
  return {'meanDiskChange':sum(ImageStat.Stat(difference,mask).mean)/3,'changedFraction':changed.histogram()[255]/max(1,mask.histogram()[255])}
 with sync_playwright() as p:
  browser=p.chromium.launch(channel='chromium',ignore_default_args=['--disable-back-forward-cache'])
- page=browser.new_page(viewport={'width':1280,'height':800});page.add_init_script(path=str(OUT/'gpu-instrument.js'))
+ page=browser.new_page(viewport={'width':1280,'height':800});page.add_init_script(path=str(FIXTURE/'gpu-instrument.js'))
  page.on('pageerror',lambda e:errors.append(str(e)))
  page.on('console',lambda m:errors.append(m.text) if m.type=='error' else None)
  page.goto(BASE+'/tests/ring-audit/harness.html',wait_until='networkidle');page.wait_for_function('window.audit')
@@ -52,7 +52,7 @@ with sync_playwright() as p:
   results['appearance'].append({'progress':progress,'meanChannelDifference':difference})
  page.close()
  context=browser.new_context(viewport={'width':1280,'height':800},record_video_dir=str(OUT),record_video_size={'width':1280,'height':800})
- page=context.new_page();page.add_init_script(path=str(OUT/'gpu-instrument.js'))
+ page=context.new_page();page.add_init_script(path=str(FIXTURE/'gpu-instrument.js'))
  page.on('pageerror',lambda e:errors.append(str(e)))
  page.on('console',lambda m:errors.append(m.text) if m.type=='error' else None)
  def snapshot(label):

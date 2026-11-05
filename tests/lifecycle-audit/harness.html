@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="icon" href="data:,"><style>body{margin:0;background:black}canvas{display:block;width:100vw;height:100vh}</style></head><body><canvas></canvas><script type="module">
+import * as THREE from '/vendor/three.module.js';
+import {createPipeline} from '/visuals/pipeline.js';
+import {blackHoleFragment as baseline} from './baseline-shaders.js';
+import {createFlight} from '/visuals/camera.js';
+const renderer=new THREE.WebGLRenderer({canvas:document.querySelector('canvas'),alpha:false,antialias:false});
+renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.NoToneMapping;renderer.setPixelRatio(1);renderer.info.autoReset=false;
+const camera=new THREE.PerspectiveCamera(43,innerWidth/innerHeight,.1,350),flight=createFlight(camera);
+// Exercise the existing non-floating-point framebuffer fallback on this GPU.
+if(new URLSearchParams(location.search).has('ldr')){
+ const has=renderer.extensions.has.bind(renderer.extensions);
+ renderer.extensions.has=name=>name==='EXT_color_buffer_float'?false:has(name);
+}
+let options={},pipeline;
+const originalRender=renderer.render.bind(renderer);
+renderer.render=(scene,cam)=>{
+ const dust=scene.children.some(child=>child.isPoints);
+ if(dust&&options.noDust)return;
+ const m=scene.children[0]?.material;
+ if(dust){
+  m.userData.fragment??=m.fragmentShader;
+  const fragment=options.baselineDust?m.userData.fragment.replace('packed>uShadowThreshold','packed>.5001'):m.userData.fragment;
+  if(fragment!==m.fragmentShader){m.fragmentShader=fragment;m.needsUpdate=true;}
+  m.userData.vertex??=m.vertexShader;
+  let source=m.userData.vertex;
+  if(options.group==='orbital')source=source.replace('float illumination=', 'if(aData.z>.5)vAlpha=0.;float illumination=');
+  if(options.group==='world')source=source.replace('float illumination=', 'if(aData.z<.5)vAlpha=0.;float illumination=');
+  if(source!==m.vertexShader){m.vertexShader=source;m.needsUpdate=true;}
+ }
+ if(m?.fragmentShader?.includes('feedingKnot')){
+  m.userData.original??=m.fragmentShader;
+  let source=options.baseline?baseline:m.userData.original;
+  if(options.onlyDust)source=source.replace('gl_FragColor=vec4(light,encodedDepth);','gl_FragColor=vec4(vec3(0.),encodedDepth);');
+  if(options.noSky)source=source.replace('if(!captured)light+=environment(pos,normalize(dir))*transmittance;','');
+  if(source!==m.fragmentShader){m.fragmentShader=source;m.needsUpdate=true;}
+ }
+ originalRender(scene,cam);
+};
+pipeline=createPipeline(renderer,camera,{constrained:innerWidth<=760});
+window.audit={render(next){options=next;flight(next.progress??0,next.orbitTime??0,innerWidth<=760);pipeline.resize(next.scale??.85);pipeline.render(next.time,0);return pipeline.resolution;}};
+audit.render({time:0});
+</script></body></html>

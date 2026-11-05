@@ -1,5 +1,7 @@
 # Accretion-ring motion reliability fix
 
+Historical report for commit `33cea90`. The subsequent [stardust reliability report](STARDUST_RELIABILITY_FIX.md) covers bounded advection, framebuffer precision and context recovery.
+
 ## Reproduced cause
 
 The disk's clock was not stopped in the investigated cases. GPU instrumentation intercepted actual `uTime` uploads and read the linked programs' values back with `gl.getUniform`. The disk and dust received the same advancing values through idle, scrolling, resize and navigation.

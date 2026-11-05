@@ -1,0 +1,42 @@
+{
+  "performance": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)",
+      "fps": 53.696303696303694,
+      "clockRatio": 0.9989510489510373,
+      "scale": 0.9
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1.25,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)",
+      "fps": 49.59214520382094,
+      "clockRatio": 0.999312955167562,
+      "scale": 0.5543803919288023
+    }
+  ],
+  "nativeHiddenTab": false,
+  "emulatedVisibilityPause": "passed",
+  "visibilityLog": [
+    {
+      "hidden": true,
+      "time": 18.922235999996907
+    },
+    {
+      "hidden": false,
+      "time": 18.922235999996907
+    }
+  ],
+  "visibilityResume": "passed",
+  "status": "passed",
+  "errors": [],
+  "browser": "Chromium/Metal; not physical mobile hardware"
+}

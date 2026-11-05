@@ -65,7 +65,7 @@ export function createDust(count, uniforms) {
       vAngle=atan(viewVelocity.y,viewVelocity.x);
     }`,
     fragmentShader:/* glsl */`
-    uniform sampler2D uRayDepth;uniform vec2 uViewport;
+    uniform sampler2D uRayDepth;uniform vec2 uViewport;uniform float uShadowThreshold;
     varying vec3 vColour;varying float vDepth,vAlpha,vAngle,vStretch;
     void main(){
       vec2 p=gl_PointCoord-.5;
@@ -74,7 +74,7 @@ export function createDust(count, uniforms) {
       float r=length(p);
       if(r>.5)discard;
       float packed=texture2D(uRayDepth,gl_FragCoord.xy/uViewport).a;
-      bool shadow=packed>.5001;
+      bool shadow=packed>uShadowThreshold;
       float sceneDepth=(shadow?packed-.5:packed)*400.;
       float behind=smoothstep(sceneDepth-.2,sceneDepth+.2,vDepth);
       float occlusion=mix(1.,shadow?0.:.12,behind);
