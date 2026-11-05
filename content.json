@@ -1,16 +1,16 @@
 {
   "event": {
-    "name": "INTERSTELLAR : THE BUILDATHON",
+    "name": "HackStellar",
     "tagline": "Code. Create. Conquer.",
     "college": "Ramaiah Institute of Technology",
     "club": "ACE Club",
     "date": "13 November 2026",
     "start": "10:00 AM IST",
-    "venue": "ESB Seminar Hall",
+    "venue": "ESB Seminar Hall 2",
     "deadline": "12 November 2026, 11:59 PM IST",
     "eligibility": "CSE department students only",
     "teamSize": "2–4",
-    "prize": "₹20,000",
+    "prize": "₹25,000",
     "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesCbCTvnpS83vPGU6mv_uvrE8m0hz9cfPsO6qHvGduK1daCQ/viewform"
   },
   "judges": [
@@ -273,6 +273,58 @@
       "challenge": "Develop an intelligent energy management system that estimates room or floor occupancy using Wi-Fi connections, access-card records and meeting schedules, then optimizes cooling schedules based on occupancy, electricity tariffs and temperature patterns while maintaining occupant comfort.",
       "summary": "Commercial buildings often waste electricity because cooling systems operate on fixed schedules regardless of room occupancy. Electricity tariffs also vary during peak and off-peak hours.",
       "source": null
+    },
+    {
+      "id": "PS–18",
+      "slug": "ps-18",
+      "title": "CX Mirror",
+      "subtitle": "AI Testing Against Design Mockups",
+      "format": "statement",
+      "description": "Build an AI-powered testing solution that automatically validates whether an implemented customer experience (CX) matches its design mockup. Today, QA engineers manually inspect mockups, write tests using element selectors such as XPath, and visually compare the implementation against the design. The proposed solution should accept a mockup, the implemented page, and any necessary reference data, then verify visual appearance, layout, text, and the correct placement of information such as prices and legal terms. It should adapt to new or updated mockups with minimal manual effort, report discrepancies, and produce a confidence score that determines whether the implementation passes a configurable acceptance threshold.",
+      "challenge": "",
+      "domainLabel": "",
+      "domains": [],
+      "summary": "Build an AI-powered testing solution that automatically validates whether an implemented customer experience (CX) matches its design mockup. Today, QA engineers manually inspect mockups, write tests using element selectors such as XPath, and visually compare the implementation against the design. The proposed solution should accept a mockup, the implemented page, and any necessary reference data, then verify visual appearance, layout, text, and the correct placement of information such as prices and legal terms. It should adapt to new or updated mockups with minimal manual effort, report discrepancies, and produce a confidence score that determines whether the implementation passes a configurable acceptance threshold.",
+      "source": null
+    },
+    {
+      "id": "PS–19",
+      "slug": "ps-19",
+      "title": "Complaint Compass",
+      "subtitle": "Customer Complaint Intelligence and Prioritization",
+      "format": "statement",
+      "description": "Build an AI-powered system that consolidates customer complaints across channels - including email, voice calls, chatbots, and social media - and identifies the top 10 recurring issues a company should prioritize. The system should recognize when differently worded complaints describe the same underlying problem, avoid double-counting complaints repeated across channels, and rank issues using transparent criteria such as the number of affected customers and severity. Companies should be able to configure filters and compare results across dimensions such as country, state, age group, student status, and income bracket, using available customer data. The output should help companies understand which problems affect which customer groups and where to focus improvement efforts.",
+      "challenge": "",
+      "domainLabel": "",
+      "domains": [],
+      "summary": "Build an AI-powered system that consolidates customer complaints across channels - including email, voice calls, chatbots, and social media - and identifies the top 10 recurring issues a company should prioritize. The system should recognize when differently worded complaints describe the same underlying problem, avoid double-counting complaints repeated across channels, and rank issues using transparent criteria such as the number of affected customers and severity. Companies should be able to configure filters and compare results across dimensions such as country, state, age group, student status, and income bracket, using available customer data. The output should help companies understand which problems affect which customer groups and where to focus improvement efforts.",
+      "source": null
+    },
+    {
+      "id": "PS–20",
+      "slug": "ps-20",
+      "title": "Idea Memory",
+      "subtitle": "Product Idea and Experiment Knowledge",
+      "format": "statement",
+      "description": "Build a system that preserves a company's knowledge about product ideas throughout their lifecycle - from initial proposals and leadership reviews to decisions, experiments, and production outcomes. Valuable learning is often scattered across document versions, review comments, and experiment reports, making it difficult to recover as teams change. The system should integrate with existing documentation, review, and experimentation tools to automatically capture feedback, how proposals evolved, decisions and their rationale, and experiment results - including when and where experiments ran. It should preserve learning from ideas that were rejected, shelved, unsuccessful, or successful. Through natural-language search and integration with the company's existing AI agents, employees should be able to discover related past ideas, understand previous concerns and outcomes, and use that evidence when developing new proposals.",
+      "challenge": "",
+      "domainLabel": "",
+      "domains": [],
+      "summary": "Build a system that preserves a company's knowledge about product ideas throughout their lifecycle - from initial proposals and leadership reviews to decisions, experiments, and production outcomes. Valuable learning is often scattered across document versions, review comments, and experiment reports, making it difficult to recover as teams change. The system should integrate with existing documentation, review, and experimentation tools to automatically capture feedback, how proposals evolved, decisions and their rationale, and experiment results - including when and where experiments ran. It should preserve learning from ideas that were rejected, shelved, unsuccessful, or successful. Through natural-language search and integration with the company's existing AI agents, employees should be able to discover related past ideas, understand previous concerns and outcomes, and use that evidence when developing new proposals.",
+      "source": null
+    },
+    {
+      "id": "PS–21",
+      "slug": "ps-21",
+      "title": "ModelFit",
+      "subtitle": "AI Model Benchmarking on Company Workloads",
+      "format": "statement",
+      "description": "Build a benchmarking framework that helps companies choose AI models and providers using evidence from their own workloads. Token prices and general-purpose benchmarks alone do not establish which model offers the best value for a company's tasks: a cheaper model may require more attempts, consume more tokens, or fail more often, increasing the actual cost of completing the work. The framework should let companies define representative tasks and evaluation criteria, select their preferred agent harness, and benchmark different model-provider combinations. It should measure task success, quality, latency, and total execution cost, while preserving historical results and evaluation configurations. Companies should be able to compare new results against their current setup to determine whether switching models or providers delivers a worthwhile improvement.",
+      "challenge": "",
+      "domainLabel": "",
+      "domains": [],
+      "summary": "Build a benchmarking framework that helps companies choose AI models and providers using evidence from their own workloads. Token prices and general-purpose benchmarks alone do not establish which model offers the best value for a company's tasks: a cheaper model may require more attempts, consume more tokens, or fail more often, increasing the actual cost of completing the work. The framework should let companies define representative tasks and evaluation criteria, select their preferred agent harness, and benchmark different model-provider combinations. It should measure task success, quality, latency, and total execution cost, while preserving historical results and evaluation configurations. Companies should be able to compare new results against their current setup to determine whether switching models or providers delivers a worthwhile improvement.",
+      "source": null
     }
   ],
   "problemProviders": [
@@ -283,5 +335,111 @@
     "Cisco"
   ],
   "providerAttribution": "professionals",
-  "showProblemSources": false
+  "showProblemSources": false,
+  "sponsors": [
+    {
+      "name": "PARTEX",
+      "image": "partex.jpeg",
+      "className": "partex",
+      "url": "https://www.partex.in/"
+    },
+    {
+      "name": "Coastal Naati Kitchen",
+      "image": "coastal.jpeg",
+      "className": "coastal",
+      "url": "https://share.google/hgXrer9lEy0JE0bU5"
+    },
+    {
+      "name": "TAGS",
+      "image": "tags.png",
+      "className": "tags",
+      "url": "https://maps.app.goo.gl/pENdqGmFSwJFHwDWA?g_st=iw"
+    }
+  ],
+  "organizationLogos": {
+    "Microsoft": "/assets/microsoft.webp",
+    "Ribbon Communications": "/assets/ribbon-communications.webp"
+  },
+  "gallery": [
+    {
+      "src": "/assets/gallery/photo-01.webp",
+      "thumbnail": "/assets/gallery/photo-01-thumb.webp",
+      "width": 2400,
+      "height": 1600,
+      "thumbWidth": 960,
+      "thumbHeight": 640,
+      "alt": "People collaborating at computer workstations.",
+      "sourceFilename": "DSC_0899.JPG"
+    },
+    {
+      "src": "/assets/gallery/photo-02.webp",
+      "thumbnail": "/assets/gallery/photo-02-thumb.webp",
+      "width": 2400,
+      "height": 1600,
+      "thumbWidth": 960,
+      "thumbHeight": 640,
+      "alt": "People working together in a computer lab.",
+      "sourceFilename": "DSC_0905.JPG"
+    },
+    {
+      "src": "/assets/gallery/photo-03.webp",
+      "thumbnail": "/assets/gallery/photo-03-thumb.webp",
+      "width": 2400,
+      "height": 1600,
+      "thumbWidth": 960,
+      "thumbHeight": 640,
+      "alt": "Two people collaborating on a laptop.",
+      "sourceFilename": "DSC_0928.JPG"
+    },
+    {
+      "src": "/assets/gallery/photo-04.webp",
+      "thumbnail": "/assets/gallery/photo-04-thumb.webp",
+      "width": 2400,
+      "height": 1600,
+      "thumbWidth": 960,
+      "thumbHeight": 640,
+      "alt": "Two participants sharing a moment during an activity.",
+      "sourceFilename": "DSC_0977.JPG"
+    },
+    {
+      "src": "/assets/gallery/photo-05.webp",
+      "thumbnail": "/assets/gallery/photo-05-thumb.webp",
+      "width": 2400,
+      "height": 1600,
+      "thumbWidth": 960,
+      "thumbHeight": 640,
+      "alt": "A certificate being presented to two participants.",
+      "sourceFilename": "DSC_0991.JPG"
+    },
+    {
+      "src": "/assets/gallery/photo-06.webp",
+      "thumbnail": "/assets/gallery/photo-06-thumb.webp",
+      "width": 1039,
+      "height": 778,
+      "thumbWidth": 960,
+      "thumbHeight": 719,
+      "alt": "A group presenting a laptop project to a seated panel.",
+      "sourceFilename": "Screenshot_20261031_000050.png"
+    },
+    {
+      "src": "/assets/gallery/photo-07.webp",
+      "thumbnail": "/assets/gallery/photo-07-thumb.webp",
+      "width": 1039,
+      "height": 778,
+      "thumbWidth": 960,
+      "thumbHeight": 719,
+      "alt": "A participant explaining a project on a laptop.",
+      "sourceFilename": "Screenshot_20261031_000224.png"
+    },
+    {
+      "src": "/assets/gallery/photo-08.webp",
+      "thumbnail": "/assets/gallery/photo-08-thumb.webp",
+      "width": 1280,
+      "height": 960,
+      "thumbWidth": 960,
+      "thumbHeight": 720,
+      "alt": "A group gathered together in a computer lab.",
+      "sourceFilename": "WhatsApp Image 2026-10-30 at 11.58.57 PM.jpeg"
+    }
+  ]
 }

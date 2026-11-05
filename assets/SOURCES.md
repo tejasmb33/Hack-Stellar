@@ -17,3 +17,22 @@ All active browser assets are local. The registration form and judge profiles ar
 
 ## Current scene refinement
 No reference-site assets were copied. The scene now adds a continuously rotating advected disk material, three world-space star depths, low-density gas and smoothly enveloped inward/orbiting dust. A centripetal spline moves the camera through a genuine approach/pass/recede trajectory; no opacity ramp or scroll visibility threshold substitutes for that movement. Source body/scene remains procedural. Grail and Spyker were visually inspected; Igloo remained at its loader in this environment, as recorded in REFERENCE_STUDY.md.
+
+## HackStellar content update — organizer-supplied assets
+
+The organizer supplied `microsoft_logo_4k.png` and `ribbon_communications_logo_4k.png` for the existing Microsoft and Ribbon Communications judge-employer cards. `microsoft.webp` and `ribbon-communications.webp` preserve the supplied marks, colors and aspect ratios; only blank canvas margins were trimmed and web-sized copies exported. They are not sponsors or problem-statement provider logos.
+
+Eight supplied photographs are included exactly once in the homepage gallery. `content.json` maps each optimized gallery image to its original filename:
+
+- DSC_0899.JPG
+- DSC_0905.JPG
+- DSC_0928.JPG
+- DSC_0977.JPG
+- DSC_0991.JPG
+- Screenshot_20261031_000050.png
+- Screenshot_20261031_000224.png
+- WhatsApp Image 2026-10-30 at 11.58.57 PM.jpeg
+
+WebP exports retain full photograph composition and aspect ratio in the lightbox. CSS may crop gallery thumbnails. No event names, dates or captions were inferred from these photographs, and none were used to identify a judge. Original files remain in the organizer's Downloads folder. The eight thumbnail/full pairs total approximately 2.7 MB; images below the fold load lazily.
+
+Original ACE, PARTEX, TAGS and Coastal Naati Kitchen asset files are unchanged. Sponsor links are the exact organizer-provided URLs stored in `content.json`.

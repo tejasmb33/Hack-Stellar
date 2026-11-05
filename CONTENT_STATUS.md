@@ -33,3 +33,15 @@ Event mechanics, preparation instructions, judging criteria, organizer contacts,
 
 ## Visual refinements
 The latest document and additional message require an enormous live black hole, visibly rotating disk matter, dynamic dust, camera drift and a continuous three-dimensional approach/pass/recede path. The central body itself is not spun. There are no scroll opacity ramps, visibility thresholds or scene swaps. See REFERENCE_STUDY.md for the reference review and its access limits.
+
+## HackStellar update (5 November 2026)
+
+The latest organizer brief supersedes earlier branding, prize and venue values: event name **HackStellar**, prize pool **₹25,000**, venue **ESB Seminar Hall 2**. Date, start time, eligibility, team size, deadline, registration URL and corrected judge information remain approved and unchanged.
+
+There are now **21 published statements**. The previous 17 records are unchanged. PS 18–21 retain their exact supplied titles, subtitles and full statements. No domain tags were supplied for those four, so their domain arrays are empty. They appear under All Domains and are searchable by title, subtitle and full text. All 21 previously approved domain options remain available.
+
+The two newly supplied logos belong to Microsoft and Ribbon Communications and appear beneath their company names under Judges From. The existing sponsor assets are preserved and now link to the supplied destinations. No new corporate sponsorship or problem-source attribution was inferred.
+
+Eight gallery photographs were supplied and all eight are included. No ninth photograph was supplied, and none was duplicated or substituted. Portraits and unprovided judge details remain pending; gallery photographs are not used to guess identity. Event mechanics and Event Flow have not been invented or added.
+
+The finalized Three.js files under `visuals/` remain byte-for-byte unchanged. Only the mounting condition in `scene.js` enables the same existing renderer on the directory. Full brief pages retain their quiet reading background. New directory foreground surfaces improve readability without altering the scene.

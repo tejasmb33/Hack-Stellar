@@ -1,0 +1,7 @@
+{
+  "background": "Pixel-identical before/after home and reused directory at fixed time; renderer settings identical.",
+  "gallery": "All 8 supplied photographs; full images, next/previous, wraparound, Escape, close and focus restoration passed.",
+  "directory": "All 21 visible by default; new subtitles searchable; exact full briefs without invented domains; shared background animates.",
+  "responsive": "320, 390, 768 and 1440px layouts, logo containment and mobile lightbox passed.",
+  "status": "passed"
+}

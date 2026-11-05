@@ -62,3 +62,47 @@
 /* Home hero only: retain legibility against the new HDR accretion material. */
 .home .hero h1{text-shadow:0 2px 18px #02050af0,0 0 45px #02050ac9}
 .home .hero-eyebrow{text-shadow:0 2px 8px #02050a,0 0 20px #02050a}
+
+/* HackStellar identity: text-only changes; existing hero geometry stays intact. */
+.title-hackstellar{display:block;font-size:clamp(68px,7.3vw,110px);font-weight:400;letter-spacing:.04em;line-height:1.04}
+.home .hero h1{min-height:clamp(125px,11.2vw,177px)}
+.brand>span{letter-spacing:1.4px}.brand small{letter-spacing:1px}
+.judge-company-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.judge-employer{min-width:0;display:flex;flex-direction:column;gap:20px;align-items:flex-start;padding:26px;border:1px solid #94b7d42e;border-radius:14px;background:#09121edb}
+.judge-employer strong{font:400 22px/1.35 Space,Arial,sans-serif}
+.company-logo{display:flex;align-items:center;justify-content:center;width:100%;height:120px;padding:18px;background:#fff;border-radius:7px;overflow:hidden}
+.company-logo img{display:block;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
+.sponsor-grid a.sponsor:focus-visible{outline-offset:4px}
+.problem-subtitle,.brief-subtitle{color:#b8d6ec;font:400 16px/1.6 Space,Arial,sans-serif;margin:-8px 0 22px}
+.brief-subtitle{font-size:clamp(18px,2vw,24px);margin-top:-12px;margin-bottom:30px}
+/* Reuse the finalized scene on the listing; readability comes from foreground surfaces. */
+.directory.cosmic-directory .scene-shade{background:linear-gradient(#05080e05 0%,#05080e00 38%,#05080e05 74%,#05080e24 100%)}
+.cosmic-directory .directory-heading{padding:30px 34px 24px;border:1px solid #94b7d423;border-radius:18px;background:linear-gradient(115deg,#050b14f2,#07111cdb);margin-top:12px}
+.cosmic-directory .directory-main{padding-top:28px}
+.cosmic-directory .problem-card{background:linear-gradient(150deg,#102034f7,#08111efb)}
+.gallery{padding-top:70px;padding-bottom:110px;border-top:1px solid #a8c8e522}
+.gallery h2{max-width:850px;font-size:clamp(32px,4.2vw,58px);line-height:1.18;margin-bottom:48px;text-shadow:0 3px 22px #000}
+.gallery>.eyebrow{display:inline-block;background:#050b14d9;padding:8px 12px;border-radius:5px}
+.gallery-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:22px;align-items:stretch}
+.gallery-item{position:relative;display:block;grid-column:span 4;aspect-ratio:1.4;overflow:hidden;border-radius:12px;border:1px solid #a9d2ef2b;background:#0a1521;box-shadow:0 10px 32px #0003}
+.gallery-item:nth-child(1){grid-column:span 7;aspect-ratio:1.6}.gallery-item:nth-child(2){grid-column:span 5;aspect-ratio:auto}
+.gallery-item:nth-child(6){grid-column:span 5;aspect-ratio:1.5}.gallery-item:nth-child(7){grid-column:span 7;aspect-ratio:auto}
+.gallery-item:last-child{grid-column:1/-1;aspect-ratio:16/9}
+.gallery-item img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .65s cubic-bezier(.2,.6,.3,1),filter .4s;filter:brightness(.92)}
+.gallery-zoom{position:absolute;right:18px;bottom:18px;width:42px;height:42px;display:grid;place-items:center;border:1px solid #e2f1ff66;background:#06111dc4;border-radius:50%;color:#e6f6ff;font-size:20px;transition:background .25s}
+@media(hover:hover){.gallery-item:hover img{transform:scale(1.035);filter:brightness(1)}.gallery-item:hover .gallery-zoom{background:#1b3953}}
+body.gallery-open{overflow:hidden}
+.gallery-lightbox{position:fixed;inset:0;width:100vw;max-width:none;height:100dvh;max-height:none;padding:22px 4vw;border:0;margin:0;background:#03070df5;color:var(--white);overflow:hidden}
+.gallery-lightbox::backdrop{background:#000d}
+.gallery-lightbox[open]{display:flex;flex-direction:column}
+.lightbox-toolbar,.lightbox-controls{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-shrink:0}
+.lightbox-count{font:12px/1.5 monospace;letter-spacing:2px;color:#b5cde0;margin:0}
+.lightbox-close,.lightbox-controls button{min-height:48px;min-width:48px;background:#0e2031;color:#e4f3ff;border:1px solid #93bed53d;border-radius:7px;cursor:pointer}
+.lightbox-close{display:flex;align-items:center;gap:20px;padding:10px 16px;font-size:13px}.lightbox-close span{font-size:26px;line-height:1}
+.lightbox-figure{margin:18px 0;flex:1;min-height:0;display:flex;align-items:center;justify-content:center;touch-action:pan-y pinch-zoom}
+.lightbox-image{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;border-radius:3px}
+.lightbox-controls{justify-content:center;gap:34px;font:11px monospace;color:#829fb8}.lightbox-controls button{font-size:23px}
+@media(max-width:1000px){.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.gallery-item,.gallery-item:nth-child(n){grid-column:span 1;aspect-ratio:1.4}.gallery-item:last-child{grid-column:1/-1;aspect-ratio:16/9}}
+@media(max-width:760px){.title-hackstellar{font-size:clamp(46px,9vw,68px)}.home .hero h1{min-height:100px}.judge-employer{padding:18px}.judge-employer strong{font-size:19px}.company-logo{height:100px;padding:14px}.cosmic-directory .directory-heading{padding:22px}.gallery h2{margin-bottom:30px}}
+@media(max-width:540px){.title-hackstellar{font-size:clamp(40px,10.5vw,55px);letter-spacing:.025em}.home .hero h1{min-height:73px}.judge-company-list{grid-template-columns:1fr;gap:16px}.company-logo{height:120px}.gallery-grid{grid-template-columns:1fr;gap:18px}.gallery-item,.gallery-item:nth-child(n){grid-column:1;aspect-ratio:1.5}.gallery-item:last-child{aspect-ratio:4/3}.gallery{padding-top:55px;padding-bottom:70px}.gallery h2{font-size:34px}.gallery-lightbox{padding:16px 12px}.lightbox-figure{margin:14px 0}.lightbox-controls>span{display:none}.cosmic-directory .directory-heading{padding:20px 16px}.brand small{display:none}}
+@media(prefers-reduced-motion:reduce){.gallery-item:hover img{transform:none}.gallery-item img{transition:none}}

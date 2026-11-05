@@ -19,7 +19,7 @@ with sync_playwright() as p:
  assert initial['cameraZ']<12 and initial['drawCalls']>=3 and initial['pipeline']=='curved-ray-volume/HDR/depth-aware-dust'
  page.wait_for_function('(phase)=>window.__cosmos.diskPhase > phase+.01',arg=initial['diskPhase'])
  moving=page.evaluate('({...window.__cosmos})');assert moving['camera']!=initial['camera'] and moving['diskTime']>initial['diskTime']
- assert ' '.join(page.locator('h1').inner_text().split())=='INTERSTELLAR : THE BUILDATHON'
+ assert ' '.join(page.locator('h1').inner_text().split())=='HackStellar'
  for link in page.locator('[data-register]').all():assert link.get_attribute('href')==FORM
  assert page.locator('.site-header').evaluate('(e)=>getComputedStyle(e).position')=='relative'
  assert page.locator('.problem-providers img').count()==0
@@ -50,12 +50,12 @@ with sync_playwright() as p:
  page.locator('#signal').click();assert 'SOS' in page.locator('#signal-message').inner_text()
  checks.append('Non-sticky header, hero/floating registration, confirmed FAQ and subtle Easter egg remain functional')
  page.goto(BASE+'/problem-statements/',wait_until='networkidle')
- assert TOTAL==17 and len(DOMAINS)==21
- assert page.locator('.problem-card:visible').count()==17
+ assert TOTAL==21 and len(DOMAINS)==21
+ assert page.locator('.problem-card:visible').count()==21
  assert page.locator('#domain').input_value()==''
  assert page.locator('#domain option').all_text_contents()==['All Domains']+DOMAINS
- assert page.locator('#result-count').inner_text()=='Showing 17 of 17 problem statements'
- assert '17 Challenges. Endless Possibilities.' in page.locator('.directory-subtitle').inner_text()
+ assert page.locator('#result-count').inner_text()=='Showing 21 of 21 problem statements'
+ assert '21 Challenges. Endless Possibilities.' in page.locator('.directory-subtitle').inner_text()
  assert page.locator('.problem-card .source').count()==0 and page.locator('.problem-grid img').count()==0
  assert page.locator('.problem-card').evaluate_all('(cards)=>cards.map(card=>card.dataset.number)')==[record['id'] for record in P]
  for domain in DOMAINS:
@@ -63,34 +63,34 @@ with sync_playwright() as p:
   expected=[record['id'] for record in P if domain in record['domains']]
   actual=page.locator('.problem-card:visible').evaluate_all('(cards)=>cards.map(card=>card.dataset.number)')
   assert actual==expected,(domain,actual,expected)
-  assert page.locator('#result-count').inner_text()==f'Showing {len(expected)} of 17 problem statements'
+  assert page.locator('#result-count').inner_text()==f'Showing {len(expected)} of 21 problem statements'
  page.locator('#domain').select_option('Web Development');assert page.locator('.problem-card:visible').count()==2
  page.locator('#domain').select_option('IoT');assert page.locator('.problem-card:visible').evaluate_all('(cards)=>cards.map(card=>card.dataset.number)')==['PS–11','PS–17']
  page.locator('#search').fill('tariff');assert page.locator('.problem-card:visible').count()==1
  assert 'PS–17' in page.locator('.problem-card:visible .problem-index').inner_text()
  page.locator('#search').fill('zz-no-results');assert page.locator('#empty').is_visible()
- page.locator('#empty-reset').click();assert page.locator('.problem-card:visible').count()==17
+ page.locator('#empty-reset').click();assert page.locator('.problem-card:visible').count()==21
  page.locator('#search').fill('PS-02');assert page.locator('.problem-card:visible').count()==1
  page.locator('#reset').click();assert page.locator('#domain').input_value()==''
  page.locator('#domain').select_option('Energy Management');page.reload(wait_until='networkidle')
- assert page.locator('#domain').input_value()=='' and page.locator('.problem-card:visible').count()==17
+ assert page.locator('#domain').input_value()=='' and page.locator('.problem-card:visible').count()==21
  page.get_by_role('combobox',name='Domain').focus()
  assert page.evaluate('document.activeElement.id')=='domain'
  assert page.locator('#domain').evaluate('(e)=>e.tagName')=='SELECT'
  page.locator('#domain').select_option('Energy Management')
  assert page.locator('#domain').input_value()=='Energy Management'
- page.locator('#domain').select_option('');assert page.locator('.problem-card:visible').count()==17
+ page.locator('#domain').select_option('');assert page.locator('.problem-card:visible').count()==21
  page.evaluate('document.activeElement.blur();scrollTo({top:0,behavior:"instant"})');page.screenshot(path=str(OUT/'desktop-directory.png'),full_page=True)
- checks.append('Exactly 17 ordered statements, all 21 selectable domains, Web Development/IoT examples, combined search, accurate counts, reset and fresh-page defaults')
+ checks.append('Exactly 21 ordered statements, all 21 selectable domains, Web Development/IoT examples, combined search, accurate counts, reset and fresh-page defaults')
  for record in P:
   page.goto(BASE+'/problem-statements/'+record['slug']+'/',wait_until='networkidle')
-  assert page.locator('.brief-content h2').all_text_contents()==['Problem Description','Your Challenge']
+  assert page.locator('.brief-content h2').all_text_contents()==(['Problem Statement'] if record.get('format')=='statement' else ['Problem Description','Your Challenge'])
   assert page.locator('.brief-section').nth(0).locator('p').inner_text()==record['description']
-  assert page.locator('.brief-section').nth(1).locator('p').inner_text()==record['challenge']
+  if record.get('format')!='statement':assert page.locator('.brief-section').nth(1).locator('p').inner_text()==record['challenge']
   assert page.locator('.brief-document h1').inner_text()==record['title']
-  assert page.locator('.brief-meta p').inner_text().replace('DOMAINS\n','')==record['domainLabel']
+  if record['domains']:assert page.locator('.brief-meta p').inner_text().replace('DOMAINS\n','')==record['domainLabel']
  page.screenshot(path=str(OUT/'desktop-brief.png'),full_page=True)
- checks.append('All 17 full-statement pages contain the exact official title, domain label, Description and Challenge without invented sources')
+ checks.append('All 21 full-statement pages contain the exact official titles and full text, with new subtitles and confirmed domains only without invented sources')
  # Layout and mathematical logo containment checks at desktop, tablet and phone widths.
  for width,height in [(320,700),(390,844),(768,1024),(1280,720),(1440,900)]:
   layout=new_page(width,height,is_mobile=width<600,has_touch=width<600,reduced_motion='reduce')
@@ -114,7 +114,7 @@ with sync_playwright() as p:
  checks.append('320–1440px layouts pass; every sponsor logo is centered, contained and undistorted within equal-height cards')
  reduced=new_page(reduced_motion='reduce');reduced.goto(BASE,wait_until='networkidle')
  before=reduced.evaluate('window.__cosmos.diskTime');reduced.wait_for_timeout(250);assert reduced.evaluate('window.__cosmos.diskTime')==before
- nojs=new_page(java_script_enabled=False);nojs.goto(BASE+'/problem-statements/');assert nojs.locator('.problem-card').count()==17
+ nojs=new_page(java_script_enabled=False);nojs.goto(BASE+'/problem-statements/');assert nojs.locator('.problem-card').count()==21
  nojs.locator('.card-link').nth(16).click();assert nojs.locator('.brief-content').is_visible()
  fallback=browser.new_page(viewport={'width':390,'height':844})
  fallback.add_init_script("const original=HTMLCanvasElement.prototype.getContext;HTMLCanvasElement.prototype.getContext=function(type,...args){if(type.startsWith('webgl'))return null;return original.call(this,type,...args)}")

@@ -1,0 +1,5 @@
+{
+  "mobileBackground": "Pixel-identical approved home, updated home and reused directory at fixed time.",
+  "touch": "Tap, next/previous, horizontal swipe event, close and native modal focus containment passed.",
+  "limitation": "Chromium mobile viewport and touch emulation; not a physical phone."
+}
