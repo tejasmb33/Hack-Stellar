@@ -1,0 +1,76 @@
+{
+  "event": {
+    "name": "Ace Hackathon",
+    "tagline": "Code. Create. Conquer.",
+    "college": "Ramaiah Institute of Technology",
+    "club": "ACE Club",
+    "date": "13 November 2026",
+    "start": "10:00 AM IST",
+    "venue": "ESB Seminar Hall",
+    "deadline": "12 November 2026, 11:59 PM IST",
+    "eligibility": "CSE department students only",
+    "teamSize": "2–4",
+    "prize": "₹20,000",
+    "registrationUrl": null
+  },
+  "judges": [
+    {
+      "name": "Siddhartha Pandey",
+      "initials": "SP",
+      "linkedin": "https://www.linkedin.com/in/siddharthapandey/",
+      "designation": null,
+      "organization": null,
+      "portrait": null
+    },
+    {
+      "name": "Gokaraju Abhijit",
+      "initials": "GA",
+      "linkedin": "https://www.linkedin.com/in/gokarajuabhijit/",
+      "designation": null,
+      "organization": null,
+      "portrait": null
+    }
+  ],
+  "problems": [
+    {
+      "id": "PS–01",
+      "slug": "ps-01",
+      "title": "Unified Social Media Publishing and Management Platform",
+      "domains": [
+        "Web Development",
+        "Automation",
+        "Social Media Management"
+      ],
+      "source": null,
+      "summary": "A functional web or mobile application that reduces repetitive marketing tasks and simplifies social media content management for small businesses.",
+      "brief": "PROBLEM STATEMENT 01\n\nUnified Social Media Publishing and Management Platform\n\nDomain: Web Development | Automation | Social Media Management\n\nProblem Description\n\nSmall businesses and retail store owners frequently use multiple social media platforms, such as Instagram, Facebook, WhatsApp, and other digital channels, to promote their products, announce new arrivals, and advertise offers.\n\nCurrently, business owners must manually upload images, write captions, and publish posts separately on each platform. This repetitive process consumes time, increases manual effort, and makes it difficult to maintain consistent promotional content across different channels.\n\nProblem Statement\n\nDesign and develop a centralized social media management application that enables business owners to create, manage, and publish promotional content across multiple social media platforms from a single interface.\n\nThe system should allow users to upload product images or promotional materials, enter captions, select their desired social media platforms, and initiate publishing through a unified workflow.\n\nExpected Functionalities\n\n- A centralized dashboard for managing multiple social media accounts.\n- Uploading product images, promotional posters, and other marketing content.\n- Creating a common caption with the option to customize it for individual platforms.\n- Selecting multiple social media platforms for publishing.\n- Publishing content across supported platforms through a single action.\n- Viewing the publishing status and history of posts.\n- Handling platform-specific publishing requirements and failures.\n\nExpected Outcome\n\nA functional web or mobile application that reduces repetitive marketing tasks and simplifies social media content management for small businesses.\n\nNote: Teams may use official platform APIs, supported integrations, or simulated publishing environments to demonstrate their solutions."
+    },
+    {
+      "id": "PS–02",
+      "slug": "ps-02",
+      "title": "Smart Inventory and Stock Management System",
+      "domains": [
+        "Web Development",
+        "Database Management",
+        "Retail Technology"
+      ],
+      "source": null,
+      "summary": "A functional inventory management website or mobile application that improves stock visibility, minimizes manual recordkeeping, and enables efficient inventory tracking for retail businesses.",
+      "brief": "PROBLEM STATEMENT 02\n\nSmart Inventory and Stock Management System\n\nDomain: Web Development | Database Management | Retail Technology\n\nProblem Description\n\nRetail businesses often face difficulties maintaining accurate records of their available stock, newly arriving products, and sold items.\n\nMany small businesses still depend on manual registers or spreadsheets to track inventory. This can result in inaccurate stock counts, missing product information, delayed updates, and difficulties identifying products that need restocking.\n\nA centralized digital inventory management system can help store owners maintain accurate stock information and efficiently manage daily inventory operations.\n\nProblem Statement\n\nDesign and develop a smart inventory management application that enables retail store owners to digitally track, update, and monitor their product stock using unique product identifiers, QR codes, or barcodes.\n\nThe application should maintain a centralized product database and automatically update inventory records whenever products are added, sold, or removed.\n\nExpected Functionalities\n\n- A centralized dashboard displaying available products and stock quantities.\n- Adding new products with relevant details such as product name, category, price, quantity, and unique identification number.\n- Generating or scanning QR codes/barcodes to identify products.\n- Automatically updating stock quantities when existing products are scanned and inventory transactions are recorded.\n- Recording newly arriving stock and updating existing product quantities.\n- Tracking products sold, returned, or removed from inventory.\n- Identifying low-stock and out-of-stock products.\n- Searching and filtering inventory using product names, categories, or unique identifiers.\n\nExpected Outcome\n\nA functional inventory management website or mobile application that improves stock visibility, minimizes manual recordkeeping, and enables efficient inventory tracking for retail businesses.\n\nNote: Teams may implement QR-code scanning, barcode scanning, or unique product identification mechanisms depending on their proposed architecture."
+    },
+    {
+      "id": "PS–03",
+      "slug": "ps-03",
+      "title": "AI-Powered Proactive Customer Follow-Up and Assistance Agent",
+      "domains": [
+        "Artificial Intelligence",
+        "Voice AI",
+        "Automation",
+        "Customer Relationship Management"
+      ],
+      "source": null,
+      "summary": "A functional AI-powered voice assistance prototype capable of initiating proactive customer follow-ups, conducting meaningful conversations, identifying concerns, and facilitating timely communication between customers and service providers.",
+      "brief": "PROBLEM STATEMENT 03\n\nAI-Powered Proactive Customer Follow-Up and Assistance Agent\n\nDomain: Artificial Intelligence | Voice AI | Automation | Customer Relationship Management\n\nProblem Description\n\nOrganizations across industries such as healthcare, automobile sales, and customer services often depend on customers to initiate communication when they require assistance.\n\nHowever, customers may forget scheduled maintenance, delay reporting issues, or fail to follow up after receiving a service. This creates communication gaps and reduces opportunities for organizations to provide timely support.\n\nFor example:\n\nHealthcare: After a patient is discharged from a hospital, the hospital may need to check on the patient's recovery, identify any post-treatment concerns, and connect the patient with appropriate medical staff when necessary.\n\nAutomobile Industry: After purchasing a vehicle, customers may require periodic maintenance reminders, servicing assistance, and follow-up communication from the dealership.\n\nAn intelligent voice-based system could proactively initiate these interactions, gather responses, and route concerns to the appropriate personnel.\n\nProblem Statement\n\nDesign and develop an AI-powered proactive voice communication agent that automatically initiates personalized follow-up calls to customers or service recipients, understands their responses, and takes appropriate actions based on their requirements.\n\nThe solution should support automated outbound voice interactions, natural-language conversations, and intelligent issue identification and escalation.\n\nExpected Functionalities\n\n- Automatically initiating follow-up calls based on predefined schedules or triggering events.\n- Interacting with customers using an AI-powered conversational voice agent.\n- Understanding spoken responses and identifying customer concerns.\n- Asking relevant follow-up questions based on the conversation.\n- Classifying customer responses into categories such as satisfactory, assistance required, or urgent attention needed.\n- Automatically notifying or routing identified issues to the appropriate staff or department.\n- Maintaining conversation summaries and follow-up records.\n- Providing an administrative dashboard to monitor interactions, unresolved issues, and follow-up status.\n- Supporting customer consent, privacy, and the option to decline further automated calls.\n\nExpected Outcome\n\nA functional AI-powered voice assistance prototype capable of initiating proactive customer follow-ups, conducting meaningful conversations, identifying concerns, and facilitating timely communication between customers and service providers.\n\nNote: Teams may demonstrate the solution using healthcare, automobile servicing, or another relevant service industry. Simulated calls and mock customer data may be used. Healthcare implementations should escalate medical concerns to qualified personnel rather than provide autonomous medical decisions."
+    }
+  ]
+}

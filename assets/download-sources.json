@@ -1,0 +1,14 @@
+{
+  "vendor/three.module.js": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+  "vendor/three.core.js": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.core.js",
+  "vendor/THREE-LICENSE.txt": "https://cdn.jsdelivr.net/npm/three@0.180.0/LICENSE",
+  "assets/earth-clouds.png": "https://threejs.org/examples/textures/planets/earth_clouds_1024.png",
+  "assets/earth-normal.jpg": "https://threejs.org/examples/textures/planets/earth_normal_2048.jpg",
+  "assets/cisco.svg": "https://brand-assets.security.cisco.com/cisco-dark.svg",
+  "assets/jpmorgan.svg": "https://www.jpmorgan.com/content/dam/logos-global/logo-jpm-brown.svg",
+  "assets/hp.svg": "https://www.hp.com/us-en/home.html (official inline symbol)",
+  "assets/apple.svg": "https://www.apple.com (official dark global navigation logo)",
+  "assets/samsung.svg": "https://www.samsung.com/us/ (exact navigation vector; white permitted by https://www.samsung.com/us/about-us/brand-identity/logo/)",
+  "assets/earth-day-4k.jpg": "https://www.solarsystemscope.com/textures/download/8k_earth_daymap.jpg (resized to 4096 pixels; CC BY 4.0)",
+  "assets/earth-day-mobile.jpg": "same source, resized to 2048 pixels"
+}

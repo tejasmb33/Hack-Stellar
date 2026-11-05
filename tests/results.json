@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "Actual WebGL geometry, independent Earth/cloud animation and multiple draw calls verified",
+    "Header scrolls away; camera and 3D orbital field evolve with scroll; logos load",
+    "Floating registration visibility, FAQ and both subtle Easter eggs work",
+    "Dedicated directory, PS-number search, keyword search, categories, counts, reset and all full briefs work",
+    "All pages fit 320, 390, 768, 1280 and 1440px viewports; hero CTA fits first screen",
+    "Reduced motion pauses animation; no-JavaScript navigation and unavailable-WebGL fallback remain usable",
+    "No page errors, shader compilation errors, missing images or failed font requests"
+  ]
+}
