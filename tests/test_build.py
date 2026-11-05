@@ -36,7 +36,7 @@ class BuildTests(unittest.TestCase):
    if record.get('format')=='statement':self.assertIn('Problem Statement',detail);self.assertIn(record['subtitle'],detail)
    else:self.assertIn('Problem Description',detail);self.assertIn('Your Challenge',detail)
    self.assertNotIn('SOURCE / CONTRIBUTOR',detail)
-  home=(root/'index.html').read_text();self.assertIn('Abhijeet Verma',home);self.assertNotIn('Abhijit Verma',home)
+  home=(root/'index.html').read_text();self.assertIn('Abhijit Verma',home);self.assertNotIn('Abhijeet Verma',home)
   self.assertIn('https://www.linkedin.com/in/gokarajuabhijit/',home)
  def test_no_hardcoded_total_and_numeric_order(self):
   data=json.loads((ROOT/'content.json').read_text());template=data['problems'][0]

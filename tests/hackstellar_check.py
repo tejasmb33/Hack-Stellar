@@ -26,7 +26,7 @@ with sync_playwright() as p:
   assert ImageChops.difference(before,Image.open(OUT/f'background-{label}.png').convert('RGB')).getbbox() is None,f'Background pixels changed: {label}'
  report['background']='Pixel-identical before/after home and reused directory at fixed time; renderer settings identical.'
  page.goto(BASE,wait_until='networkidle')
- assert page.locator('.hero h1').inner_text()=='HackStellar'
+ assert page.locator('.hero h1').inner_text()=='HACKSTELLAR'
  assert page.locator('.hero-prize strong').inner_text()=='₹25,000'
  assert 'ESB SEMINAR HALL 2' in page.locator('.hero-meta').inner_text()
  assert 'HackStellar' in page.title() and 'ESB Seminar Hall 2' in page.locator('meta[name=description]').get_attribute('content')

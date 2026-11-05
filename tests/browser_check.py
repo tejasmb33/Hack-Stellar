@@ -19,12 +19,12 @@ with sync_playwright() as p:
  assert initial['cameraZ']<12 and initial['drawCalls']>=3 and initial['pipeline']=='curved-ray-volume/HDR/depth-aware-dust'
  page.wait_for_function('(phase)=>window.__cosmos.diskPhase > phase+.01',arg=initial['diskPhase'])
  moving=page.evaluate('({...window.__cosmos})');assert moving['camera']!=initial['camera'] and moving['diskTime']>initial['diskTime']
- assert ' '.join(page.locator('h1').inner_text().split())=='HackStellar'
+ assert ' '.join(page.locator('h1').inner_text().split())=='HACKSTELLAR'
  for link in page.locator('[data-register]').all():assert link.get_attribute('href')==FORM
  assert page.locator('.site-header').evaluate('(e)=>getComputedStyle(e).position')=='relative'
  assert page.locator('.problem-providers img').count()==0
  assert page.locator('.provider-name strong').all_text_contents()==DATA['problemProviders']
- assert 'Abhijeet Verma' in page.locator('.judge-card').nth(1).inner_text()
+ assert 'Abhijit Verma' in page.locator('.judge-card').nth(1).inner_text()
  assert page.locator('.judge-card').nth(1).locator('.profile-link').get_attribute('href')==DATA['judges'][1]['linkedin']
  page.emulate_media(reduced_motion='reduce');page.wait_for_timeout(100)
  page.screenshot(path=str(OUT/'desktop-hero.png'));page.screenshot(path=str(OUT/'desktop-home.png'),full_page=True)

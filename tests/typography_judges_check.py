@@ -33,7 +33,7 @@ with sync_playwright() as p:
  report['background']=parity
  for name in json.loads((ROOT/'tests/finalized_scene_sha256.json').read_text()):assert page.request.get(OLD+'/'+name).body()==(ROOT/name).read_bytes(),name
  report['rendererSources']='All renderer bytes match the saved baseline; checksum fixture unchanged.'
- page.goto(BASE,wait_until='networkidle');page.evaluate('document.fonts.ready');assert page.locator('.hero h1').inner_text()=='HackStellar'
+ page.goto(BASE,wait_until='networkidle');page.evaluate('document.fonts.ready');assert page.locator('.hero h1').inner_text()=='HACKSTELLAR'
  assert page.locator('link[rel=preload][as=font]').get_attribute('href')=='/assets/josefin-sans-latin-400.woff2'
  cdp=context.new_cdp_session(page);cdp.send('DOM.enable');cdp.send('CSS.enable');doc=cdp.send('DOM.getDocument');node=cdp.send('DOM.querySelector',{'nodeId':doc['root']['nodeId'],'selector':'.title-hackstellar'})
  fonts=cdp.send('CSS.getPlatformFontsForNode',{'nodeId':node['nodeId']})['fonts'];assert any(f['familyName'].startswith('Josefin Sans') and f['isCustomFont'] and f['glyphCount']>0 for f in fonts),fonts
