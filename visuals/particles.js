@@ -9,8 +9,12 @@ export function createDust(count, uniforms) {
   const positions=new Float32Array(count*3),data=new Float32Array(count*4);
   for(let i=0;i<count;i++){
     const orbital=i<count*.54;
-    const radius=2.7+Math.pow(random(),.7)*21;
-    const angle=random()*Math.PI*2;
+    let radius=2.7+Math.pow(random(),.7)*21;
+    let angle=random()*Math.PI*2;
+    // Some matter starts in curved feeding streams. A compact, co-orbiting
+    // part of the same flow occasionally passes closer to the camera.
+    if(orbital&&i%9<3)angle=(i%3)*Math.PI*2/3+radius*.37+(random()-.5)*.45;
+    if(orbital&&i%47===0){radius=7.5+random()*1.8;angle=1.02+(random()-.5)*.32;}
     if(orbital){
       positions.set([Math.cos(angle)*radius,(random()-.5)*(.2+radius*.17),Math.sin(angle)*radius],i*3);
     }else{
@@ -27,27 +31,38 @@ export function createDust(count, uniforms) {
     attribute vec4 aData;uniform float uTime,uTravel;uniform vec2 uViewport;
     varying vec3 vColour;varying float vDepth,vAlpha,vAngle,vStretch;
     void main(){
-      vec3 p=position;
+      vec3 p=position,velocity=vec3(0.);
       float radius=length(p.xz);
       if(aData.z<.5){
-        float angular=atan(p.z,p.x)+uTime*.65*pow(2.5/max(radius,2.),1.5);
+        float speed=1.14*pow(2.5/max(radius,2.),1.5);
+        float angular=atan(p.z,p.x)+uTime*speed;
         float inflow=sin(aData.x*6.283+uTime*.09)*.12;
         p.xz=vec2(cos(angular),sin(angular))*(radius+inflow);
         p.y+=sin(angular*3.+uTime*.13)*.08;
+        velocity=vec3(-sin(angular),0.,cos(angular))*radius*speed;
       }else{
-        p+=vec3(sin(uTime*.05+aData.x*6.28)*.45,cos(uTime*.07+aData.y*6.28)*.27,sin(uTime*.04+aData.w*6.28)*.4);
+        float drift=.10+aData.x*.27;
+        // Wrap only at the distant bounds of the world volume, outside the
+        // near camera frustum. Different depths turn modest velocities into
+        // clearly different apparent foreground/background speeds.
+        p.x=mod(p.x+uTime*drift+38.,76.)-38.;
+        p.y+=sin(uTime*.19+aData.y*6.28)*.6;
+        p.z+=sin(uTime*.12+aData.w*6.28)*.65;
+        velocity=vec3(drift,cos(uTime*.19+aData.y*6.28)*.114,cos(uTime*.12+aData.w*6.28)*.078);
       }
       vec4 mv=modelViewMatrix*vec4(p,1.);
       gl_Position=projectionMatrix*mv;
       float rare=step(.975,aData.w);
       float size=mix(.42,1.35,aData.y)+rare*3.;
-      gl_PointSize=clamp(size*uViewport.y*.035/max(1.,-mv.z),.75,rare>0.?24.:6.);
+      float selected=step(.92,aData.w);
+      vStretch=1.+selected*min(1.8,length(velocity)*.7+uTravel*.07);
+      gl_PointSize=clamp(size*uViewport.y*.035/max(1.,-mv.z),.75,rare>0.?24.:6.)*vStretch;
       vDepth=-mv.z;
       vAlpha=(.35+aData.x*.55)*smoothstep(.6,2.,vDepth)*(1.-smoothstep(85.,140.,vDepth));
       float illumination=clamp(9./max(length(p),3.),.25,1.);
       vColour=mix(vec3(.34,.49,.72),vec3(1.,.70,.37),aData.z<.5?.88:aData.w)*(.9+illumination*1.7);
-      vAngle=aData.x*6.283;
-      vStretch=1.+min(2.,uTravel*.06);
+      vec3 viewVelocity=mat3(modelViewMatrix)*velocity;
+      vAngle=atan(viewVelocity.y,viewVelocity.x);
     }`,
     fragmentShader:/* glsl */`
     uniform sampler2D uRayDepth;uniform vec2 uViewport;

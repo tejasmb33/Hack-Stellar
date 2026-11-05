@@ -33,8 +33,9 @@ vec4 matter(vec3 p, vec3 direction){
   float inner=smoothstep(1.78,2.12,radius);
   float outer=1.-smoothstep(7.,10.,radius);
   float angle=atan(p.z,p.x);
-  float orbital=uTime*.72*pow(2.5/max(radius,1.8),1.5);
-  vec2 uv=vec2((angle-orbital)/6.2831853, radius*.117);
+  float orbital=uTime*1.28*pow(2.5/max(radius,1.8),1.5);
+  float flow=angle-orbital;
+  vec2 uv=vec2(flow/6.2831853, radius*.117+sin(flow*5.+uTime*.23)*.003);
   vec4 field=texture2D(uMatter,uv+vec2(p.y*.04,0));
   float striation=field.g;
   float filaments=pow(smoothstep(.19,.80,field.r),2.)*2.7 + pow(smoothstep(.18,.82,field.b),2.)*1.4;
@@ -45,7 +46,13 @@ vec4 matter(vec3 p, vec3 direction){
   vec3 velocity=normalize(vec3(-p.z,0.,p.x));
   float doppler=pow(clamp(1.+dot(velocity,-direction)*.24,.6,1.4),2.);
   float textureLight=.25+pow(smoothstep(.23,.78,field.r),2.)*1.8+pow(smoothstep(.18,.82,field.b),1.4)*.8;
-  return vec4(colour*pow(hot,2.8)*doppler*3.3*textureLight,density);
+  // Bright, shearing feeding lanes create recognizable moving landmarks.
+  // Each radius has its own phase/speed; no rigid wheel or global flashing.
+  float feedingLane=pow(.5+.5*sin(flow*3.+radius*1.8+field.g*2.8),5.);
+  float fineStream=pow(.5+.5*sin(flow*9.+radius*5.1+field.r*4.),12.);
+  float feedingKnot=exp(-pow(sin((flow+radius*.25)*.5),2.)*18.);
+  float flowingLight=.45+feedingLane*.72+fineStream*.16+feedingKnot*.60;
+  return vec4(colour*pow(hot,2.8)*doppler*3.3*textureLight*flowingLight,density*(.8+feedingLane*.4));
 }
 float erfApprox(float x){float q=x*x;return sign(x)*sqrt(max(0.,1.-exp(-q*(1.27323954+.147*q)/(1.+.147*q))));}
 float verticalAverage(float a,float b,float height){

@@ -29,12 +29,12 @@ All captures show the actual local website. `tests/visual-evidence/` contains:
 
 - `before-rebuild.png` versus `desktop-hero.png` and `desktop-scene.png`.
 - `mobile-hero.png` for the portrait composition.
-- `idle-a.png`, `idle-b.png`: active animation several seconds apart; no reduced-motion emulation during capture.
-- `hardware-idle-and-flight.webm`: actual Apple M4/Metal idle animation followed by forward/reverse scrolling. `idle-and-flight.webm` retains the slower software-rendering run. Frames were not synthesized.
+- `motion-0s.png`, `motion-2s.png`, `motion-5s.png`: active animation across the mandatory hands-off observation window.
+- `hardware-idle-and-flight.webm`: actual Apple M4/Metal idle animation followed by forward/reverse scrolling. Frames were not synthesized.
 - `still-scroll-700.png`, `still-scroll-1200.png`, `still-scroll-3300.png`: static inspection of the connected journey.
 - `desktop-performance.json`, `mobile-performance.json`: measurements, renderer identity and resolved render sizes.
 
-The short recording and paired idle frames show the disk's filament pattern changing independently of scrolling and illuminated grains moving across the shadow. Scroll frames show changing inclination, relative dust positions and physical recession. The design is visibly closer in scale, warm lighting and depth than the baseline, but is not a film-quality match: some radial streaking remains, gas uses layered shells, and lensing/occlusion are approximations.
+The hardware recording and settled motion frames show the disk's filament pattern changing independently of scrolling and illuminated grains moving across the shadow. Scroll frames show changing inclination, relative dust positions and physical recession. The design is visibly closer in scale, warm lighting and depth than the baseline, but is not a film-quality match: some radial streaking remains, gas uses layered shells, and lensing/occlusion are approximations.
 
 ## Validation
 
@@ -48,13 +48,28 @@ The lens model is a visual central-force approximation, not a full Kerr spacetim
 
 The desktop target was verified on the Apple M4/Metal configuration below. Physical-phone profiling remains outstanding. Software viewport emulation does not certify phone hardware performance. On slow devices the volume resolution decreases while DOM text and the dust/output pass stay at their normal resolution; the tradeoff is visibly softer disk detail. No rendering performance claim is inferred from the number of shader effects.
 
-Measured environment: macOS 15.5 ARM64, 10 logical CPUs, Playwright Chromium using ANGLE/Vulkan SwiftShader software rendering. Desktop: 11.94 FPS at 1280×800, volume 512×320 after adaptation. Mobile viewport: 32.72 FPS at 390×844, volume 175×378 after adaptation; this is viewport emulation, not a physical phone. Animation/wall-clock ratio: 0.9987 desktop and 1.0014 mobile. The previous inspected renderer measured about 2.58 FPS in a shorter software probe; the different sampling windows do not constitute a controlled hardware benchmark.
+Measured environment: macOS 15.5 ARM64, 10 logical CPUs, Playwright Chromium using ANGLE/Vulkan SwiftShader software rendering. Desktop: 11.94 FPS at 1280×800, volume 512×320 after adaptation. Earlier mobile viewport: 32.72 FPS at 390×844, volume 175×378 after adaptation; this is viewport emulation, not a physical phone. Animation/wall-clock ratio: 0.9987 desktop and 1.0014 mobile. The previous inspected renderer measured about 2.58 FPS in a shorter software probe; the different sampling windows do not constitute a controlled hardware benchmark.
 
-## Native GPU measurement
+## Native GPU measurement after motion refinement
 
-Full Chromium 156.0.8078.4 used `ANGLE Metal Renderer: Apple M4` on macOS 15.5 ARM64. After a 10-second warm-up, each profile measured an 8-second window without video recording.
+Full Chromium uses `ANGLE Metal Renderer: Apple M4` on macOS 15.5 ARM64. After a 10-second warm-up, each profile measures an 8-second window without video recording. The current data are in `hardware-performance.json`.
 
-- Viewport 1440×900, DPR 1: **60.05 FPS**, animation/wall-clock ratio 1.0008; output 1440×900, volume 1440×900.
-- Viewport 1920×1080, DPR 1.25: **59.21 FPS**, animation/wall-clock ratio 0.9993; output 2400×1350, volume 2400×1350.
+- Viewport 1440×900, DPR 1: **60.06 FPS**, animation/wall-clock ratio 1.0009; output 1440×900, volume 1440×900.
+- Viewport 1920×1080, DPR 1.25: **56.84 FPS**, animation/wall-clock ratio 0.9972; output 2400×1350, volume 2400×1350.
 
-The separate hardware recording was then captured at 1440×900. These are measurements on one desktop GPU, not guarantees for all devices.
+These are render-loop frame-cadence measurements on one desktop GPU, not a guarantee for all devices. A separate native-GPU idle/scroll recording is included. The software desktop report is retained as a baseline from before the motion refinement; the mobile report was refreshed afterward. Physical-phone profiling remains outstanding.
+
+## More perceptible motion, preserving the approved model
+
+The approved rendering and composition were checkpointed in local Git at `d17d0ba` before applying `MOTION_REQUIREMENTS.md`. Only four rendering modules changed for this refinement: `camera.js`, `shaders.js`, `particles.js`, and the diagnostic disk phase in `experience.js`. No page layout, HTML, event data, navigation or registration code changed.
+
+- Disk advection increases from .72 to 1.28 radians/second at the reference radius, retaining the radius-dependent speed. Shearing feeding lanes, an extended luminous knot and fine streaks provide recognizable moving landmarks. Small radial turbulence offsets disturb the bands without rotating the disk as a rigid wheel or changing the shadow.
+- A bounded physical camera orbit now changes azimuth by up to .065 radians, with a gentle height drift and minimal bank. It starts at the approved pose, remains centred on the same scene, and follows the existing scroll path. Foreground dust demonstrates greater parallax while DOM text remains stationary.
+- Foreground grains drift through the world at varied velocities. Some orbital matter starts in curved feeding streams, including a compact co-orbiting group that naturally passes nearer the camera. Selected faster grains have velocity-aligned soft trails. There are no random explosions, flashing overlays or unrelated objects.
+- Particle counts, depth compositing, reduced-motion behavior and the adaptive pipeline remain intact.
+
+`tests/motion_check.py` records a hands-off homepage visit and saves settled frames at 0, 2 and 5 seconds. No mouse movement, scrolling, synthetic clock or reduced-motion emulation is used. Frame comparisons start after the existing entry fade completes, so that fade cannot inflate the measured image change. The video includes entry as well. The frames were visually reviewed for moving material, foreground crossings and perspective changes; numerical pixel change is only a supporting regression signal.
+
+Current evidence: `five-seconds-hands-off.webm`, `motion-0s.png`, `motion-2s.png`, `motion-5s.png`, and `motion-review.json`. The final idle test measured 59.88 FPS during the observation window.
+
+The refreshed 390×844 SwiftShader mobile-viewport test measured 32.46 FPS, with a 156×338 volume pass after adaptation. Reduced motion and WebGL context recovery passed. This remains viewport emulation, not a physical-phone result.

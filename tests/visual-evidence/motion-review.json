@@ -1,0 +1,164 @@
+{
+  "review": "Hands-off first five seconds; no mouse, scroll, reduced-motion emulation or time override",
+  "snapshots": [
+    {
+      "wall": 1553.1000000014901,
+      "scroll": 0,
+      "frames": 76,
+      "webgl": true,
+      "scene": "black-hole",
+      "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+      "raySteps": 160,
+      "particles": 10500,
+      "hdr": true,
+      "paused": false,
+      "sceneOpacity": 1,
+      "holeVisible": true,
+      "mode": "full",
+      "samples": [],
+      "fps": 0,
+      "diskTime": 1.3888999999999991,
+      "diskPhase": 1.777791999999999,
+      "camera": [
+        0.5882334557442621,
+        0.6207931773543297,
+        11.689053913877855
+      ],
+      "cameraZ": 11.689053913877855,
+      "center": [
+        0.7517800900710622,
+        0.4028213449736886
+      ],
+      "pathProgress": 0,
+      "pixelRatio": 1,
+      "resolution": {
+        "output": [
+          1440,
+          900
+        ],
+        "volume": [
+          1224,
+          765
+        ],
+        "scale": 0.85
+      },
+      "drawCalls": 6,
+      "triangles": 10
+    },
+    {
+      "wall": 3808.3000000044703,
+      "scroll": 0,
+      "frames": 211,
+      "webgl": true,
+      "scene": "black-hole",
+      "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+      "raySteps": 160,
+      "particles": 10500,
+      "hdr": true,
+      "paused": false,
+      "sceneOpacity": 1,
+      "holeVisible": true,
+      "mode": "full",
+      "samples": [
+        {
+          "time": 1.99,
+          "fps": 61.6,
+          "scale": 0.85
+        }
+      ],
+      "fps": 61.6,
+      "diskTime": 3.638799999999994,
+      "diskPhase": 4.6576639999999925,
+      "camera": [
+        0.9467855995789838,
+        0.6991728192524744,
+        11.66548743209772
+      ],
+      "cameraZ": 11.66548743209772,
+      "center": [
+        0.7492303470480184,
+        0.4033339846265159
+      ],
+      "pathProgress": 0,
+      "pixelRatio": 1,
+      "resolution": {
+        "output": [
+          1440,
+          900
+        ],
+        "volume": [
+          1296,
+          810
+        ],
+        "scale": 0.9
+      },
+      "drawCalls": 6,
+      "triangles": 10
+    },
+    {
+      "wall": 7047.20000000298,
+      "scroll": 0,
+      "frames": 405,
+      "webgl": true,
+      "scene": "black-hole",
+      "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+      "raySteps": 160,
+      "particles": 10500,
+      "hdr": true,
+      "paused": false,
+      "sceneOpacity": 1,
+      "holeVisible": true,
+      "mode": "full",
+      "samples": [
+        {
+          "time": 1.99,
+          "fps": 61.6,
+          "scale": 0.85
+        },
+        {
+          "time": 3.81,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 5.62,
+          "fps": 60,
+          "scale": 0.9
+        }
+      ],
+      "fps": 60,
+      "diskTime": 6.8720000000000265,
+      "diskPhase": 8.796160000000034,
+      "camera": [
+        1.0125118872657892,
+        0.6726871542495734,
+        11.659966538465941
+      ],
+      "cameraZ": 11.659966538465941,
+      "center": [
+        0.7489517768506329,
+        0.4052898859714769
+      ],
+      "pathProgress": 0,
+      "pixelRatio": 1,
+      "resolution": {
+        "output": [
+          1440,
+          900
+        ],
+        "volume": [
+          1296,
+          810
+        ],
+        "scale": 0.9
+      },
+      "drawCalls": 6,
+      "triangles": 10
+    }
+  ],
+  "measuredFPS": 59.88241932252976,
+  "cameraDistanceMoved": 0.42842881287411666,
+  "errors": [],
+  "diskRegionChange2s": 19.306276276276275,
+  "diskRegionChange5s": 18.212990132990132
+}

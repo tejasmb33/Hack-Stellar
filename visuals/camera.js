@@ -25,9 +25,14 @@ export function createFlight(camera) {
     targets.getPoint(progress, target);
     target.x *= narrow ? .17 : 1;
     if (narrow) { camera.position.z += 3.3 * (1 - progress); target.y += .25; }
-    camera.position.x += Math.sin(time * .09) * .12;
-    camera.position.y += Math.sin(time * .11) * .055;
-    const bank = .14 + progress * .15 + Math.sin(time * .045) * .008;
+    // A bounded physical orbit, starting at the approved composition. Near
+    // dust crosses the view faster than the horizon; the UI never moves.
+    const orbit = Math.sin(time * .28) * .065 * (1 - progress * .55);
+    const x = camera.position.x, z = camera.position.z;
+    camera.position.x = x * Math.cos(orbit) + z * Math.sin(orbit);
+    camera.position.z = z * Math.cos(orbit) - x * Math.sin(orbit);
+    camera.position.y += Math.sin(time * .33) * .16 * (1 - progress * .35);
+    const bank = .14 + progress * .15 + Math.sin(time * .18) * .014;
     camera.up.set(Math.sin(bank), Math.cos(bank), 0);
     camera.lookAt(target);
     camera.updateMatrixWorld();

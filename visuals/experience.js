@@ -36,7 +36,7 @@ export function startExperience(){
     flight(progress,elapsed,innerWidth<=760);
     pipeline.render(elapsed,Math.abs(scroll-previous)/Math.max(delta,.016)/90.);
     projected.set(0,0,0).project(camera);
-    Object.assign(state,{frames:state.frames+1,diskTime:elapsed,diskPhase:elapsed*.72,paused,camera:camera.position.toArray(),cameraZ:camera.position.z,center:[projected.x*.5+.5,projected.y*.5+.5],pathProgress:progress,pixelRatio:renderer.getPixelRatio(),resolution:pipeline.resolution,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles});
+    Object.assign(state,{frames:state.frames+1,diskTime:elapsed,diskPhase:elapsed*1.28,paused,camera:camera.position.toArray(),cameraZ:camera.position.z,center:[projected.x*.5+.5,projected.y*.5+.5],pathProgress:progress,pixelRatio:renderer.getPixelRatio(),resolution:pipeline.resolution,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles});
     if(!paused){
       qualityFrames++;
       if(now-qualityStart>1800){
