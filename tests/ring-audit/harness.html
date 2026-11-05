@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="icon" href="data:,"><style>body{margin:0;background:black}canvas{display:block;width:100vw;height:100vh}</style></head><body><canvas></canvas><script type="module">
+import * as THREE from '/vendor/three.module.js';
+import {createPipeline} from '/visuals/pipeline.js';
+import {createFlight} from '/visuals/camera.js';
+const renderer=new THREE.WebGLRenderer({canvas:document.querySelector('canvas'),alpha:false,antialias:false});
+renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.NoToneMapping;renderer.setPixelRatio(1);renderer.info.autoReset=false;
+const camera=new THREE.PerspectiveCamera(43,innerWidth/innerHeight,.1,350),flight=createFlight(camera);
+let sampling='implicit',isolate=false;
+const originalRender=renderer.render.bind(renderer);
+renderer.render=(scene,cam)=>{
+ if(scene.children.some(child=>child.isPoints))return;
+ const m=scene.children[0]?.material;
+ if(m?.fragmentShader?.includes('feedingKnot')){
+  m.userData.original??=m.fragmentShader;
+  let source=m.userData.original;
+  if(sampling==='legacy')source=source.replace('textureLod(uMatter,uv+vec2(p.y*.04,0),0.)','texture2D(uMatter,uv+vec2(p.y*.04,0))');
+  if(sampling==='base')source=source.replace('texture2D(uMatter,uv+vec2(p.y*.04,0))','textureLod(uMatter,uv+vec2(p.y*.04,0),0.)');
+  if(isolate){
+   source=source.replace(/float feedingLane=.*?;/,'float feedingLane=0.;').replace(/float fineStream=.*?;/,'float fineStream=0.;').replace(/float feedingKnot=.*?;/,'float feedingKnot=0.;');
+   const end=source.indexOf('// Continuous finite-height matter');source=source.slice(0,end).replaceAll('uTime*','0.*')+source.slice(end);
+  }
+  if(source!==m.fragmentShader){m.fragmentShader=source;m.needsUpdate=true;}
+ }
+ originalRender(scene,cam);
+};
+const pipeline=createPipeline(renderer,camera,{constrained:false});pipeline.resize(.85);
+window.audit={render({time,progress=0,orbitTime=0,scale=.85,filter='implicit',textureOnly=false}){sampling=filter;isolate=textureOnly;flight(progress,orbitTime,false);pipeline.resize(scale);pipeline.render(time,0);return {time,camera:camera.position.toArray(),resolution:pipeline.resolution};}};
+window.audit.render({time:0});
+</script></body></html>

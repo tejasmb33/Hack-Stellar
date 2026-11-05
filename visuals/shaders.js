@@ -36,7 +36,10 @@ vec4 matter(vec3 p, vec3 direction){
   float orbital=uTime*1.28*pow(2.5/max(radius,1.8),1.5);
   float flow=angle-orbital;
   vec2 uv=vec2(flow/6.2831853, radius*.117+sin(flow*5.+uTime*.23)*.003);
-  vec4 field=texture2D(uMatter,uv+vec2(p.y*.04,0));
+  // Ray steps diverge per fragment, so implicit mip derivatives are unreliable.
+  // Time-dependent UV shear must not average the moving filaments into a flat mip.
+  // Keep the existing base texture and its exact orbital phase/rate.
+  vec4 field=textureLod(uMatter,uv+vec2(p.y*.04,0),0.);
   float striation=field.g;
   float filaments=pow(smoothstep(.19,.80,field.r),2.)*2.7 + pow(smoothstep(.18,.82,field.b),2.)*1.4;
   float density=(.045+filaments*.65+striation*.10)*inner*outer;

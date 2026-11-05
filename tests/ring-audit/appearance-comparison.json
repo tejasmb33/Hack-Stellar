@@ -1,0 +1,32 @@
+[
+  {
+    "progress": 0,
+    "age": 0,
+    "meanChannelDifference": 1.0377724609375
+  },
+  {
+    "progress": 0.5,
+    "age": 0,
+    "meanChannelDifference": 0.8243147786458334
+  },
+  {
+    "progress": 1,
+    "age": 0,
+    "meanChannelDifference": 0.27855305989583334
+  },
+  {
+    "progress": 0,
+    "age": 15,
+    "meanChannelDifference": 4.056154947916666
+  },
+  {
+    "progress": 0.5,
+    "age": 30,
+    "meanChannelDifference": 3.544931315104167
+  },
+  {
+    "progress": 1,
+    "age": 300,
+    "meanChannelDifference": 0.745751953125
+  }
+]

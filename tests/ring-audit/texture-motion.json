@@ -1,0 +1,170 @@
+[
+  {
+    "filter": "implicit",
+    "progress": 0,
+    "age": 0,
+    "meanDiskChange": 33.71444259613647,
+    "changedFraction": 0.8572375158123005
+  },
+  {
+    "filter": "implicit",
+    "progress": 0,
+    "age": 30,
+    "meanDiskChange": 11.292058578026456,
+    "changedFraction": 0.7747087587751064
+  },
+  {
+    "filter": "implicit",
+    "progress": 0,
+    "age": 300,
+    "meanDiskChange": 1.9295862840360123,
+    "changedFraction": 0.17921401515151514
+  },
+  {
+    "filter": "implicit",
+    "progress": 0,
+    "age": 1800,
+    "meanDiskChange": 0.3841586156621832,
+    "changedFraction": 0.038206387565177906
+  },
+  {
+    "filter": "implicit",
+    "progress": 0.5,
+    "age": 0,
+    "meanDiskChange": 27.74438019583351,
+    "changedFraction": 0.8428092237301933
+  },
+  {
+    "filter": "implicit",
+    "progress": 0.5,
+    "age": 30,
+    "meanDiskChange": 13.087280738022088,
+    "changedFraction": 0.796791613925057
+  },
+  {
+    "filter": "implicit",
+    "progress": 0.5,
+    "age": 300,
+    "meanDiskChange": 1.4260472215781743,
+    "changedFraction": 0.19057210758172966
+  },
+  {
+    "filter": "implicit",
+    "progress": 0.5,
+    "age": 1800,
+    "meanDiskChange": 0.04408934058473146,
+    "changedFraction": 0.00018898431430191295
+  },
+  {
+    "filter": "implicit",
+    "progress": 1,
+    "age": 0,
+    "meanDiskChange": 10.247636509050302,
+    "changedFraction": 0.3243622535593834
+  },
+  {
+    "filter": "implicit",
+    "progress": 1,
+    "age": 30,
+    "meanDiskChange": 2.709146260166215,
+    "changedFraction": 0.24025598862272787
+  },
+  {
+    "filter": "implicit",
+    "progress": 1,
+    "age": 300,
+    "meanDiskChange": 0.05251340807542835,
+    "changedFraction": 0.0023944323852574576
+  },
+  {
+    "filter": "implicit",
+    "progress": 1,
+    "age": 1800,
+    "meanDiskChange": 0.00028211467219017497,
+    "changedFraction": 0.0
+  },
+  {
+    "filter": "base",
+    "progress": 0,
+    "age": 0,
+    "meanDiskChange": 33.5374831227386,
+    "changedFraction": 0.8579250444098401
+  },
+  {
+    "filter": "base",
+    "progress": 0,
+    "age": 30,
+    "meanDiskChange": 20.411776014726073,
+    "changedFraction": 0.834122770766443
+  },
+  {
+    "filter": "base",
+    "progress": 0,
+    "age": 300,
+    "meanDiskChange": 19.53788924715531,
+    "changedFraction": 0.8255913969008729
+  },
+  {
+    "filter": "base",
+    "progress": 0,
+    "age": 1800,
+    "meanDiskChange": 19.146729878182462,
+    "changedFraction": 0.8190482076092186
+  },
+  {
+    "filter": "base",
+    "progress": 0.5,
+    "age": 0,
+    "meanDiskChange": 28.59753906089247,
+    "changedFraction": 0.8448949917008464
+  },
+  {
+    "filter": "base",
+    "progress": 0.5,
+    "age": 30,
+    "meanDiskChange": 21.615711719855835,
+    "changedFraction": 0.8432991162231923
+  },
+  {
+    "filter": "base",
+    "progress": 0.5,
+    "age": 300,
+    "meanDiskChange": 17.405892373071257,
+    "changedFraction": 0.82214012481186
+  },
+  {
+    "filter": "base",
+    "progress": 0.5,
+    "age": 1800,
+    "meanDiskChange": 17.58905041585093,
+    "changedFraction": 0.822688620580902
+  },
+  {
+    "filter": "base",
+    "progress": 1,
+    "age": 0,
+    "meanDiskChange": 11.362998849659322,
+    "changedFraction": 0.33908503672241397
+  },
+  {
+    "filter": "base",
+    "progress": 1,
+    "age": 30,
+    "meanDiskChange": 9.7765149175366,
+    "changedFraction": 0.3753165729816542
+  },
+  {
+    "filter": "base",
+    "progress": 1,
+    "age": 300,
+    "meanDiskChange": 8.368189185819375,
+    "changedFraction": 0.3621004945762853
+  },
+  {
+    "filter": "base",
+    "progress": 1,
+    "age": 1800,
+    "meanDiskChange": 8.394311822133345,
+    "changedFraction": 0.3629546306711661
+  }
+]

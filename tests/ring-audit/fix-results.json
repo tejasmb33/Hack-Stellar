@@ -1,0 +1,3952 @@
+{
+  "controlled": [
+    {
+      "mode": "legacy",
+      "progress": 0,
+      "age": 0,
+      "meanDiskChange": 33.71444259613647,
+      "changedFraction": 0.8572375158123005,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 2,
+          "gpu": 2,
+          "uploads": 2
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 0,
+      "age": 30,
+      "meanDiskChange": 11.292058578026456,
+      "changedFraction": 0.7747087587751064,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 32,
+          "gpu": 32,
+          "uploads": 4
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 0,
+      "age": 300,
+      "meanDiskChange": 1.9295862840360123,
+      "changedFraction": 0.17921401515151514,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 302,
+          "gpu": 302,
+          "uploads": 6
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 0,
+      "age": 1800,
+      "meanDiskChange": 0.3841586156621832,
+      "changedFraction": 0.038206387565177906,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 1802,
+          "gpu": 1802,
+          "uploads": 8
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 0,
+      "age": 7200,
+      "meanDiskChange": 0.05856280355829873,
+      "changedFraction": 0.0002744322359495873,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 10
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 0.5,
+      "age": 0,
+      "meanDiskChange": 27.74438019583351,
+      "changedFraction": 0.8428092237301933,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 2,
+          "gpu": 2,
+          "uploads": 12
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 0.5,
+      "age": 30,
+      "meanDiskChange": 13.087280738022088,
+      "changedFraction": 0.796791613925057,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 32,
+          "gpu": 32,
+          "uploads": 14
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 0.5,
+      "age": 300,
+      "meanDiskChange": 1.4260472215781743,
+      "changedFraction": 0.19057210758172966,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 302,
+          "gpu": 302,
+          "uploads": 16
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 0.5,
+      "age": 1800,
+      "meanDiskChange": 0.04408934058473146,
+      "changedFraction": 0.00018898431430191295,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 1802,
+          "gpu": 1802,
+          "uploads": 18
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 0.5,
+      "age": 7200,
+      "meanDiskChange": 0.001264389376350361,
+      "changedFraction": 6.947194375551433e-05,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 20
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 1,
+      "age": 0,
+      "meanDiskChange": 10.247636509050302,
+      "changedFraction": 0.3243622535593834,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 2,
+          "gpu": 2,
+          "uploads": 22
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 1,
+      "age": 30,
+      "meanDiskChange": 2.709146260166215,
+      "changedFraction": 0.24025598862272787,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 32,
+          "gpu": 32,
+          "uploads": 24
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 1,
+      "age": 300,
+      "meanDiskChange": 0.05251340807542835,
+      "changedFraction": 0.0023944323852574576,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 302,
+          "gpu": 302,
+          "uploads": 26
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 1,
+      "age": 1800,
+      "meanDiskChange": 0.00028211467219017497,
+      "changedFraction": 0.0,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 1802,
+          "gpu": 1802,
+          "uploads": 28
+        }
+      ]
+    },
+    {
+      "mode": "legacy",
+      "progress": 1,
+      "age": 7200,
+      "meanDiskChange": 0.00013363326577429341,
+      "changedFraction": 0.0,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 0,
+      "age": 0,
+      "meanDiskChange": 33.5374831227386,
+      "changedFraction": 0.8579250444098401,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 2,
+          "gpu": 2,
+          "uploads": 2
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 0,
+      "age": 30,
+      "meanDiskChange": 20.411776014726073,
+      "changedFraction": 0.834122770766443,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 32,
+          "gpu": 32,
+          "uploads": 4
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 0,
+      "age": 300,
+      "meanDiskChange": 19.53788924715531,
+      "changedFraction": 0.8255913969008729,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 302,
+          "gpu": 302,
+          "uploads": 6
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 0,
+      "age": 1800,
+      "meanDiskChange": 19.146729878182462,
+      "changedFraction": 0.8190482076092186,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 1802,
+          "gpu": 1802,
+          "uploads": 8
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 0,
+      "age": 7200,
+      "meanDiskChange": 18.947261878453038,
+      "changedFraction": 0.8178563535911603,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 10
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 0.5,
+      "age": 0,
+      "meanDiskChange": 28.59753906089247,
+      "changedFraction": 0.8448949917008464,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 2,
+          "gpu": 2,
+          "uploads": 12
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 0.5,
+      "age": 30,
+      "meanDiskChange": 21.615711719855835,
+      "changedFraction": 0.8432991162231923,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 32,
+          "gpu": 32,
+          "uploads": 14
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 0.5,
+      "age": 300,
+      "meanDiskChange": 17.405892373071257,
+      "changedFraction": 0.82214012481186,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 302,
+          "gpu": 302,
+          "uploads": 16
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 0.5,
+      "age": 1800,
+      "meanDiskChange": 17.58905041585093,
+      "changedFraction": 0.822688620580902,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 1802,
+          "gpu": 1802,
+          "uploads": 18
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 0.5,
+      "age": 7200,
+      "meanDiskChange": 17.520375116727266,
+      "changedFraction": 0.8227394647433987,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 20
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 1,
+      "age": 0,
+      "meanDiskChange": 11.362998849659322,
+      "changedFraction": 0.33908503672241397,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 2,
+          "gpu": 2,
+          "uploads": 22
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 1,
+      "age": 30,
+      "meanDiskChange": 9.7765149175366,
+      "changedFraction": 0.3753165729816542,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 32,
+          "gpu": 32,
+          "uploads": 24
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 1,
+      "age": 300,
+      "meanDiskChange": 8.368189185819375,
+      "changedFraction": 0.3621004945762853,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 302,
+          "gpu": 302,
+          "uploads": 26
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 1,
+      "age": 1800,
+      "meanDiskChange": 8.394311822133345,
+      "changedFraction": 0.3629546306711661,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 1802,
+          "gpu": 1802,
+          "uploads": 28
+        }
+      ]
+    },
+    {
+      "mode": "current",
+      "progress": 1,
+      "age": 7200,
+      "meanDiskChange": 8.36892893393957,
+      "changedFraction": 0.3609268760689109,
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0,
+          "gpu": 0,
+          "uploads": 1
+        },
+        {
+          "id": 2,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        },
+        {
+          "id": 3,
+          "role": "disk",
+          "uploaded": 7202,
+          "gpu": 7202,
+          "uploads": 30
+        }
+      ]
+    }
+  ],
+  "live": [
+    {
+      "label": "fresh-load-1-top-15s-before",
+      "state": {
+        "frames": 26,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 0.5122000000044703,
+        "diskPhase": 0.655616000005722,
+        "camera": [
+          0.4086798556190918,
+          0.5769155695052243,
+          11.696708117056318
+        ],
+        "cameraZ": 11.696708117056318,
+        "center": [
+          0.7530084363710645,
+          0.40265899440917474
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1280,
+            800
+          ],
+          "volume": [
+            1088,
+            680
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0.5122000000044703,
+          "gpu": 0.5121999979019165,
+          "uploads": 25
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 0.5122000000044703,
+          "gpu": 0.5121999979019165,
+          "uploads": 25
+        }
+      ]
+    },
+    {
+      "label": "fresh-load-1-top-15s-after",
+      "state": {
+        "frames": 928,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          }
+        ],
+        "fps": 60,
+        "diskTime": 15.595000000004367,
+        "diskPhase": 19.96160000000559,
+        "camera": [
+          -0.4155996461710459,
+          0.4048308176181151,
+          11.696464292003053
+        ],
+        "cameraZ": 11.696464292003053,
+        "center": [
+          0.7588138434937459,
+          0.4060838634795613
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1280,
+            800
+          ],
+          "volume": [
+            1280,
+            800
+          ],
+          "scale": 1
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 15.595000000004367,
+          "gpu": 15.595000267028809,
+          "uploads": 927
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 15.595000000004367,
+          "gpu": 15.595000267028809,
+          "uploads": 927
+        }
+      ]
+    },
+    {
+      "label": "slow-scroll-stop-before",
+      "state": {
+        "frames": 1183,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          }
+        ],
+        "fps": 60,
+        "diskTime": 19.844800000004266,
+        "diskPhase": 25.401344000005462,
+        "camera": [
+          4.033343897188118,
+          1.5809699254890117,
+          12.170304553541518
+        ],
+        "cameraZ": 12.170304553541518,
+        "center": [
+          0.675066610052671,
+          0.6629672732350633
+        ],
+        "pathProgress": 0.310493129231744,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1280,
+            800
+          ],
+          "volume": [
+            1280,
+            800
+          ],
+          "scale": 1
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 19.844800000004266,
+          "gpu": 19.84480094909668,
+          "uploads": 1182
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 19.844800000004266,
+          "gpu": 19.84480094909668,
+          "uploads": 1182
+        }
+      ]
+    },
+    {
+      "label": "slow-scroll-stop-after",
+      "state": {
+        "frames": 1251,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          }
+        ],
+        "fps": 60,
+        "diskTime": 20.978000000004215,
+        "diskPhase": 26.851840000005396,
+        "camera": [
+          4.329575778786044,
+          1.661106689675901,
+          12.2078393892925
+        ],
+        "cameraZ": 12.2078393892925,
+        "center": [
+          0.6710322053628568,
+          0.6604612703635026
+        ],
+        "pathProgress": 0.31626298855662416,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1280,
+            800
+          ],
+          "volume": [
+            1280,
+            800
+          ],
+          "scale": 1
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 20.978000000004215,
+          "gpu": 20.97800064086914,
+          "uploads": 1250
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 20.978000000004215,
+          "gpu": 20.97800064086914,
+          "uploads": 1250
+        }
+      ]
+    },
+    {
+      "label": "rest-at-900-before",
+      "state": {
+        "frames": 1379,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          }
+        ],
+        "fps": 60,
+        "diskTime": 23.11130000000418,
+        "diskPhase": 29.582464000005352,
+        "camera": [
+          2.879562593165768,
+          1.2569006645750034,
+          10.97597364750318
+        ],
+        "cameraZ": 10.97597364750318,
+        "center": [
+          0.7128508168022285,
+          0.6423869580036086
+        ],
+        "pathProgress": 0.22579891730409768,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1280,
+            800
+          ],
+          "volume": [
+            1280,
+            800
+          ],
+          "scale": 1
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 23.11130000000418,
+          "gpu": 23.111299514770508,
+          "uploads": 1378
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 23.11130000000418,
+          "gpu": 23.111299514770508,
+          "uploads": 1378
+        }
+      ]
+    },
+    {
+      "label": "rest-at-900-after",
+      "state": {
+        "frames": 1447,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          }
+        ],
+        "fps": 60,
+        "diskTime": 24.244600000004166,
+        "diskPhase": 31.033088000005332,
+        "camera": [
+          3.0667834700821524,
+          1.25957620698069,
+          10.926304072465935
+        ],
+        "cameraZ": 10.926304072465935,
+        "center": [
+          0.7110151398791994,
+          0.6402709250994176
+        ],
+        "pathProgress": 0.22590357690580976,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1280,
+            800
+          ],
+          "volume": [
+            1280,
+            800
+          ],
+          "scale": 1
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 24.244600000004166,
+          "gpu": 24.244600296020508,
+          "uploads": 1446
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 24.244600000004166,
+          "gpu": 24.244600296020508,
+          "uploads": 1446
+        }
+      ]
+    },
+    {
+      "label": "rest-at-1800-before",
+      "state": {
+        "frames": 1523,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          }
+        ],
+        "fps": 60,
+        "diskTime": 25.511200000004106,
+        "diskPhase": 32.65433600000526,
+        "camera": [
+          8.458443152151668,
+          2.7350980995469163,
+          14.65201514692524
+        ],
+        "cameraZ": 14.65201514692524,
+        "center": [
+          0.6073981636742433,
+          0.6568081597182425
+        ],
+        "pathProgress": 0.45166428792758057,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1280,
+            800
+          ],
+          "volume": [
+            1280,
+            800
+          ],
+          "scale": 1
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 25.544500000004106,
+          "gpu": 25.54450035095215,
+          "uploads": 1524
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 25.544500000004106,
+          "gpu": 25.54450035095215,
+          "uploads": 1524
+        }
+      ]
+    },
+    {
+      "label": "rest-at-1800-after",
+      "state": {
+        "frames": 1592,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          }
+        ],
+        "fps": 60,
+        "diskTime": 26.661200000004076,
+        "diskPhase": 34.12633600000522,
+        "camera": [
+          8.58243883058054,
+          2.7018524788465172,
+          14.586229332976709
+        ],
+        "cameraZ": 14.586229332976709,
+        "center": [
+          0.6067572576115268,
+          0.6565056841159074
+        ],
+        "pathProgress": 0.4518071833029185,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1280,
+            800
+          ],
+          "volume": [
+            1280,
+            800
+          ],
+          "scale": 1
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 26.67780000000408,
+          "gpu": 26.677799224853516,
+          "uploads": 1592
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 26.67780000000408,
+          "gpu": 26.677799224853516,
+          "uploads": 1592
+        }
+      ]
+    },
+    {
+      "label": "rest-at-3000-before",
+      "state": {
+        "frames": 1673,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 27.33,
+            "fps": 60,
+            "scale": 1
+          }
+        ],
+        "fps": 60,
+        "diskTime": 28.01110000000407,
+        "diskPhase": 35.85420800000521,
+        "camera": [
+          19.57888537371351,
+          6.698585052524091,
+          25.92438794804867
+        ],
+        "cameraZ": 25.92438794804867,
+        "center": [
+          0.5326209417712825,
+          0.5808721003447115
+        ],
+        "pathProgress": 0.752858358259639,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1280,
+            800
+          ],
+          "volume": [
+            1280,
+            800
+          ],
+          "scale": 1
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 28.01110000000407,
+          "gpu": 28.01110076904297,
+          "uploads": 1672
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 28.01110000000407,
+          "gpu": 28.01110076904297,
+          "uploads": 1672
+        }
+      ]
+    },
+    {
+      "label": "rest-at-3000-after",
+      "state": {
+        "frames": 1740,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 27.33,
+            "fps": 60,
+            "scale": 1
+          }
+        ],
+        "fps": 60,
+        "diskTime": 29.12770000000403,
+        "diskPhase": 37.28345600000516,
+        "camera": [
+          19.540697952351035,
+          6.657762236743304,
+          25.965348179925744
+        ],
+        "cameraZ": 25.965348179925744,
+        "center": [
+          0.5325896837952471,
+          0.581032704084946
+        ],
+        "pathProgress": 0.7530119862325595,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1280,
+            800
+          ],
+          "volume": [
+            1280,
+            800
+          ],
+          "scale": 1
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 29.12770000000403,
+          "gpu": 29.127700805664062,
+          "uploads": 1739
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 29.12770000000403,
+          "gpu": 29.127700805664062,
+          "uploads": 1739
+        }
+      ]
+    },
+    {
+      "label": "rest-at-0-before",
+      "state": {
+        "frames": 1830,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 27.33,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 29.14,
+            "fps": 60,
+            "scale": 1
+          }
+        ],
+        "fps": 60,
+        "diskTime": 30.777600000003975,
+        "diskPhase": 39.39532800000509,
+        "camera": [
+          0.8501499820430742,
+          0.4434226097257315,
+          11.67236994408703
+        ],
+        "cameraZ": 11.67236994408703,
+        "center": [
+          0.7489381984159355,
+          0.4000500478569383
+        ],
+        "pathProgress": 0.00014856258921565628,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1280,
+            800
+          ],
+          "volume": [
+            1280,
+            800
+          ],
+          "scale": 1
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 30.777600000003975,
+          "gpu": 30.777599334716797,
+          "uploads": 1829
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 30.777600000003975,
+          "gpu": 30.777599334716797,
+          "uploads": 1829
+        }
+      ]
+    },
+    {
+      "label": "rest-at-0-after",
+      "state": {
+        "frames": 1880,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 27.33,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 29.14,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 30.96,
+            "fps": 51.7,
+            "scale": 1
+          }
+        ],
+        "fps": 51.7,
+        "diskTime": 32.01100000000398,
+        "diskPhase": 40.974080000005095,
+        "camera": [
+          0.6386062842045155,
+          0.4046954983743256,
+          11.686410043184198
+        ],
+        "cameraZ": 11.686410043184198,
+        "center": [
+          0.750748459827594,
+          0.4013789396588512
+        ],
+        "pathProgress": 2.644221073143125e-08,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1280,
+            800
+          ],
+          "volume": [
+            1280,
+            800
+          ],
+          "scale": 1
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 32.027600000003986,
+          "gpu": 32.0275993347168,
+          "uploads": 1880
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 32.027600000003986,
+          "gpu": 32.0275993347168,
+          "uploads": 1880
+        }
+      ]
+    },
+    {
+      "label": "resize-before",
+      "state": {
+        "frames": 1885,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 27.33,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 29.14,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 30.96,
+            "fps": 51.7,
+            "scale": 1
+          }
+        ],
+        "fps": 51.7,
+        "diskTime": 32.14430000000399,
+        "diskPhase": 41.144704000005106,
+        "camera": [
+          0.6129914177838622,
+          0.40189050178328506,
+          11.687781683514414
+        ],
+        "cameraZ": 11.687781683514414,
+        "center": [
+          0.7509628993365498,
+          0.4015337389422745
+        ],
+        "pathProgress": 9.591646487307386e-09,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1440,
+            900
+          ],
+          "scale": 1
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 32.194300000003985,
+          "gpu": 32.19430160522461,
+          "uploads": 1886
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 32.194300000003985,
+          "gpu": 32.19430160522461,
+          "uploads": 1886
+        }
+      ]
+    },
+    {
+      "label": "resize-after",
+      "state": {
+        "frames": 1951,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "adaptive",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 27.33,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 29.14,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 30.96,
+            "fps": 51.7,
+            "scale": 1
+          },
+          {
+            "time": 32.78,
+            "fps": 45.1,
+            "scale": 1
+          }
+        ],
+        "fps": 45.1,
+        "diskTime": 33.36090000000403,
+        "diskPhase": 42.70195200000516,
+        "camera": [
+          0.3635944814491142,
+          0.3900146288816342,
+          11.698196401706184
+        ],
+        "cameraZ": 11.698196401706184,
+        "center": [
+          0.7530075311397886,
+          0.402837243505034
+        ],
+        "pathProgress": 1.9202355121145703e-12,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1200,
+            750
+          ],
+          "scale": 0.8334580658571626
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 33.36090000000403,
+          "gpu": 33.36090087890625,
+          "uploads": 1950
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 33.36090000000403,
+          "gpu": 33.36090087890625,
+          "uploads": 1950
+        }
+      ]
+    },
+    {
+      "label": "directory-before",
+      "state": {
+        "frames": 35,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 0.6440000000029804,
+        "diskPhase": 0.8243200000038149,
+        "camera": [
+          0.43636793872923435,
+          0.5837478197187312,
+          11.69570788888168
+        ],
+        "cameraZ": 11.69570788888168,
+        "center": [
+          0.7528217722918018,
+          0.4026855502075976
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1224,
+            765
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0.6440000000029804,
+          "gpu": 0.6439999938011169,
+          "uploads": 34
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 0.6440000000029804,
+          "gpu": 0.6439999938011169,
+          "uploads": 34
+        }
+      ]
+    },
+    {
+      "label": "directory-after",
+      "state": {
+        "frames": 102,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 1.7606000000029782,
+        "diskPhase": 2.253568000003812,
+        "camera": [
+          0.6597023008555664,
+          0.6378173525538786,
+          11.685238246362195
+        ],
+        "cameraZ": 11.685238246362195,
+        "center": [
+          0.7512801722387628,
+          0.402885931260531
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1224,
+            765
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 1.7606000000029782,
+          "gpu": 1.760599970817566,
+          "uploads": 101
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 1.7606000000029782,
+          "gpu": 1.760599970817566,
+          "uploads": 101
+        }
+      ]
+    },
+    {
+      "label": "back-home-before",
+      "state": {
+        "frames": 1955,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "adaptive",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 27.33,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 29.14,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 30.96,
+            "fps": 51.7,
+            "scale": 1
+          },
+          {
+            "time": 32.78,
+            "fps": 45.1,
+            "scale": 1
+          }
+        ],
+        "fps": 45.1,
+        "diskTime": 33.41080000000402,
+        "diskPhase": 42.76582400000515,
+        "camera": [
+          0.3530016193177897,
+          0.39007194523885214,
+          11.698520840543917
+        ],
+        "cameraZ": 11.698520840543917,
+        "center": [
+          0.7530926969130796,
+          0.4028860329756466
+        ],
+        "pathProgress": 1.3541146434118045e-12,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1200,
+            750
+          ],
+          "scale": 0.8334580658571626
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 33.41080000000402,
+          "gpu": 33.41080093383789,
+          "uploads": 1953
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 33.41080000000402,
+          "gpu": 33.41080093383789,
+          "uploads": 1953
+        }
+      ]
+    },
+    {
+      "label": "back-home-after",
+      "state": {
+        "frames": 2022,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "adaptive",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 27.33,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 29.14,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 30.96,
+            "fps": 51.7,
+            "scale": 1
+          },
+          {
+            "time": 32.78,
+            "fps": 45.1,
+            "scale": 1
+          }
+        ],
+        "fps": 45.1,
+        "diskTime": 34.52750000000409,
+        "diskPhase": 44.19520000000524,
+        "camera": [
+          0.11704019496732357,
+          0.4025369906156513,
+          11.703260297573577
+        ],
+        "cameraZ": 11.703260297573577,
+        "center": [
+          0.7549560433628948,
+          0.40387458405408694
+        ],
+        "pathProgress": 5.45530327243485e-16,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1200,
+            750
+          ],
+          "scale": 0.8334580658571626
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 34.52750000000409,
+          "gpu": 34.52750015258789,
+          "uploads": 2020
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 34.52750000000409,
+          "gpu": 34.52750015258789,
+          "uploads": 2020
+        }
+      ]
+    },
+    {
+      "label": "reduced-motion",
+      "state": {
+        "frames": 2025,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": true,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "adaptive",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 27.33,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 29.14,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 30.96,
+            "fps": 51.7,
+            "scale": 1
+          },
+          {
+            "time": 32.78,
+            "fps": 45.1,
+            "scale": 1
+          }
+        ],
+        "fps": 45.1,
+        "diskTime": 34.560800000004086,
+        "diskPhase": 44.23782400000523,
+        "camera": [
+          0.11016360304889775,
+          0.4032281425945258,
+          11.703327047492234
+        ],
+        "cameraZ": 11.703327047492234,
+        "center": [
+          0.7550094042090181,
+          0.40390103996765037
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1200,
+            750
+          ],
+          "scale": 0.8334580658571626
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 34.560800000004086,
+          "gpu": 34.56079864501953,
+          "uploads": 2022
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 34.560800000004086,
+          "gpu": 34.56079864501953,
+          "uploads": 2022
+        }
+      ]
+    },
+    {
+      "label": "reduced-still",
+      "state": {
+        "frames": 2025,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": true,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "adaptive",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 27.33,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 29.14,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 30.96,
+            "fps": 51.7,
+            "scale": 1
+          },
+          {
+            "time": 32.78,
+            "fps": 45.1,
+            "scale": 1
+          }
+        ],
+        "fps": 45.1,
+        "diskTime": 34.560800000004086,
+        "diskPhase": 44.23782400000523,
+        "camera": [
+          0.11016360304889775,
+          0.4032281425945258,
+          11.703327047492234
+        ],
+        "cameraZ": 11.703327047492234,
+        "center": [
+          0.7550094042090181,
+          0.40390103996765037
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1200,
+            750
+          ],
+          "scale": 0.8334580658571626
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 34.560800000004086,
+          "gpu": 34.56079864501953,
+          "uploads": 2022
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 34.560800000004086,
+          "gpu": 34.56079864501953,
+          "uploads": 2022
+        }
+      ]
+    },
+    {
+      "label": "motion-resumed-before",
+      "state": {
+        "frames": 2025,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": true,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "adaptive",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 27.33,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 29.14,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 30.96,
+            "fps": 51.7,
+            "scale": 1
+          },
+          {
+            "time": 32.78,
+            "fps": 45.1,
+            "scale": 1
+          }
+        ],
+        "fps": 45.1,
+        "diskTime": 34.560800000004086,
+        "diskPhase": 44.23782400000523,
+        "camera": [
+          0.11016360304889775,
+          0.4032281425945258,
+          11.703327047492234
+        ],
+        "cameraZ": 11.703327047492234,
+        "center": [
+          0.7550094042090181,
+          0.40390103996765037
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1200,
+            750
+          ],
+          "scale": 0.8334580658571626
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 34.560800000004086,
+          "gpu": 34.56079864501953,
+          "uploads": 2022
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 34.560800000004086,
+          "gpu": 34.56079864501953,
+          "uploads": 2022
+        }
+      ]
+    },
+    {
+      "label": "motion-resumed-after",
+      "state": {
+        "frames": 2074,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "adaptive",
+        "samples": [
+          {
+            "time": 1.91,
+            "fps": 58.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.73,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 5.55,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 7.36,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 9.18,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 11,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 12.81,
+            "fps": 60,
+            "scale": 0.9500000000000001
+          },
+          {
+            "time": 14.63,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 16.43,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 18.24,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 20.06,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 21.88,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 23.69,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 25.51,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 27.33,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 29.14,
+            "fps": 60,
+            "scale": 1
+          },
+          {
+            "time": 30.96,
+            "fps": 51.7,
+            "scale": 1
+          },
+          {
+            "time": 32.78,
+            "fps": 45.1,
+            "scale": 1
+          }
+        ],
+        "fps": 45.1,
+        "diskTime": 35.66080000000413,
+        "diskPhase": 45.645824000005284,
+        "camera": [
+          -0.10422421163229018,
+          0.43541195683260847,
+          11.70338144784274
+        ],
+        "cameraZ": 11.70338144784274,
+        "center": [
+          0.7566484304050978,
+          0.40468230028950175
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1200,
+            750
+          ],
+          "scale": 0.8334580658571626
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 35.66080000000413,
+          "gpu": 35.66080093383789,
+          "uploads": 2070
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 35.66080000000413,
+          "gpu": 35.66080093383789,
+          "uploads": 2070
+        }
+      ]
+    },
+    {
+      "label": "fresh-load-2-top-15s-before",
+      "state": {
+        "frames": 36,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 0.6292360000014903,
+        "diskPhase": 0.8054220800019075,
+        "camera": [
+          0.4332750289889924,
+          0.5829854206790371,
+          11.695822876106433
+        ],
+        "cameraZ": 11.695822876106433,
+        "center": [
+          0.7528426753858565,
+          0.40268262723580817
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1224,
+            765
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0.6292360000014903,
+          "gpu": 0.6292359828948975,
+          "uploads": 35
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 0.6292360000014903,
+          "gpu": 0.6292359828948975,
+          "uploads": 35
+        }
+      ]
+    },
+    {
+      "label": "fresh-load-2-top-15s-after",
+      "state": {
+        "frames": 854,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.9,
+            "fps": 61.5,
+            "scale": 0.85
+          },
+          {
+            "time": 3.71,
+            "fps": 54.5,
+            "scale": 0.9
+          },
+          {
+            "time": 5.53,
+            "fps": 51.2,
+            "scale": 0.9
+          },
+          {
+            "time": 7.35,
+            "fps": 55.6,
+            "scale": 0.9
+          },
+          {
+            "time": 9.16,
+            "fps": 54.5,
+            "scale": 0.9
+          },
+          {
+            "time": 10.98,
+            "fps": 52.8,
+            "scale": 0.9
+          },
+          {
+            "time": 12.8,
+            "fps": 53.4,
+            "scale": 0.9
+          },
+          {
+            "time": 14.61,
+            "fps": 54.5,
+            "scale": 0.9
+          }
+        ],
+        "fps": 54.5,
+        "diskTime": 15.661936000001432,
+        "diskPhase": 20.047278080001835,
+        "camera": [
+          -0.42030326656153977,
+          0.4063521372996418,
+          11.696296215645262
+        ],
+        "cameraZ": 11.696296215645262,
+        "center": [
+          0.7588345514876709,
+          0.40600505205317106
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1296,
+            810
+          ],
+          "scale": 0.9
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 15.661936000001432,
+          "gpu": 15.661935806274414,
+          "uploads": 853
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 15.661936000001432,
+          "gpu": 15.661935806274414,
+          "uploads": 853
+        }
+      ]
+    },
+    {
+      "label": "fresh-load-3-top-15s-before",
+      "state": {
+        "frames": 46,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [],
+        "fps": 0,
+        "diskTime": 0.9118999999985102,
+        "diskPhase": 1.1672319999980931,
+        "camera": [
+          0.4920278904353929,
+          0.5974249082375873,
+          11.693498559243665
+        ],
+        "cameraZ": 11.693498559243665,
+        "center": [
+          0.7524434193983429,
+          0.4027366305716984
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1224,
+            765
+          ],
+          "scale": 0.85
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 0.9284999999985103,
+          "gpu": 0.9284999966621399,
+          "uploads": 46
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 0.9284999999985103,
+          "gpu": 0.9284999966621399,
+          "uploads": 46
+        }
+      ]
+    },
+    {
+      "label": "fresh-load-3-top-15s-after",
+      "state": {
+        "frames": 896,
+        "webgl": true,
+        "scene": "black-hole",
+        "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+        "raySteps": 160,
+        "particles": 10500,
+        "hdr": true,
+        "paused": false,
+        "sceneOpacity": 1,
+        "holeVisible": true,
+        "mode": "full",
+        "samples": [
+          {
+            "time": 1.93,
+            "fps": 52.4,
+            "scale": 0.85
+          },
+          {
+            "time": 3.75,
+            "fps": 59.5,
+            "scale": 0.85
+          },
+          {
+            "time": 5.56,
+            "fps": 55.6,
+            "scale": 0.9
+          },
+          {
+            "time": 7.38,
+            "fps": 53.9,
+            "scale": 0.9
+          },
+          {
+            "time": 9.19,
+            "fps": 51.2,
+            "scale": 0.9
+          },
+          {
+            "time": 11.01,
+            "fps": 56.7,
+            "scale": 0.9
+          },
+          {
+            "time": 12.83,
+            "fps": 52.8,
+            "scale": 0.9
+          },
+          {
+            "time": 14.64,
+            "fps": 60,
+            "scale": 0.9
+          },
+          {
+            "time": 16.49,
+            "fps": 43.2,
+            "scale": 0.9500000000000001
+          }
+        ],
+        "fps": 43.2,
+        "diskTime": 16.944599999998424,
+        "diskPhase": 21.689087999997984,
+        "camera": [
+          -0.46020654000270184,
+          0.44797309577564126,
+          11.694794138442058
+        ],
+        "cameraZ": 11.694794138442058,
+        "center": [
+          0.7589086193594986,
+          0.40433970014294235
+        ],
+        "pathProgress": 0,
+        "pixelRatio": 1,
+        "resolution": {
+          "output": [
+            1440,
+            900
+          ],
+          "volume": [
+            1368,
+            855
+          ],
+          "scale": 0.9500000000000001
+        },
+        "drawCalls": 6,
+        "triangles": 10
+      },
+      "gpu": [
+        {
+          "id": 1,
+          "role": "disk",
+          "uploaded": 16.994499999998425,
+          "gpu": 16.99449920654297,
+          "uploads": 896
+        },
+        {
+          "id": 2,
+          "role": "dust",
+          "uploaded": 16.994499999998425,
+          "gpu": 16.99449920654297,
+          "uploads": 896
+        }
+      ]
+    }
+  ],
+  "reproduced": "Moving texture becomes nearly stationary in legacy lookup while GPU time advances; stable-level lookup restores it.",
+  "appearance": [
+    {
+      "progress": 0,
+      "meanChannelDifference": 1.0377724609375
+    },
+    {
+      "progress": 0.5,
+      "meanChannelDifference": 0.8243147786458334
+    },
+    {
+      "progress": 1,
+      "meanChannelDifference": 0.27855305989583334
+    }
+  ],
+  "bfcacheRestored": true,
+  "status": "passed",
+  "errors": [],
+  "limitation": "Complete live clock stoppage was not reproduced. Texture-motion loss was reproduced deterministically with accelerated ages; checks cover Chromium/Metal, not every GPU/browser."
+}

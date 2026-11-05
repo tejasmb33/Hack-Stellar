@@ -67,3 +67,7 @@ Permanent project: `~/Documents/ace-hackathon`. Branch: `main`. Local history is
 ## Final content verification
 
 `python tests/hackstellar_check.py <new-preview-url> <approved-baseline-url>` verifies content, gallery, logos, and pixel-identical backgrounds at a fixed animation time. For ordinary regression checks use `tests/browser_check.py`. `tests/finalized_scene_sha256.json` guards the finalized renderer files. `HACKSTELLAR_REQUIREMENTS.md` preserves the latest organizer request.
+
+## Ring-animation reliability fix
+
+`RING_FREEZE_FIX.md` documents the targeted `matter()` texture-lookup correction and the controlled reproduction. It changes no clock, speed, particle, camera or styling parameters. Run `python tests/ring_freeze_check.py http://127.0.0.1:8000` for disk-specific GPU/visual and repeated lifecycle checks.

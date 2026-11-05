@@ -1,0 +1,352 @@
+[
+  {
+    "progress": 0,
+    "age": 0,
+    "meanDiskChange": 37.03639436429156,
+    "changedDiskFraction": 0.8910452250743846,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 2,
+        "gpu": 2,
+        "uploads": 2
+      }
+    ]
+  },
+  {
+    "progress": 0,
+    "age": 15,
+    "meanDiskChange": 26.30319934222338,
+    "changedDiskFraction": 0.8775348471801487,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 17,
+        "gpu": 17,
+        "uploads": 4
+      }
+    ]
+  },
+  {
+    "progress": 0,
+    "age": 60,
+    "meanDiskChange": 18.939784288512744,
+    "changedDiskFraction": 0.8562413057133179,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 62,
+        "gpu": 62,
+        "uploads": 6
+      }
+    ]
+  },
+  {
+    "progress": 0,
+    "age": 300,
+    "meanDiskChange": 16.317788258035794,
+    "changedDiskFraction": 0.8444269901629361,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 302,
+        "gpu": 302,
+        "uploads": 8
+      }
+    ]
+  },
+  {
+    "progress": 0,
+    "age": 1800,
+    "meanDiskChange": 14.69153825163216,
+    "changedDiskFraction": 0.8220569726388524,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 1802,
+        "gpu": 1802,
+        "uploads": 10
+      }
+    ]
+  },
+  {
+    "progress": 0.25,
+    "age": 0,
+    "meanDiskChange": 32.723060188614916,
+    "changedDiskFraction": 0.8799626889173487,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 2,
+        "gpu": 2,
+        "uploads": 12
+      }
+    ]
+  },
+  {
+    "progress": 0.25,
+    "age": 15,
+    "meanDiskChange": 24.9324603008121,
+    "changedDiskFraction": 0.8669910344808798,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 17,
+        "gpu": 17,
+        "uploads": 14
+      }
+    ]
+  },
+  {
+    "progress": 0.25,
+    "age": 60,
+    "meanDiskChange": 19.217102235141756,
+    "changedDiskFraction": 0.8451826592503564,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 62,
+        "gpu": 62,
+        "uploads": 16
+      }
+    ]
+  },
+  {
+    "progress": 0.25,
+    "age": 300,
+    "meanDiskChange": 16.26101081078421,
+    "changedDiskFraction": 0.8287418254823519,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 302,
+        "gpu": 302,
+        "uploads": 18
+      }
+    ]
+  },
+  {
+    "progress": 0.25,
+    "age": 1800,
+    "meanDiskChange": 13.733627591976534,
+    "changedDiskFraction": 0.8103429531681468,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 1802,
+        "gpu": 1802,
+        "uploads": 20
+      }
+    ]
+  },
+  {
+    "progress": 0.5,
+    "age": 0,
+    "meanDiskChange": 37.808747081654474,
+    "changedDiskFraction": 0.8799047629618941,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 2,
+        "gpu": 2,
+        "uploads": 22
+      }
+    ]
+  },
+  {
+    "progress": 0.5,
+    "age": 15,
+    "meanDiskChange": 30.471625475836532,
+    "changedDiskFraction": 0.8780035498192774,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 17,
+        "gpu": 17,
+        "uploads": 24
+      }
+    ]
+  },
+  {
+    "progress": 0.5,
+    "age": 60,
+    "meanDiskChange": 20.221720175588164,
+    "changedDiskFraction": 0.8516092795602941,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 62,
+        "gpu": 62,
+        "uploads": 26
+      }
+    ]
+  },
+  {
+    "progress": 0.5,
+    "age": 300,
+    "meanDiskChange": 15.310942021182958,
+    "changedDiskFraction": 0.8260943132117459,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 302,
+        "gpu": 302,
+        "uploads": 28
+      }
+    ]
+  },
+  {
+    "progress": 0.5,
+    "age": 1800,
+    "meanDiskChange": 14.201740851982441,
+    "changedDiskFraction": 0.7951750122124039,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 1802,
+        "gpu": 1802,
+        "uploads": 30
+      }
+    ]
+  },
+  {
+    "progress": 0.8,
+    "age": 0,
+    "meanDiskChange": 27.839452658923744,
+    "changedDiskFraction": 0.6230988808506139,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 2,
+        "gpu": 2,
+        "uploads": 32
+      }
+    ]
+  },
+  {
+    "progress": 0.8,
+    "age": 15,
+    "meanDiskChange": 21.099774494263283,
+    "changedDiskFraction": 0.6319208559782609,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 17,
+        "gpu": 17,
+        "uploads": 34
+      }
+    ]
+  },
+  {
+    "progress": 0.8,
+    "age": 60,
+    "meanDiskChange": 13.061520484236603,
+    "changedDiskFraction": 0.6130267124728318,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 62,
+        "gpu": 62,
+        "uploads": 36
+      }
+    ]
+  },
+  {
+    "progress": 0.8,
+    "age": 300,
+    "meanDiskChange": 11.093143669185205,
+    "changedDiskFraction": 0.5997917633981962,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 302,
+        "gpu": 302,
+        "uploads": 38
+      }
+    ]
+  },
+  {
+    "progress": 0.8,
+    "age": 1800,
+    "meanDiskChange": 11.17129257891262,
+    "changedDiskFraction": 0.591055082704352,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 1802,
+        "gpu": 1802,
+        "uploads": 40
+      }
+    ]
+  },
+  {
+    "progress": 1,
+    "age": 0,
+    "meanDiskChange": 17.462897983053846,
+    "changedDiskFraction": 0.3940185238075809,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 2,
+        "gpu": 2,
+        "uploads": 42
+      }
+    ]
+  },
+  {
+    "progress": 1,
+    "age": 15,
+    "meanDiskChange": 12.689328275581936,
+    "changedDiskFraction": 0.40562904145128637,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 17,
+        "gpu": 17,
+        "uploads": 44
+      }
+    ]
+  },
+  {
+    "progress": 1,
+    "age": 60,
+    "meanDiskChange": 7.870007998907465,
+    "changedDiskFraction": 0.39202450397018945,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 62,
+        "gpu": 62,
+        "uploads": 46
+      }
+    ]
+  },
+  {
+    "progress": 1,
+    "age": 300,
+    "meanDiskChange": 7.400585136748145,
+    "changedDiskFraction": 0.39687451346722713,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 302,
+        "gpu": 302,
+        "uploads": 48
+      }
+    ]
+  },
+  {
+    "progress": 1,
+    "age": 1800,
+    "meanDiskChange": 7.87375585430776,
+    "changedDiskFraction": 0.4150611543515617,
+    "gpu": [
+      {
+        "id": 1,
+        "uploaded": 1802,
+        "gpu": 1802,
+        "uploads": 50
+      }
+    ]
+  }
+]
