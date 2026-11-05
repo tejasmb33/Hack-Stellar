@@ -58,3 +58,7 @@
 .judge-affiliations .group-heading>a,.group-heading>span{background:#05080ebd;border:1px solid #8ba8c219;border-radius:20px;padding:6px 11px;line-height:1.6}
 .preview-list{background:#07111de8;border-radius:12px;padding:0 24px;border:1px solid #9abbd52a}.preview-row:last-child{border-bottom:0}
 @media(max-width:540px){.filter-toolbar label:not(.search-field){flex-basis:100%}.reset-button{margin-left:auto;min-height:40px}.preview-list{padding:0 18px}.group-heading>span{font-size:9px;padding:5px 8px}}
+
+/* Home hero only: retain legibility against the new HDR accretion material. */
+.home .hero h1{text-shadow:0 2px 18px #02050af0,0 0 45px #02050ac9}
+.home .hero-eyebrow{text-shadow:0 2px 8px #02050a,0 0 20px #02050a}

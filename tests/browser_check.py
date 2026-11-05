@@ -16,7 +16,7 @@ with sync_playwright() as p:
  page=new_page();page.goto(BASE,wait_until='networkidle')
  page.wait_for_function('window.__cosmos && window.__cosmos.frames > 2')
  initial=page.evaluate('({...window.__cosmos})');assert initial['scene']=='black-hole' and initial['raySteps']>=128 and initial['particles']>=1800
- assert initial['cameraZ']<12 and initial['drawCalls']>=3 and initial['triangles']>1000
+ assert initial['cameraZ']<12 and initial['drawCalls']>=3 and initial['pipeline']=='curved-ray-volume/HDR/depth-aware-dust'
  page.wait_for_function('(phase)=>window.__cosmos.diskPhase > phase+.01',arg=initial['diskPhase'])
  moving=page.evaluate('({...window.__cosmos})');assert moving['camera']!=initial['camera'] and moving['diskTime']>initial['diskTime']
  assert ' '.join(page.locator('h1').inner_text().split())=='INTERSTELLAR : THE BUILDATHON'
@@ -28,7 +28,7 @@ with sync_playwright() as p:
  assert page.locator('.judge-card').nth(1).locator('.profile-link').get_attribute('href')==DATA['judges'][1]['linkedin']
  page.emulate_media(reduced_motion='reduce');page.wait_for_timeout(100)
  page.screenshot(path=str(OUT/'desktop-hero.png'));page.screenshot(path=str(OUT/'desktop-home.png'),full_page=True)
- checks.append('Larger live 3D black hole: rotating disk phase, autonomous camera movement, depth geometry and 4800-particle desktop field')
+ checks.append('Larger live 3D black hole: rotating disk phase, autonomous camera movement, curved-ray emitting volume and 10500-particle desktop field')
  # Freeze time but sample the full camera path in both directions; visual state may not be hidden or faded.
  route=[0,400,800,1200,1600,1980,1990,2200,2700,3300,2200,1200,400,0]
  recorded={};samples=[]

@@ -1,0 +1,96 @@
+{
+  "viewport": [
+    390,
+    844
+  ],
+  "emulation": "Mobile viewport, desktop CPU/SwiftShader; not a physical phone",
+  "fps": 32.719268674731794,
+  "clockRatio": 1.001368260325212,
+  "state": {
+    "wall": 14869,
+    "frames": 460,
+    "webgl": true,
+    "scene": "black-hole",
+    "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+    "raySteps": 120,
+    "particles": 4000,
+    "hdr": true,
+    "paused": false,
+    "sceneOpacity": 1,
+    "holeVisible": true,
+    "mode": "adaptive",
+    "samples": [
+      {
+        "time": 1.85,
+        "fps": 13.7,
+        "scale": 0.72
+      },
+      {
+        "time": 3.67,
+        "fps": 34.7,
+        "scale": 0.44800138010804713
+      },
+      {
+        "time": 5.47,
+        "fps": 34.4,
+        "scale": 0.44800138010804713
+      },
+      {
+        "time": 7.28,
+        "fps": 34.1,
+        "scale": 0.44800138010804713
+      },
+      {
+        "time": 9.12,
+        "fps": 33.8,
+        "scale": 0.44800138010804713
+      },
+      {
+        "time": 10.93,
+        "fps": 33,
+        "scale": 0.44800138010804713
+      },
+      {
+        "time": 12.77,
+        "fps": 32.7,
+        "scale": 0.44800138010804713
+      },
+      {
+        "time": 14.6,
+        "fps": 32.7,
+        "scale": 0.44800138010804713
+      }
+    ],
+    "fps": 32.7,
+    "diskTime": 14.76759999999998,
+    "diskPhase": 10.632671999999985,
+    "camera": [
+      0.41651154317552863,
+      0.6049208955695378,
+      15
+    ],
+    "cameraZ": 15,
+    "center": [
+      0.654948797717898,
+      0.3691308138010352
+    ],
+    "pathProgress": 0,
+    "pixelRatio": 1,
+    "resolution": {
+      "output": [
+        390,
+        844
+      ],
+      "volume": [
+        175,
+        378
+      ],
+      "scale": 0.44800138010804713
+    },
+    "drawCalls": 6,
+    "triangles": 10
+  },
+  "reducedMotion": "passed",
+  "contextRecovery": "passed",
+  "errors": []
+}

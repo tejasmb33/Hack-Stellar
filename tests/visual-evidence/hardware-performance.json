@@ -1,0 +1,354 @@
+[
+  {
+    "viewport": [
+      1440,
+      900
+    ],
+    "devicePixelRatio": 1,
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)",
+    "browser": "156.0.8078.4",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "measuredFPS": 60.04993757802747,
+    "clockRatio": 1.0007990012484145,
+    "before": {
+      "wall": 10644.10000000149,
+      "frames": 629,
+      "webgl": true,
+      "scene": "black-hole",
+      "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+      "raySteps": 160,
+      "particles": 10500,
+      "hdr": true,
+      "paused": false,
+      "sceneOpacity": 1,
+      "holeVisible": true,
+      "mode": "full",
+      "samples": [
+        {
+          "time": 1.86,
+          "fps": 61.3,
+          "scale": 0.85
+        },
+        {
+          "time": 3.67,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 5.49,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 7.31,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 9.12,
+          "fps": 60,
+          "scale": 0.9500000000000001
+        }
+      ],
+      "fps": 60,
+      "diskTime": 10.471599999998512,
+      "diskPhase": 7.5395519999989284,
+      "camera": [
+        0.3970796554892692,
+        0.6002440760838927,
+        11.7
+      ],
+      "cameraZ": 11.7,
+      "center": [
+        0.7531675292146391,
+        0.40333014670236206
+      ],
+      "pathProgress": 0,
+      "pixelRatio": 1,
+      "resolution": {
+        "output": [
+          1440,
+          900
+        ],
+        "volume": [
+          1368,
+          855
+        ],
+        "scale": 0.9500000000000001
+      },
+      "drawCalls": 6,
+      "triangles": 10
+    },
+    "after": {
+      "wall": 18654.10000000149,
+      "frames": 1110,
+      "webgl": true,
+      "scene": "black-hole",
+      "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+      "raySteps": 160,
+      "particles": 10500,
+      "hdr": true,
+      "paused": false,
+      "sceneOpacity": 1,
+      "holeVisible": true,
+      "mode": "full",
+      "samples": [
+        {
+          "time": 1.86,
+          "fps": 61.3,
+          "scale": 0.85
+        },
+        {
+          "time": 3.67,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 5.49,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 7.31,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 9.12,
+          "fps": 60,
+          "scale": 0.9500000000000001
+        },
+        {
+          "time": 10.94,
+          "fps": 60,
+          "scale": 0.9500000000000001
+        },
+        {
+          "time": 12.75,
+          "fps": 60,
+          "scale": 0.9500000000000001
+        },
+        {
+          "time": 14.57,
+          "fps": 60,
+          "scale": 1
+        },
+        {
+          "time": 16.37,
+          "fps": 60,
+          "scale": 1
+        },
+        {
+          "time": 18.19,
+          "fps": 60,
+          "scale": 1
+        }
+      ],
+      "fps": 60,
+      "diskTime": 18.487999999998312,
+      "diskPhase": 13.311359999998784,
+      "camera": [
+        0.4194800548001762,
+        0.5992122714846286,
+        11.7
+      ],
+      "cameraZ": 11.7,
+      "center": [
+        0.7531145365587983,
+        0.40420029350271486
+      ],
+      "pathProgress": 0,
+      "pixelRatio": 1,
+      "resolution": {
+        "output": [
+          1440,
+          900
+        ],
+        "volume": [
+          1440,
+          900
+        ],
+        "scale": 1
+      },
+      "drawCalls": 6,
+      "triangles": 10
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      1920,
+      1080
+    ],
+    "devicePixelRatio": 1.25,
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)",
+    "browser": "156.0.8078.4",
+    "platform": "macOS-15.5-arm64-arm-64bit",
+    "measuredFPS": 59.2115125168971,
+    "clockRatio": 0.9993129465852614,
+    "before": {
+      "wall": 10592.90000000596,
+      "frames": 632,
+      "webgl": true,
+      "scene": "black-hole",
+      "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+      "raySteps": 160,
+      "particles": 10500,
+      "hdr": true,
+      "paused": false,
+      "sceneOpacity": 1,
+      "holeVisible": true,
+      "mode": "full",
+      "samples": [
+        {
+          "time": 1.84,
+          "fps": 61.6,
+          "scale": 0.85
+        },
+        {
+          "time": 3.64,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 5.46,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 7.27,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 9.09,
+          "fps": 60,
+          "scale": 0.9500000000000001
+        }
+      ],
+      "fps": 60,
+      "diskTime": 10.506900000004466,
+      "diskPhase": 7.564968000003215,
+      "camera": [
+        0.397303262857454,
+        0.6003305698538218,
+        11.7
+      ],
+      "cameraZ": 11.7,
+      "center": [
+        0.7278497250452871,
+        0.4033333807045494
+      ],
+      "pathProgress": 0,
+      "pixelRatio": 1.25,
+      "resolution": {
+        "output": [
+          2400,
+          1350
+        ],
+        "volume": [
+          2280,
+          1283
+        ],
+        "scale": 0.9500000000000001
+      },
+      "drawCalls": 6,
+      "triangles": 10
+    },
+    "after": {
+      "wall": 18598.10000000149,
+      "frames": 1106,
+      "webgl": true,
+      "scene": "black-hole",
+      "pipeline": "curved-ray-volume/HDR/depth-aware-dust",
+      "raySteps": 160,
+      "particles": 10500,
+      "hdr": true,
+      "paused": false,
+      "sceneOpacity": 1,
+      "holeVisible": true,
+      "mode": "full",
+      "samples": [
+        {
+          "time": 1.84,
+          "fps": 61.6,
+          "scale": 0.85
+        },
+        {
+          "time": 3.64,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 5.46,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 7.27,
+          "fps": 60,
+          "scale": 0.9
+        },
+        {
+          "time": 9.09,
+          "fps": 60,
+          "scale": 0.9500000000000001
+        },
+        {
+          "time": 10.91,
+          "fps": 60,
+          "scale": 0.9500000000000001
+        },
+        {
+          "time": 12.72,
+          "fps": 60,
+          "scale": 0.9500000000000001
+        },
+        {
+          "time": 14.54,
+          "fps": 60,
+          "scale": 1
+        },
+        {
+          "time": 16.36,
+          "fps": 60,
+          "scale": 1
+        },
+        {
+          "time": 18.17,
+          "fps": 56.7,
+          "scale": 1
+        }
+      ],
+      "fps": 56.7,
+      "diskTime": 18.506600000004333,
+      "diskPhase": 13.32475200000312,
+      "camera": [
+        0.4194612077431448,
+        0.599161920474398,
+        11.7
+      ],
+      "cameraZ": 11.7,
+      "center": [
+        0.7278034496621677,
+        0.4042025901113903
+      ],
+      "pathProgress": 0,
+      "pixelRatio": 1.25,
+      "resolution": {
+        "output": [
+          2400,
+          1350
+        ],
+        "volume": [
+          2400,
+          1350
+        ],
+        "scale": 1
+      },
+      "drawCalls": 6,
+      "triangles": 10
+    },
+    "errors": []
+  }
+]
