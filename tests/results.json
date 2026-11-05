@@ -1,13 +1,14 @@
 {
   "status": "passed",
-  "publishedStatements": 3,
+  "publishedStatements": 17,
+  "domainTags": 21,
   "checks": [
-    "Live 3D ray-traced black hole, lensed disk, animated dust, new branding, verified judges and direct registration links",
-    "Scroll camera transitions, non-sticky header, floating registration visibility, FAQ, Easter eggs and sponsor assets",
-    "All records initially visible; All Domains restoration, explicit filtering, count wording, search, reset, reload defaults and all full briefs",
-    "Homepage, directory and full brief fit 320,390,768,1280,1440px widths; initial registration action remains visible",
-    "Reduced-motion pause, all content without JavaScript and usable unavailable-WebGL fallback"
-  ],
-  "registrationFormHTTPStatus": 200,
-  "buildRegressionTests": "passed, including an isolated 30-record published collection"
+    "Larger live 3D black hole: rotating disk phase, autonomous camera movement, depth geometry and 4800-particle desktop field",
+    "Approach/pass/recede camera path remains rendered at every sample, has no opacity switch and reverses to matching positions",
+    "Non-sticky header, hero/floating registration, confirmed FAQ and subtle Easter egg remain functional",
+    "Exactly 17 ordered statements, all 21 selectable domains, Web Development/IoT examples, combined search, accurate counts, reset and fresh-page defaults",
+    "All 17 full-statement pages contain the exact official title, domain label, Description and Challenge without invented sources",
+    "320\u20131440px layouts pass; every sponsor logo is centered, contained and undistorted within equal-height cards",
+    "Reduced motion, accessible native domain control, no-JavaScript full catalogue and unavailable-WebGL fallback remain usable"
+  ]
 }

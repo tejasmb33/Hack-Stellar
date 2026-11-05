@@ -1,32 +1,35 @@
-# Organizer content inventory — current approvals
+# Current organizer approvals
 
-## Official identity and event information
-- INTERSTELLAR : THE BUILDATHON; tagline: Code. Create. Conquer.
-- Organized by ACE Club, Ramaiah Institute of Technology; official supplied ACE logo retained.
-- 13 November 2026 at 10:00 AM IST; ESB Seminar Hall.
+## Event and registration
+- INTERSTELLAR : THE BUILDATHON; Code. Create. Conquer.
+- ACE Club, Ramaiah Institute of Technology; supplied ACE logo.
+- 13 November 2026, 10:00 AM IST; ESB Seminar Hall.
 - CSE department students only; teams of 2–4.
 - ₹20,000 total prize pool, with exciting gifts, vouchers and cash prizes.
-- Registration deadline: 12 November 2026, 11:59 PM IST.
-- Approved Google Form: https://docs.google.com/forms/d/e/1FAIpQLSesCbCTvnpS83vPGU6mv_uvrE8m0hz9cfPsO6qHvGduK1daCQ/viewform
+- Deadline: 12 November 2026, 11:59 PM IST.
+- All registration actions use the approved form: https://docs.google.com/forms/d/e/1FAIpQLSesCbCTvnpS83vPGU6mv_uvrE8m0hz9cfPsO6qHvGduK1daCQ/viewform
 
-## Problem statements and contributors
-- Organizer explicitly confirmed that there are no additional statements for now. Exactly three real briefs are published; all are included in the initial collection, with All Domains selected.
-- Employees contribute personally; their employers are Amazon, TCS, HP, Blackhawk Networks and Cisco. Use “Problem statements contributed by professionals from,” without implying official corporate submissions or sponsorship.
-- Organizer explicitly requested that individual statements NOT identify their company. No per-statement company attribution or contributor filter is shown.
-- The three titles, complete brief text, supplied domains, expected functionality, outcomes and notes remain intact. No invented records were added to reach a target count.
+## Authoritative problem catalogue
+REFINEMENT_REQUIREMENTS.md supersedes the former three-brief collection. It supplies exactly 17 numbered statements, with official titles, slash-separated domain labels, complete Descriptions and complete Challenges. Those fields are preserved exactly in content.json and all 17 dedicated detail pages.
 
-## Judges — latest message and explicit follow-up control
-- Siddhartha Pandey: Microsoft; IITian; https://www.linkedin.com/in/siddharthapandey/
-- Gokaraju Abhijit: Ribbon Communications; BITS Pilani; https://www.linkedin.com/in/gokarajuabhijit/
-- The final document initially named Judge 02 as Abhijit Verma. The organizer then corrected the name to Gokaraju Abhijit and explicitly confirmed Ribbon Communications / BITS Pilani apply to him.
-- No specific IIT campus, degree, job title, graduation year or biography is invented.
-- Official portraits and professional titles remain pending. Judge company logos were not requested as mandatory; text affiliations avoid introducing unapproved marks.
+Exactly 21 distinct domain tags are derived from the full published collection. Defaults are All Domains and Showing 17 of 17 problem statements. Search and domain filtering are optional user actions; no pagination, remembered filters or hidden starting subset is applied.
+
+The canonical tag order is AI, NLP, HR Tech, Web Development, Automation, Retail Tech, Voice AI, Machine Learning, Cloud Computing, Software Engineering, Networking, Algorithm Transparency, IoT, Agriculture, Cybersecurity, Digital Media, Transportation, Industrial Automation, E-Commerce, Logistics, Energy Management.
+
+Contributors are individual professionals employed at Amazon, TCS, HP, Blackhawk Networks and Cisco. These are not official corporate submissions or sponsorships. The organizer requested no individual problem-to-company mappings; none are displayed or invented. The provider showcase is text-only.
+
+## Judges — latest correction and reply
+- Siddhartha Pandey; Microsoft; IITian; https://www.linkedin.com/in/siddharthapandey/
+- Abhijeet Verma; Ribbon Communications; BITS Pilani.
+- The latest official spelling is Abhijeet Verma. After being asked about the previous LinkedIn URL, the organizer explicitly confirmed it is correct and should be retained: https://www.linkedin.com/in/gokarajuabhijit/
+- The name in the URL is not used to override the organizer's explicit correction.
+- Portraits and specific professional titles remain pending. No IIT campus, degree, graduation year, portrait or biography was invented. Existing judge affiliations are text-only; no new company marks were fabricated.
 
 ## Sponsors
-PARTEX, Coastal Naati Kitchen, TAGS. Original supplied marks retained. Judge affiliations and problem-contributor employers are separate from sponsors.
+PARTEX, Coastal Naati Kitchen and TAGS. Supplied images are preserved unchanged, centered with contain sizing and constrained to uniform padded frames. Sponsor branding is separate from contributor and judge affiliations.
 
-## Deferred information
-Event flow, preparation mechanics, presentation rules and judging criteria remain omitted under the earlier explicit organizer instruction. Organizer contacts, official socials and prize split remain pending.
+## Deferred
+Event mechanics, preparation instructions, judging criteria, organizer contacts, social links and prize split remain unspecified. No unsupported event-flow steps or new facts were introduced.
 
-## Design overrides
-FINAL_REQUIREMENTS.md and subsequent organizer replies override the original design document where they differ: new event name, original live black-hole rendering with no Earth assets, text-only contributor showcase, all-statements defaults and revised judge affiliations.
+## Visual refinements
+The latest document and additional message require an enormous live black hole, visibly rotating disk matter, dynamic dust, camera drift and a continuous three-dimensional approach/pass/recede path. The central body itself is not spun. There are no scroll opacity ramps, visibility thresholds or scene swaps. See REFERENCE_STUDY.md for the reference review and its access limits.

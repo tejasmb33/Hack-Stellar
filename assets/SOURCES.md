@@ -14,3 +14,6 @@ The central-force null-ray approximation bends the sampled light paths in 3D and
   - https://github.com/google/fonts/tree/main/ofl/inter
 
 All active browser assets are local. The registration form and judge profiles are the supplied external destinations.
+
+## Current scene refinement
+No reference-site assets were copied. The scene now adds a continuously rotating advected disk material, three world-space star depths, low-density gas and smoothly enveloped inward/orbiting dust. A centripetal spline moves the camera through a genuine approach/pass/recede trajectory; no opacity ramp or scroll visibility threshold substitutes for that movement. Source body/scene remains procedural. Grail and Spyker were visually inspected; Igloo remained at its loader in this environment, as recorded in REFERENCE_STUDY.md.

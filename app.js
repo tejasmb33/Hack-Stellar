@@ -12,8 +12,7 @@ function filterProblems() {
     card.hidden = !match;
     if (match) count++;
   }
-  const filtered = Boolean(query || domain.value || source?.value);
-  document.querySelector('#result-count').textContent = filtered ? `Showing ${count} of ${cards.length} problem statements` : `Showing all ${cards.length} problem statements`;
+  document.querySelector('#result-count').textContent = `Showing ${count} of ${cards.length} problem statements`;
   document.querySelector('#empty').hidden = count !== 0;
 }
 function resetFilters() { search.value = ''; domain.value = ''; if (source) source.value = ''; filterProblems(); search.focus(); }
