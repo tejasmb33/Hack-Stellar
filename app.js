@@ -1,6 +1,6 @@
 'use strict';
 const search = document.querySelector('#search');
-const category = document.querySelector('#category');
+const domain = document.querySelector('#domain');
 const source = document.querySelector('#source');
 const cards = [...document.querySelectorAll('.problem-card')];
 function normalize(value) { return value.toLowerCase().normalize('NFKD').replace(/[–—−]/g, '-').replace(/\s+/g, ' ').trim(); }
@@ -8,17 +8,21 @@ function filterProblems() {
   const query = normalize(search.value);
   let count = 0;
   for (const card of cards) {
-    const match = normalize(card.dataset.search).includes(query) && (!category.value || card.dataset.domains.split('|').includes(category.value)) && (!source?.value || card.dataset.source === source.value);
+    const match = normalize(card.dataset.search).includes(query) && (!domain.value || card.dataset.domains.split('|').includes(domain.value)) && (!source?.value || card.dataset.source === source.value);
     card.hidden = !match;
     if (match) count++;
   }
-  document.querySelector('#result-count').textContent = `${count} of ${cards.length} problem statements`;
+  const filtered = Boolean(query || domain.value || source?.value);
+  document.querySelector('#result-count').textContent = filtered ? `Showing ${count} of ${cards.length} problem statements` : `Showing all ${cards.length} problem statements`;
   document.querySelector('#empty').hidden = count !== 0;
 }
-function resetFilters() { search.value = ''; category.value = ''; if (source) source.value = ''; filterProblems(); search.focus(); }
+function resetFilters() { search.value = ''; domain.value = ''; if (source) source.value = ''; filterProblems(); search.focus(); }
 if (search) {
+  const showAll = () => {search.value = ''; domain.value = ''; if (source) source.value = ''; filterProblems();};
+  showAll();
+  addEventListener('pageshow', showAll);
   search.addEventListener('input', filterProblems);
-  category.addEventListener('change', filterProblems);
+  domain.addEventListener('change', filterProblems);
   source?.addEventListener('change', filterProblems);
   document.querySelector('.filter-toolbar').addEventListener('submit', event => event.preventDefault());
   document.querySelector('#reset').addEventListener('click', event => {event.preventDefault(); resetFilters();});
@@ -28,6 +32,9 @@ const floating = document.querySelector('.floating-register');
 const heroRegister = document.querySelector('#hero-register');
 let passed = false, atRegistration = false;
 function updateFloating() {
+  passed = heroRegister.getBoundingClientRect().bottom < 0;
+  const registrationRect = document.querySelector('#registration').getBoundingClientRect();
+  atRegistration = registrationRect.top < innerHeight && registrationRect.bottom > 0;
   const style = getComputedStyle(floating);
   const right = parseFloat(style.right) || 16;
   const bottom = parseFloat(style.bottom) || 16;

@@ -1,6 +1,6 @@
 {
   "event": {
-    "name": "Ace Hackathon",
+    "name": "INTERSTELLAR : THE BUILDATHON",
     "tagline": "Code. Create. Conquer.",
     "college": "Ramaiah Institute of Technology",
     "club": "ACE Club",
@@ -11,7 +11,7 @@
     "eligibility": "CSE department students only",
     "teamSize": "2–4",
     "prize": "₹20,000",
-    "registrationUrl": null
+    "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesCbCTvnpS83vPGU6mv_uvrE8m0hz9cfPsO6qHvGduK1daCQ/viewform"
   },
   "judges": [
     {
@@ -19,16 +19,18 @@
       "initials": "SP",
       "linkedin": "https://www.linkedin.com/in/siddharthapandey/",
       "designation": null,
-      "organization": null,
-      "portrait": null
+      "organization": "Microsoft",
+      "portrait": null,
+      "education": "IITian"
     },
     {
       "name": "Gokaraju Abhijit",
       "initials": "GA",
       "linkedin": "https://www.linkedin.com/in/gokarajuabhijit/",
       "designation": null,
-      "organization": null,
-      "portrait": null
+      "organization": "Ribbon Communications",
+      "portrait": null,
+      "education": "BITS Pilani"
     }
   ],
   "problems": [
@@ -72,5 +74,14 @@
       "summary": "A functional AI-powered voice assistance prototype capable of initiating proactive customer follow-ups, conducting meaningful conversations, identifying concerns, and facilitating timely communication between customers and service providers.",
       "brief": "PROBLEM STATEMENT 03\n\nAI-Powered Proactive Customer Follow-Up and Assistance Agent\n\nDomain: Artificial Intelligence | Voice AI | Automation | Customer Relationship Management\n\nProblem Description\n\nOrganizations across industries such as healthcare, automobile sales, and customer services often depend on customers to initiate communication when they require assistance.\n\nHowever, customers may forget scheduled maintenance, delay reporting issues, or fail to follow up after receiving a service. This creates communication gaps and reduces opportunities for organizations to provide timely support.\n\nFor example:\n\nHealthcare: After a patient is discharged from a hospital, the hospital may need to check on the patient's recovery, identify any post-treatment concerns, and connect the patient with appropriate medical staff when necessary.\n\nAutomobile Industry: After purchasing a vehicle, customers may require periodic maintenance reminders, servicing assistance, and follow-up communication from the dealership.\n\nAn intelligent voice-based system could proactively initiate these interactions, gather responses, and route concerns to the appropriate personnel.\n\nProblem Statement\n\nDesign and develop an AI-powered proactive voice communication agent that automatically initiates personalized follow-up calls to customers or service recipients, understands their responses, and takes appropriate actions based on their requirements.\n\nThe solution should support automated outbound voice interactions, natural-language conversations, and intelligent issue identification and escalation.\n\nExpected Functionalities\n\n- Automatically initiating follow-up calls based on predefined schedules or triggering events.\n- Interacting with customers using an AI-powered conversational voice agent.\n- Understanding spoken responses and identifying customer concerns.\n- Asking relevant follow-up questions based on the conversation.\n- Classifying customer responses into categories such as satisfactory, assistance required, or urgent attention needed.\n- Automatically notifying or routing identified issues to the appropriate staff or department.\n- Maintaining conversation summaries and follow-up records.\n- Providing an administrative dashboard to monitor interactions, unresolved issues, and follow-up status.\n- Supporting customer consent, privacy, and the option to decline further automated calls.\n\nExpected Outcome\n\nA functional AI-powered voice assistance prototype capable of initiating proactive customer follow-ups, conducting meaningful conversations, identifying concerns, and facilitating timely communication between customers and service providers.\n\nNote: Teams may demonstrate the solution using healthcare, automobile servicing, or another relevant service industry. Simulated calls and mock customer data may be used. Healthcare implementations should escalate medical concerns to qualified personnel rather than provide autonomous medical decisions."
     }
-  ]
+  ],
+  "problemProviders": [
+    "Amazon",
+    "TCS",
+    "HP",
+    "Blackhawk Networks",
+    "Cisco"
+  ],
+  "providerAttribution": "professionals",
+  "showProblemSources": false
 }

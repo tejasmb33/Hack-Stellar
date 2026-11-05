@@ -14,7 +14,7 @@ parser=argparse.ArgumentParser();parser.add_argument('--port',type=int,default=8
 url=f'http://127.0.0.1:{args.port}'
 try:server=ThreadingHTTPServer(('127.0.0.1',args.port),partial(Handler,directory=str(ROOT)))
 except OSError as error:raise SystemExit(f'Cannot start preview: {error}. Try --port 8001.')
-print(f'Ace Hackathon: {url}\nProblem Statements: {url}/problem-statements/\nPress Ctrl+C to stop.',flush=True)
+print(f'INTERSTELLAR : THE BUILDATHON: {url}\nProblem Statements: {url}/problem-statements/\nPress Ctrl+C to stop.',flush=True)
 if args.open:threading.Timer(.5,lambda:webbrowser.open(url)).start()
 try:server.serve_forever()
 except KeyboardInterrupt:print('\nPreview stopped.')

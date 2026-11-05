@@ -1,25 +1,16 @@
-# Asset provenance
+# Active asset provenance
 
-## Supplied by organizer
-ACE Club, PARTEX, Coastal Naati Kitchen and TAGS assets are copied unchanged from the supplied attachments. They are displayed with `object-fit: contain`, retaining their colours, geometry and backgrounds.
+## Official organizer and sponsor assets
+ACE Club, PARTEX, Coastal Naati Kitchen and TAGS were supplied by the organizer. Their marks retain their original proportions, colours and source backgrounds. No corporate logos appear in the problem-provider showcase, directory or brief pages. Judge affiliations are text-only.
 
-## Corporate references
-Permission to source official public marks was given in the conversation. These companies are inspiration references, not confirmed event sponsors or specific brief contributors.
+## Original black-hole rendering
+`scene.js` implements a live, original three-dimensional gravitational ray integrator, a procedural orbiting accretion disk, a volumetric corona, depth-occluded 3D dust and a subtle lattice detail. The warm disk and blue-black space are shaded in real time. There are no Earth assets, movie frames, black-hole images, background videos or copied promotional assets.
 
-- HP: official `digitnav-logo-icon` symbol from https://www.hp.com/us-en/home.html — original vector path retained, black mark on a contrasting light disc.
-- Cisco: https://brand-assets.security.cisco.com/cisco-dark.svg — unmodified dark-background variant.
-- Apple: exact global-navigation SVG from https://www.apple.com — official dark-navigation colour and original vector paths.
-- Samsung: exact navigation vector from https://www.samsung.com/us/ — white lettermark permitted by https://www.samsung.com/us/about-us/brand-identity/logo/; transforms and clear-space viewBox retained.
-- J.P. Morgan: https://www.jpmorgan.com/content/dam/logos-global/logo-jpm-brown.svg — unchanged brown wordmark on a contrasting small inset.
+The central-force null-ray approximation bends the sampled light paths in 3D and samples disk intersections along them; it is an art-directed real-time approximation, not an exact Kerr solver. Conceptual scientific reference: Eric Bruneton, “A Real-time High-quality Black Hole Shader,” https://ebruneton.github.io/black_hole_shader/. No source from that renderer was copied into this project.
 
-## 3D rendering and textures
-- Three.js r180: https://cdn.jsdelivr.net/npm/three@0.180.0/ — vendored module and core, MIT license at `vendor/THREE-LICENSE.txt`.
-- Earth day map: https://www.solarsystemscope.com/textures/download/8k_earth_daymap.jpg — Solar System Scope, CC BY 4.0 (https://www.solarsystemscope.com/textures/). Resized only to 4096 and 2048 pixels using macOS sips; live sphere uses these as a surface map. Attribution also appears at `/credits.html`.
-- Cloud map: https://threejs.org/examples/textures/planets/earth_clouds_1024.png
-- Normal map: https://threejs.org/examples/textures/planets/earth_normal_2048.jpg
-- No image or video is used in place of the moving 3D scene. Spheres, atmosphere, lights, perspective stars, dust, torus meshes and lattice geometry are rendered with WebGL.
+- Three.js r180: https://cdn.jsdelivr.net/npm/three@0.180.0/ — pinned local module and core; MIT license in `vendor/THREE-LICENSE.txt`.
+- Variable Space Grotesk and Inter from Google Fonts, with SIL Open Font License copies kept locally:
+  - https://github.com/google/fonts/tree/main/ofl/spacegrotesk
+  - https://github.com/google/fonts/tree/main/ofl/inter
 
-## Fonts
-Variable Space Grotesk and Inter from the Google Fonts repository, with SIL Open Font License copies included locally. No runtime CDN or external font requests are required.
-- https://github.com/google/fonts/tree/main/ofl/spacegrotesk
-- https://github.com/google/fonts/tree/main/ofl/inter
+All active browser assets are local. The registration form and judge profiles are the supplied external destinations.
