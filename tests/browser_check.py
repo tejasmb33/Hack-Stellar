@@ -50,7 +50,7 @@ with sync_playwright() as p:
  page.locator('#signal').click();assert 'SOS' in page.locator('#signal-message').inner_text()
  checks.append('Non-sticky header, hero/floating registration, confirmed FAQ and subtle Easter egg remain functional')
  page.goto(BASE+'/problem-statements/',wait_until='networkidle')
- assert TOTAL==21 and len(DOMAINS)==21
+ assert TOTAL==21 and len(DOMAINS)==20 and 'Logistics' not in DOMAINS
  assert page.locator('.problem-card:visible').count()==21
  assert page.locator('#domain').input_value()==''
  assert page.locator('#domain option').all_text_contents()==['All Domains']+DOMAINS
@@ -81,7 +81,7 @@ with sync_playwright() as p:
  assert page.locator('#domain').input_value()=='Energy Management'
  page.locator('#domain').select_option('');assert page.locator('.problem-card:visible').count()==21
  page.evaluate('document.activeElement.blur();scrollTo({top:0,behavior:"instant"})');page.screenshot(path=str(OUT/'desktop-directory.png'),full_page=True)
- checks.append('Exactly 21 ordered statements, all 21 selectable domains, Web Development/IoT examples, combined search, accurate counts, reset and fresh-page defaults')
+ checks.append('Exactly 21 ordered statements, all remaining selectable domains, Web Development/IoT examples, combined search, accurate counts, reset and fresh-page defaults')
  for record in P:
   page.goto(BASE+'/problem-statements/'+record['slug']+'/',wait_until='networkidle')
   assert page.locator('.brief-content h2').all_text_contents()==(['Problem Statement'] if record.get('format')=='statement' else ['Problem Description','Your Challenge'])

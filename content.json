@@ -248,11 +248,10 @@
       "id": "PS–16",
       "slug": "ps-16",
       "title": "Returns That Never Go Home: Intelligent E-Commerce Return Management System",
-      "domainLabel": "AI / E-Commerce / Logistics",
+      "domainLabel": "AI / E-Commerce",
       "domains": [
         "AI",
-        "E-Commerce",
-        "Logistics"
+        "E-Commerce"
       ],
       "description": "Returned e-commerce products are generally transported back to central warehouses, even when nearby customers are waiting for the same products. This increases transportation costs and delivery time.",
       "challenge": "Develop an intelligent return management system that determines whether returned products should go to a warehouse, nearby hub or directly to another customer based on product condition, nearby orders, delivery requirements and potential fraud.",

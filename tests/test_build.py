@@ -2,7 +2,7 @@
 import copy,json,re,subprocess,tempfile,unittest,hashlib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-EXPECTED_DOMAINS=['AI','NLP','HR Tech','Web Development','Automation','Retail Tech','Voice AI','Machine Learning','Cloud Computing','Software Engineering','Networking','Algorithm Transparency','IoT','Agriculture','Cybersecurity','Digital Media','Transportation','Industrial Automation','E-Commerce','Logistics','Energy Management']
+EXPECTED_DOMAINS=['AI','NLP','HR Tech','Web Development','Automation','Retail Tech','Voice AI','Machine Learning','Cloud Computing','Software Engineering','Networking','Algorithm Transparency','IoT','Agriculture','Cybersecurity','Digital Media','Transportation','Industrial Automation','E-Commerce','Energy Management']
 class BuildTests(unittest.TestCase):
  def build(self,data):
   temporary=tempfile.TemporaryDirectory();self.addCleanup(temporary.cleanup);root=Path(temporary.name)
@@ -16,7 +16,8 @@ class BuildTests(unittest.TestCase):
   self.assertEqual(len(official),17);self.assertEqual(len(data['problems']),21)
   for record,(number,title,domain,description,challenge) in zip(data['problems'],official):
    self.assertEqual(record['id'],f'PS–{number}');self.assertEqual(record['title'],title)
-   self.assertEqual(record['domainLabel'],domain);self.assertEqual(record['domains'],domain.split(' / '))
+   expected_domain='AI / E-Commerce' if number=='16' else domain
+   self.assertEqual(record['domainLabel'],expected_domain);self.assertEqual(record['domains'],expected_domain.split(' / '))
    self.assertEqual(record['description'],description);self.assertEqual(record['challenge'],challenge)
   tags=list(dict.fromkeys(tag for record in data['problems'] for tag in record['domains']))
   self.assertEqual(tags,EXPECTED_DOMAINS)
@@ -50,7 +51,12 @@ class BuildTests(unittest.TestCase):
 class HackStellarTests(unittest.TestCase):
  def test_original_records_and_finalized_renderer(self):
   data=json.loads((ROOT/'content.json').read_text())
-  self.assertEqual(hashlib.sha256(json.dumps(data['problems'][:17],sort_keys=True,ensure_ascii=False).encode()).hexdigest(),'fb47f3040ee5ed7f4ac4bfb61c84fa7b5067e0446b81c77865c0f273b87e5f2e')
+  original=copy.deepcopy(data['problems'][:17])
+  # Only the organizer-approved PS 16 tag correction may differ from the source.
+  self.assertEqual(original[15]['domains'],['AI','E-Commerce'])
+  self.assertEqual(original[15]['domainLabel'],'AI / E-Commerce')
+  original[15]['domains'].append('Logistics');original[15]['domainLabel']+=' / Logistics'
+  self.assertEqual(hashlib.sha256(json.dumps(original,sort_keys=True,ensure_ascii=False).encode()).hexdigest(),'fb47f3040ee5ed7f4ac4bfb61c84fa7b5067e0446b81c77865c0f273b87e5f2e')
   for name,digest in json.loads((ROOT/'tests/finalized_scene_sha256.json').read_text()).items():
    self.assertEqual(hashlib.sha256((ROOT/name).read_bytes()).hexdigest(),digest,name)
  def test_new_briefs_are_exact_and_domains_unconfirmed(self):

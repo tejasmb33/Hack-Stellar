@@ -35,12 +35,13 @@ with sync_playwright() as p:
   assert card.get_attribute('href')==record['url']
   assert card.get_attribute('target')=='_blank'
   assert set(card.get_attribute('rel').split()) >= {'noopener','noreferrer'}
- for card in page.locator('.judge-employer').all():
-  assert card.locator('img').get_attribute('src')==DATA['organizationLogos'][card.locator('strong').inner_text()]
+ for card,record in zip(page.locator('.judge-card').all(),DATA['judges']):
+  assert card.locator('img').get_attribute('src')==DATA['organizationLogos'][record['organization']]
   card.scroll_into_view_if_needed()
+  card.locator('img').evaluate('(e)=>e.decode()')
   assert card.locator('img').evaluate('(e)=>e.complete&&e.naturalWidth>0')
-  assert card.evaluate('e=>e.querySelector("img").getBoundingClientRect().top>e.querySelector("strong").getBoundingClientRect().bottom')
- page.locator('.judge-company-list').screenshot(path=str(OUT/'company-logos.png'))
+  assert card.evaluate('e=>e.querySelector("img").getBoundingClientRect().bottom<e.querySelector(".judge-body .eyebrow").getBoundingClientRect().top')
+ page.locator('.judge-grid').screenshot(path=str(OUT/'company-logos.png'))
  assert page.locator('#gallery-title').inner_text()=='A glimpse into what we have accomplished together.'
  assert page.locator('.gallery-item').count()==8
  page.locator('#gallery').scroll_into_view_if_needed()
@@ -81,7 +82,7 @@ with sync_playwright() as p:
    page.goto(BASE+path,wait_until='networkidle');assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),(width,path)
    if path=='/':
     if width==390:page.screenshot(path=str(OUT/'mobile-hero.png'))
-    for card in page.locator('.judge-employer').all():
+    for card in page.locator('.judge-card').all():
      card.scroll_into_view_if_needed()
      assert card.evaluate('e=>{const p=e.querySelector(".company-logo").getBoundingClientRect(),i=e.querySelector("img").getBoundingClientRect();return i.left>=p.left&&i.right<=p.right&&i.top>=p.top&&i.bottom<=p.bottom&&Math.abs((i.left+i.right-p.left-p.right)/2)<1}')
     page.locator('#gallery').scroll_into_view_if_needed()

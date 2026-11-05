@@ -1,0 +1,68 @@
+{
+  "background": [
+    {
+      "page": "/",
+      "scroll": 0,
+      "exact": true,
+      "maxMeanChannelDifference": 0.0
+    },
+    {
+      "page": "/",
+      "scroll": 1200,
+      "exact": false,
+      "maxMeanChannelDifference": 0.0004560185185185185
+    },
+    {
+      "page": "/",
+      "scroll": 3000,
+      "exact": true,
+      "maxMeanChannelDifference": 0.0
+    },
+    {
+      "page": "/problem-statements/",
+      "scroll": 0,
+      "exact": true,
+      "maxMeanChannelDifference": 0.0
+    },
+    {
+      "page": "/problem-statements/",
+      "scroll": 1200,
+      "exact": true,
+      "maxMeanChannelDifference": 0.0
+    },
+    {
+      "page": "/problem-statements/",
+      "scroll": 3000,
+      "exact": true,
+      "maxMeanChannelDifference": 0.0
+    }
+  ],
+  "rendererSources": "All renderer bytes match the saved baseline; checksum fixture unchanged.",
+  "actualTitleFont": [
+    {
+      "familyName": "Josefin Sans Thin",
+      "postScriptName": "JosefinSansThin-Regular",
+      "isCustomFont": true,
+      "glyphCount": 11
+    }
+  ],
+  "responsive": "320, 390, 768 and 1440px: title fits, logos retain proportions, balanced desktop cards and stacked mobile cards.",
+  "domains": {
+    "valid": 20,
+    "default": 21,
+    "allFilters": "passed",
+    "combinedSearch": "passed",
+    "counts": "passed",
+    "nativeFocusAndLabelFit": "passed"
+  },
+  "briefs": "All 21 complete titles/descriptions/challenges verified.",
+  "coldFontLoad": {
+    "delayMs": 800,
+    "samples": 52,
+    "observedPending": true,
+    "headingShift": 0.0,
+    "conversionShift": 0.0
+  },
+  "status": "passed",
+  "errors": []
+}

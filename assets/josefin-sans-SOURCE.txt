@@ -1,0 +1,6 @@
+Josefin Sans Regular (400), Latin webfont
+Official family: https://github.com/google/fonts/tree/main/ofl/josefinsans
+Stylesheet: https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=block
+Font: https://fonts.gstatic.com/s/josefinsans/v34/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQbMZhLw.woff2
+License: https://raw.githubusercontent.com/google/fonts/main/ofl/josefinsans/OFL.txt
+Self-hosted without modifying the font. Applied only to .title-hackstellar.
