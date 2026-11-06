@@ -5,7 +5,7 @@
     "college": "Ramaiah Institute of Technology",
     "club": "ACE Club",
     "date": "13 November 2026",
-    "start": "10:00 AM IST",
+    "start": "11:00 AM IST",
     "venue": "ESB Seminar Hall 2",
     "deadline": "11 November 2026, 11:59 PM IST",
     "eligibility": "CSE department students only",
@@ -477,5 +477,21 @@
     "prototype": "Teams can start building their prototypes immediately and directly present their completed prototypes on the evaluation day.",
     "communication": "All further updates and announcements regarding HackStellar will be communicated through the official website and WhatsApp groups.",
     "registrationDeadline": "Registration Deadline: 11th November, 11:59 PM. Registrations will close after this deadline."
+  },
+  "technicalSupport": {
+    "heading": "Technical Queries & Support",
+    "intro": "For technical assistance or event-related queries, contact our technical team.",
+    "contacts": [
+      {
+        "name": "Raj Patil",
+        "phone": "9611829454",
+        "tel": "+919611829454"
+      },
+      {
+        "name": "Sai Pranav",
+        "phone": "8523808120",
+        "tel": "+918523808120"
+      }
+    ]
   }
 }

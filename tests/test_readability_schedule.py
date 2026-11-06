@@ -20,8 +20,9 @@ class ReadabilityScheduleTests(unittest.TestCase):
   for key in before:
    if key!='event':self.assertEqual(before[key],after[key],key)
   for key in before['event']:
-   if key!='deadline':self.assertEqual(before['event'][key],after['event'][key],key)
+   if key not in ('deadline','start'):self.assertEqual(before['event'][key],after['event'][key],key)
   self.assertEqual(after['event']['deadline'],'11 November 2026, 11:59 PM IST')
+  self.assertEqual(after['event']['start'],'11:00 AM IST')
   hashes=json.loads((OUT/'initial-file-hashes.json').read_text())
   for name,digest in hashes.items():
    if name=='scene.js' or name.startswith(('visuals/','vendor/','assets/')):

@@ -300,3 +300,18 @@ input::placeholder{color:#b9c9da;opacity:1}
 .hero-bottom{z-index:2}
 .search-field,.filter-toolbar select{border-color:#718ba8}
 @media(max-width:360px){.filter-toolbar{padding:10px}.filter-toolbar select{padding-inline:12px 30px}}
+
+/* Technical contacts within the existing essentials area. */
+.technical-support{grid-column:1/-1}
+.technical-support h3{font-size:clamp(23px,2.5vw,30px);line-height:1.35;margin-bottom:14px}
+.technical-support-intro{font-size:17px;line-height:1.8;color:var(--muted);max-width:70ch;margin-bottom:24px}
+.technical-contact-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.technical-contact{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:22px;background:#0c1828;border:1px solid var(--reading-border);border-radius:12px;min-width:0}
+.technical-contact-details{min-width:0}
+.technical-contact h4{font-size:18px;line-height:1.5;font-weight:600;margin:0 0 6px}
+.technical-contact p{font-size:17px;line-height:1.6;color:#d2e0ee;font-variant-numeric:tabular-nums;margin:0}
+.technical-call{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:92px;min-height:48px;padding:10px 14px;background:#10263a;color:#c5e7ff;border:1px solid #77b8e56b;border-radius:9px;font-size:16px;line-height:1.5;flex-shrink:0}
+.technical-call svg{width:20px;height:20px;flex-shrink:0}
+@media(hover:hover){.technical-call:hover{background:#18364e;border-color:#a8d8ff}}
+@media(max-width:760px){.technical-contact-grid{grid-template-columns:1fr}}
+@media(max-width:540px){.technical-contact{padding:16px;gap:12px;flex-wrap:wrap}}
