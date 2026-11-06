@@ -7,7 +7,7 @@
     "date": "13 November 2026",
     "start": "10:00 AM IST",
     "venue": "ESB Seminar Hall 2",
-    "deadline": "12 November 2026, 11:59 PM IST",
+    "deadline": "11 November 2026, 11:59 PM IST",
     "eligibility": "CSE department students only",
     "teamSize": "2–4",
     "prize": "₹25,000",
@@ -440,5 +440,42 @@
       "alt": "A group gathered together in a computer lab.",
       "sourceFilename": "WhatsApp Image 2026-10-30 at 11.58.57 PM.jpeg"
     }
-  ]
+  ],
+  "evaluationSchedule": {
+    "firstRound": [
+      {
+        "semesters": "3rd Semester",
+        "date": "12 November 2026",
+        "isoDate": "2026-11-12",
+        "time": "7:00 PM onwards",
+        "mode": "Online",
+        "venue": null
+      },
+      {
+        "semesters": "1st & 5th Semesters",
+        "date": "13 November 2026",
+        "isoDate": "2026-11-13",
+        "time": "11:00 AM onwards",
+        "mode": "Offline",
+        "venue": "ESB Seminar Hall"
+      }
+    ],
+    "finalRound": {
+      "title": "Final Round – External Evaluation",
+      "date": "13 November 2026",
+      "isoDate": "2026-11-13",
+      "time": "4:30 PM onwards",
+      "mode": "Offline",
+      "venue": "ESB Seminar Hall",
+      "evaluators": "External Judges",
+      "eligibility": "Qualified top teams only",
+      "announcement": "Only the shortlisted top teams will proceed to the Final Round – External Evaluation.",
+      "qualification": "Teams selected from the online and offline first-round evaluations across 1st, 2nd and 3rd years."
+    }
+  },
+  "announcements": {
+    "prototype": "Teams can start building their prototypes immediately and directly present their completed prototypes on the evaluation day.",
+    "communication": "All further updates and announcements regarding HackStellar will be communicated through the official website and WhatsApp groups.",
+    "registrationDeadline": "Registration Deadline: 11th November, 11:59 PM. Registrations will close after this deadline."
+  }
 }

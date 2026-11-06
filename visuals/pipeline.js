@@ -47,6 +47,28 @@ export function createPipeline(renderer,camera,{constrained=false}={}){
   const particles=constrained?4000:10500;
   const dust=createDust(particles,particleUniforms);particleScene.add(dust);
   let width=1,height=1,scale=1;
+  // Frame cadence can be capped by the display/browser (for example 30 Hz).
+  // Asynchronous GPU timing lets quality follow render cost instead of reducing
+  // resolution repeatedly when the GPU is already keeping up. Never block on GL.
+  const gl=renderer.getContext(),timer=gl.getExtension('EXT_disjoint_timer_query_webgl2');
+  let query=null,lastQuery=-1,gpuMs=null;
+  const timings=[];
+  function beginTiming(time){
+    if(!timer)return false;
+    if(gl.getParameter(timer.GPU_DISJOINT_EXT)){
+      if(query)gl.deleteQuery(query);query=null;timings.length=0;gpuMs=null;return false;
+    }
+    if(query&&gl.getQueryParameter(query,gl.QUERY_RESULT_AVAILABLE)){
+      timings.push(gl.getQueryParameter(query,gl.QUERY_RESULT)/1e6);
+      if(timings.length>8)timings.shift();
+      gpuMs=timings.reduce((sum,value)=>sum+value,0)/timings.length;
+      gl.deleteQuery(query);query=null;
+    }
+    if(query||time-lastQuery<.25)return false;
+    if(gl.getQuery(timer.TIME_ELAPSED_EXT,gl.CURRENT_QUERY))return false;
+    query=gl.createQuery();lastQuery=time;
+    gl.beginQuery(timer.TIME_ELAPSED_EXT,query);return true;
+  }
   function resize(nextScale){
     scale=nextScale;renderer.setSize(innerWidth,innerHeight,false);
     const size=renderer.getDrawingBufferSize(new THREE.Vector2());width=size.x;height=size.y;
@@ -58,6 +80,7 @@ export function createPipeline(renderer,camera,{constrained=false}={}){
   }
   return {
     hdr,raySteps,particles,resize,
+    get gpuMs(){return gpuMs;},
     get resolution(){return {output:[width,height],volume:[rayTarget.width,rayTarget.height],scale};},
     render(time,travel){
       uniforms.uTime.value=time;particleUniforms.uTravel.value=travel;
@@ -75,6 +98,7 @@ export function createPipeline(renderer,camera,{constrained=false}={}){
         const fraction=Math.max(0,(phase-(flowWindow-2))/2);
         uniforms.uFlowBlend.value=fraction*fraction*(3-2*fraction);
       }
+      const measuring=beginTiming(time);
       renderer.info.reset();
       pass(rayMaterial,rayTarget);
       pass(copy,sceneTarget);
@@ -82,7 +106,8 @@ export function createPipeline(renderer,camera,{constrained=false}={}){
       blur.uniforms.uSource.value=sceneTarget.texture;blur.uniforms.uDirection.value.set(4/width,0);blur.uniforms.uThreshold.value=1.15;pass(blur,bloomA);
       blur.uniforms.uSource.value=bloomA.texture;blur.uniforms.uDirection.value.set(0,4/height);blur.uniforms.uThreshold.value=0;pass(blur,bloomB);
       pass(finish,null);
+      if(measuring)gl.endQuery(timer.TIME_ELAPSED_EXT);
     },
-    dispose(){environment.dispose();[rayTarget,sceneTarget,bloomA,bloomB,matterTarget].forEach(t=>t.dispose());[rayMaterial,copy,blur,finish,dust.material].forEach(m=>m.dispose());dust.geometry.dispose();geometry.dispose();}
+    dispose(){if(query)gl.deleteQuery(query);query=null;environment.dispose();[rayTarget,sceneTarget,bloomA,bloomB,matterTarget].forEach(t=>t.dispose());[rayMaterial,copy,blur,finish,dust.material].forEach(m=>m.dispose());dust.geometry.dispose();geometry.dispose();}
   };
 }

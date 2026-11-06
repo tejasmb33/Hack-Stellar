@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "width": 1440,
+      "path": "/",
+      "scroll": 0,
+      "pixelIdentical": true
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "scroll": 900,
+      "pixelIdentical": true
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "scroll": 2200,
+      "pixelIdentical": true
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "scroll": 4300,
+      "pixelIdentical": true
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/",
+      "scroll": 0,
+      "pixelIdentical": true
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-01/",
+      "scroll": 0,
+      "pixelIdentical": true
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "scroll": 0,
+      "pixelIdentical": true
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "scroll": 900,
+      "pixelIdentical": true
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "scroll": 2200,
+      "pixelIdentical": true
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "scroll": 4300,
+      "pixelIdentical": true
+    },
+    {
+      "width": 390,
+      "path": "/problem-statements/",
+      "scroll": 0,
+      "pixelIdentical": true
+    },
+    {
+      "width": 390,
+      "path": "/problem-statements/ps-01/",
+      "scroll": 0,
+      "pixelIdentical": true
+    }
+  ],
+  "errors": []
+}

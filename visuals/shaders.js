@@ -21,8 +21,10 @@ vec3 environment(vec3 origin,vec3 direction){
   vec2 farUV=skyUV(shellPoint(origin,direction,240.));
   vec4 nearSky=texture2D(uSky0,nearUV),farSky=texture2D(uSky1,farUV);
   // Only the gas density drifts. Stars retain fixed world coordinates.
-  float gas=texture2D(uSky0,nearUV+vec2(uTime*.000012,0)).a;
-  float farGas=texture2D(uSky1,farUV-vec2(0,uTime*.000008)).a;
+  // Gas is low-frequency baked density. Explicit LOD avoids implicit
+  // derivatives through divergent curved-ray paths on mobile GPU drivers.
+  float gas=textureLod(uSky0,nearUV+vec2(uTime*.000012,0),0.).a;
+  float farGas=textureLod(uSky1,farUV-vec2(0,uTime*.000008),0.).a;
   vec3 col=vec3(.0025,.0045,.008)+nearSky.rgb*.9+farSky.rgb*.65;
   col+=mix(vec3(.015,.035,.06),vec3(.23,.092,.022),smoothstep(.005,.15,gas))*(gas+farGas*.45)*1.7;
   return col;
@@ -119,7 +121,10 @@ void main(){
     pos=next;dir=nextDir;
     if(transmittance<.008)break;
   }
-  if(!captured)light+=environment(pos,normalize(dir))*transmittance;
+  // Evaluate sky lookups in uniform control flow so implicit star mip levels
+  // have valid neighbouring fragments at the shadow boundary.
+  vec3 sky=environment(pos,normalize(dir));
+  if(!captured)light+=sky*transmittance;
   light+=vec3(1.,.78,.48)*exp(-abs(minimum-1.5)*65.)*.12;
   // Linear HDR RGB; packed view depth in alpha (upper half marks the shadow).
   float encodedDepth=depth<0.?.5+abs(depth)/400.:depth/400.;

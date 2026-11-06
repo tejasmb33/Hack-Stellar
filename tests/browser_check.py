@@ -44,7 +44,14 @@ with sync_playwright() as p:
  assert math.dist(recorded[1980]['camera'],recorded[1990]['camera'])<.3
  (ROOT/'tests/scroll-path.json').write_text(json.dumps(samples,indent=2)+'\n')
  checks.append('Approach/pass/recede camera path remains rendered at every sample, has no opacity switch and reverses to matching positions')
- page.evaluate('scrollTo({top:850,behavior:"instant"})');page.locator('.floating-register').wait_for(state='visible')
+ # New event content and reading surfaces change the safe floating-CTA gaps.
+ # Verify the behavior in an unobstructed position rather than assuming y=850.
+ safe_float=False
+ for y in range(600,int(page.locator('#registration').evaluate('(e)=>e.offsetTop')),60):
+  page.evaluate('(y)=>scrollTo({top:y,behavior:"instant"})',y);page.wait_for_timeout(40)
+  if page.locator('.floating-register').is_visible():safe_float=True;break
+ assert safe_float,'Floating registration never becomes available after the hero'
+ page.locator('.floating-register').wait_for(state='visible')
  page.locator('#registration').scroll_into_view_if_needed();page.locator('.floating-register').wait_for(state='hidden')
  page.locator('#faq summary').first.click();assert page.locator('#faq details').first.get_attribute('open') is not None
  page.locator('#signal').click();assert 'SOS' in page.locator('#signal-message').inner_text()

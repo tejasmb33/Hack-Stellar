@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "case": "mobile",
+      "pixelRatio": 2,
+      "reducedMotionAndResize": "passed"
+    },
+    {
+      "case": "low-memory",
+      "pixelRatio": 1.25,
+      "reducedMotionAndResize": "passed"
+    },
+    {
+      "case": "data-saving",
+      "pixelRatio": 1.25,
+      "reducedMotionAndResize": "passed"
+    },
+    {
+      "case": "no-GPU-timer",
+      "pixelRatio": 2,
+      "reducedMotionAndResize": "passed"
+    },
+    {
+      "case": "disjoint recovery / forced 100-ms GPU overload",
+      "beforeScale": 0.72,
+      "afterScale": 0.4,
+      "gpuMs": 100,
+      "clockContinues": true
+    }
+  ],
+  "errors": []
+}

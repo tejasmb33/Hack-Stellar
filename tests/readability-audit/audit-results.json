@@ -1,0 +1,4976 @@
+{
+  "pages": 24,
+  "cases": 72,
+  "textChecks": 2307,
+  "errors": [],
+  "results": [
+    {
+      "width": 320,
+      "path": "/",
+      "contrast": {
+        "count": 153,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "qualification-note",
+            "text": "Teams selected from the online and offline first-round evaluations across 1st, 2nd and 3rd year",
+            "size": 16,
+            "contrast": 10.53155190143529,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "eyebrow",
+            "text": "REGISTRATIONS CLOSE",
+            "size": 12,
+            "contrast": 10.813709195808142,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "intro",
+            "text": "Professional perspectives. Real-world challenges. Bring your ideas to problems that reach beyon",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "provider-context",
+            "text": "Problem statements contributed by professionals from",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "affiliation-note",
+            "text": "Affiliations identify the contributing professionals\u2019 employers, not official company sponsorsh",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "intro",
+            "text": "First-round evaluations for your semester. Find your date, time and mode below.",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/",
+      "contrast": {
+        "count": 147,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "Problem Statements Available",
+            "size": 12,
+            "contrast": 8.472116011888941,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "intro",
+            "text": "Problem statements contributed by professionals employed at Amazon, TCS, HP, Blackhawk Networks",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "directory-instructions",
+            "text": "Search by title, problem number or keyword. Open a statement to read the complete official brie",
+            "size": 15,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "problem-summary",
+            "text": "Large Language Models consume excessive tokens because of lengthy prompts, redundant instructio",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "problem-summary",
+            "text": "IT organizations often have employees on the bench because of project releases, budget constrai",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "problem-summary",
+            "text": "Small businesses and retail owners struggle to manage promotional content across multiple socia",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/credits.html",
+      "contrast": {
+        "count": 16,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "The black-hole environment is rendered live using a three-dimensional gravitational ray integra",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Three.js r180, MIT license. Space Grotesk, Inter and Josefin Sans, SIL Open Font License. Local",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "ACE Club, PARTEX, Coastal Naati Kitchen and TAGS marks were supplied by the organizer. The Micr",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-01/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / NLP",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Large Language Models consume excessive tokens because of lengthy prompts, redundant instructio",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered system that optimizes prompts, removes redundant content and compresses c",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-02/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / HR Tech",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "IT organizations often have employees on the bench because of project releases, budget constrai",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent platform that matches employees with suitable projects based on their te",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-03/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Web Development / Automation",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Small businesses and retail owners struggle to manage promotional content across multiple socia",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a centralized platform that enables business owners to create, manage and publish promo",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-04/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Web Development / Retail Tech",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Small retail businesses frequently depend on manual registers and spreadsheets, making it diffi",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a digital inventory management system that tracks products, stock quantities and transa",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-05/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Voice AI",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organizations such as hospitals, automobile dealerships and service providers often depend on c",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered voice agent that automatically initiates customer calls, understands resp",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-06/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Machine Learning",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Customer support teams receive numerous complaints and service requests. Manually identifying u",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent system that categorizes customer complaints by severity and business imp",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-07/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Cloud Computing / AI",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organizations experience unnecessary cloud expenditure because of unused resources, inefficient",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a platform that analyzes cloud resource utilization and spending patterns, predicts fut",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-08/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Software Engineering",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Software updates can introduce unexpected errors and affect existing application functionality.",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent system that evaluates software release risks using code changes, test co",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-09/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Networking",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Network failures, unusual traffic patterns and infrastructure performance issues can disrupt or",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered network monitoring system that analyzes network traffic, device events an",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-10/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Algorithm Transparency",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI systems are increasingly used for loan approvals, recruitment and employee evaluations. Howe",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered system that explains negative machine learning decisions, recommends real",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-11/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "IoT / Agriculture",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Farmers sharing groundwater resources often pump water independently, making it difficult to mo",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a low-cost system that estimates borewell water usage without expensive flow meters, mo",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-12/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Cybersecurity",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Screenshots of conversations, online payments and bank messages are frequently used as evidence",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent verification system that analyzes screenshots to identify potential mani",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-13/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Digital Media",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Content creators frequently face unauthorized copying and redistribution of their videos. Modif",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a system that identifies original video sources, detects modified versions and establis",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-14/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Transportation",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Informal transport services such as shared autos, private minibuses and local jeeps often opera",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a system that uses anonymous commuter GPS data to identify commonly used routes and sto",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-15/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Industrial Automation",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Experienced factory technicians possess valuable machine repair knowledge that is often undocum",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered knowledge management system that captures technicians' spoken repair expl",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-16/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / E-Commerce",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Returned e-commerce products are generally transported back to central warehouses, even when ne",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent return management system that determines whether returned products shoul",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-17/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / IoT / Energy Management",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Commercial buildings often waste electricity because cooling systems operate on fixed schedules",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent energy management system that estimates room or floor occupancy using Wi",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-18/",
+      "contrast": {
+        "count": 16,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Build an AI-powered testing solution that automatically validates whether an implemented custom",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Back to top \u2191",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "back-link",
+            "text": "\u2190 All Problem Statements",
+            "size": 15,
+            "contrast": 11.657506155814076,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-19/",
+      "contrast": {
+        "count": 16,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Build an AI-powered system that consolidates customer complaints across channels - including em",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Back to top \u2191",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "back-link",
+            "text": "\u2190 All Problem Statements",
+            "size": 15,
+            "contrast": 11.657506155814076,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-20/",
+      "contrast": {
+        "count": 16,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Build a system that preserves a company's knowledge about product ideas throughout their lifecy",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Back to top \u2191",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "back-link",
+            "text": "\u2190 All Problem Statements",
+            "size": 15,
+            "contrast": 11.657506155814076,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 320,
+      "path": "/problem-statements/ps-21/",
+      "contrast": {
+        "count": 16,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Build a benchmarking framework that helps companies choose AI models and providers using eviden",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Back to top \u2191",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "back-link",
+            "text": "\u2190 All Problem Statements",
+            "size": 15,
+            "contrast": 11.657506155814076,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/",
+      "contrast": {
+        "count": 158,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "qualification-note",
+            "text": "Teams selected from the online and offline first-round evaluations across 1st, 2nd and 3rd year",
+            "size": 16,
+            "contrast": 10.53155190143529,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "eyebrow",
+            "text": "REGISTRATIONS CLOSE",
+            "size": 12,
+            "contrast": 10.813709195808142,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "intro",
+            "text": "Professional perspectives. Real-world challenges. Bring your ideas to problems that reach beyon",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "provider-context",
+            "text": "Problem statements contributed by professionals from",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "affiliation-note",
+            "text": "Affiliations identify the contributing professionals\u2019 employers, not official company sponsorsh",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "intro",
+            "text": "First-round evaluations for your semester. Find your date, time and mode below.",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/",
+      "contrast": {
+        "count": 151,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "Problem Statements Available",
+            "size": 12,
+            "contrast": 8.472116011888941,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "intro",
+            "text": "Problem statements contributed by professionals employed at Amazon, TCS, HP, Blackhawk Networks",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "directory-instructions",
+            "text": "Search by title, problem number or keyword. Open a statement to read the complete official brie",
+            "size": 15,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "problem-summary",
+            "text": "Large Language Models consume excessive tokens because of lengthy prompts, redundant instructio",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "problem-summary",
+            "text": "IT organizations often have employees on the bench because of project releases, budget constrai",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "problem-summary",
+            "text": "Small businesses and retail owners struggle to manage promotional content across multiple socia",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/credits.html",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "The black-hole environment is rendered live using a three-dimensional gravitational ray integra",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Three.js r180, MIT license. Space Grotesk, Inter and Josefin Sans, SIL Open Font License. Local",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "ACE Club, PARTEX, Coastal Naati Kitchen and TAGS marks were supplied by the organizer. The Micr",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-01/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / NLP",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Large Language Models consume excessive tokens because of lengthy prompts, redundant instructio",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered system that optimizes prompts, removes redundant content and compresses c",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-02/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / HR Tech",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "IT organizations often have employees on the bench because of project releases, budget constrai",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent platform that matches employees with suitable projects based on their te",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-03/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Web Development / Automation",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Small businesses and retail owners struggle to manage promotional content across multiple socia",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a centralized platform that enables business owners to create, manage and publish promo",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-04/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Web Development / Retail Tech",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Small retail businesses frequently depend on manual registers and spreadsheets, making it diffi",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a digital inventory management system that tracks products, stock quantities and transa",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-05/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Voice AI",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organizations such as hospitals, automobile dealerships and service providers often depend on c",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered voice agent that automatically initiates customer calls, understands resp",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-06/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Machine Learning",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Customer support teams receive numerous complaints and service requests. Manually identifying u",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent system that categorizes customer complaints by severity and business imp",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-07/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Cloud Computing / AI",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organizations experience unnecessary cloud expenditure because of unused resources, inefficient",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a platform that analyzes cloud resource utilization and spending patterns, predicts fut",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-08/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Software Engineering",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Software updates can introduce unexpected errors and affect existing application functionality.",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent system that evaluates software release risks using code changes, test co",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-09/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Networking",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Network failures, unusual traffic patterns and infrastructure performance issues can disrupt or",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered network monitoring system that analyzes network traffic, device events an",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-10/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Algorithm Transparency",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI systems are increasingly used for loan approvals, recruitment and employee evaluations. Howe",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered system that explains negative machine learning decisions, recommends real",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-11/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "IoT / Agriculture",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Farmers sharing groundwater resources often pump water independently, making it difficult to mo",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a low-cost system that estimates borewell water usage without expensive flow meters, mo",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-12/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Cybersecurity",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Screenshots of conversations, online payments and bank messages are frequently used as evidence",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent verification system that analyzes screenshots to identify potential mani",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-13/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Digital Media",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Content creators frequently face unauthorized copying and redistribution of their videos. Modif",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a system that identifies original video sources, detects modified versions and establis",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-14/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Transportation",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Informal transport services such as shared autos, private minibuses and local jeeps often opera",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a system that uses anonymous commuter GPS data to identify commonly used routes and sto",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-15/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Industrial Automation",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Experienced factory technicians possess valuable machine repair knowledge that is often undocum",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered knowledge management system that captures technicians' spoken repair expl",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-16/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / E-Commerce",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Returned e-commerce products are generally transported back to central warehouses, even when ne",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent return management system that determines whether returned products shoul",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-17/",
+      "contrast": {
+        "count": 22,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / IoT / Energy Management",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Commercial buildings often waste electricity because cooling systems operate on fixed schedules",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent energy management system that estimates room or floor occupancy using Wi",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-18/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Build an AI-powered testing solution that automatically validates whether an implemented custom",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Back to top \u2191",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "back-link",
+            "text": "\u2190 All Problem Statements",
+            "size": 15,
+            "contrast": 11.657506155814076,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-19/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Build an AI-powered system that consolidates customer complaints across channels - including em",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Back to top \u2191",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "back-link",
+            "text": "\u2190 All Problem Statements",
+            "size": 15,
+            "contrast": 11.657506155814076,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-20/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Build a system that preserves a company's knowledge about product ideas throughout their lifecy",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Back to top \u2191",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "back-link",
+            "text": "\u2190 All Problem Statements",
+            "size": 15,
+            "contrast": 11.657506155814076,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 768,
+      "path": "/problem-statements/ps-21/",
+      "contrast": {
+        "count": 19,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Build a benchmarking framework that helps companies choose AI models and providers using eviden",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Back to top \u2191",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "back-link",
+            "text": "\u2190 All Problem Statements",
+            "size": 15,
+            "contrast": 11.657506155814076,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "contrast": {
+        "count": 160,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "qualification-note",
+            "text": "Teams selected from the online and offline first-round evaluations across 1st, 2nd and 3rd year",
+            "size": 16,
+            "contrast": 10.53155190143529,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "eyebrow",
+            "text": "REGISTRATIONS CLOSE",
+            "size": 12,
+            "contrast": 10.813709195808142,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "intro",
+            "text": "Professional perspectives. Real-world challenges. Bring your ideas to problems that reach beyon",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "provider-context",
+            "text": "Problem statements contributed by professionals from",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "affiliation-note",
+            "text": "Affiliations identify the contributing professionals\u2019 employers, not official company sponsorsh",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/",
+      "contrast": {
+        "count": 153,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "Problem Statements Available",
+            "size": 12,
+            "contrast": 8.472116011888941,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "intro",
+            "text": "Problem statements contributed by professionals employed at Amazon, TCS, HP, Blackhawk Networks",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "directory-instructions",
+            "text": "Search by title, problem number or keyword. Open a statement to read the complete official brie",
+            "size": 15,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "problem-summary",
+            "text": "Large Language Models consume excessive tokens because of lengthy prompts, redundant instructio",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "problem-summary",
+            "text": "IT organizations often have employees on the bench because of project releases, budget constrai",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/credits.html",
+      "contrast": {
+        "count": 21,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "The black-hole environment is rendered live using a three-dimensional gravitational ray integra",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Three.js r180, MIT license. Space Grotesk, Inter and Josefin Sans, SIL Open Font License. Local",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "ACE Club, PARTEX, Coastal Naati Kitchen and TAGS marks were supplied by the organizer. The Micr",
+            "size": 16,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-01/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / NLP",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Large Language Models consume excessive tokens because of lengthy prompts, redundant instructio",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered system that optimizes prompts, removes redundant content and compresses c",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-02/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / HR Tech",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "IT organizations often have employees on the bench because of project releases, budget constrai",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent platform that matches employees with suitable projects based on their te",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-03/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Web Development / Automation",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Small businesses and retail owners struggle to manage promotional content across multiple socia",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a centralized platform that enables business owners to create, manage and publish promo",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-04/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Web Development / Retail Tech",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Small retail businesses frequently depend on manual registers and spreadsheets, making it diffi",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a digital inventory management system that tracks products, stock quantities and transa",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-05/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Voice AI",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organizations such as hospitals, automobile dealerships and service providers often depend on c",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered voice agent that automatically initiates customer calls, understands resp",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-06/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Machine Learning",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Customer support teams receive numerous complaints and service requests. Manually identifying u",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent system that categorizes customer complaints by severity and business imp",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-07/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Cloud Computing / AI",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organizations experience unnecessary cloud expenditure because of unused resources, inefficient",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a platform that analyzes cloud resource utilization and spending patterns, predicts fut",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-08/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Software Engineering",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Software updates can introduce unexpected errors and affect existing application functionality.",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent system that evaluates software release risks using code changes, test co",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-09/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Networking",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Network failures, unusual traffic patterns and infrastructure performance issues can disrupt or",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered network monitoring system that analyzes network traffic, device events an",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-10/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Algorithm Transparency",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI systems are increasingly used for loan approvals, recruitment and employee evaluations. Howe",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered system that explains negative machine learning decisions, recommends real",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-11/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "IoT / Agriculture",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Farmers sharing groundwater resources often pump water independently, making it difficult to mo",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a low-cost system that estimates borewell water usage without expensive flow meters, mo",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-12/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Cybersecurity",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Screenshots of conversations, online payments and bank messages are frequently used as evidence",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent verification system that analyzes screenshots to identify potential mani",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-13/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Digital Media",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Content creators frequently face unauthorized copying and redistribution of their videos. Modif",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a system that identifies original video sources, detects modified versions and establis",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-14/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Transportation",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Informal transport services such as shared autos, private minibuses and local jeeps often opera",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop a system that uses anonymous commuter GPS data to identify commonly used routes and sto",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-15/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / Industrial Automation",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Experienced factory technicians possess valuable machine repair knowledge that is often undocum",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an AI-powered knowledge management system that captures technicians' spoken repair expl",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-16/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / E-Commerce",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Returned e-commerce products are generally transported back to central warehouses, even when ne",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent return management system that determines whether returned products shoul",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-17/",
+      "contrast": {
+        "count": 24,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "AI / IoT / Energy Management",
+            "size": 15,
+            "contrast": 10.785671225889965,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Commercial buildings often waste electricity because cooling systems operate on fixed schedules",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Develop an intelligent energy management system that estimates room or floor occupancy using Wi",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-18/",
+      "contrast": {
+        "count": 21,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Build an AI-powered testing solution that automatically validates whether an implemented custom",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Back to top \u2191",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-19/",
+      "contrast": {
+        "count": 21,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Build an AI-powered system that consolidates customer complaints across channels - including em",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Back to top \u2191",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-20/",
+      "contrast": {
+        "count": 21,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Build a system that preserves a company's knowledge about product ideas throughout their lifecy",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Back to top \u2191",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    },
+    {
+      "width": 1440,
+      "path": "/problem-statements/ps-21/",
+      "contrast": {
+        "count": 21,
+        "failures": [],
+        "small": [],
+        "lowest": [
+          {
+            "tag": "SMALL",
+            "cls": "",
+            "text": "ACE CLUB \u00b7 RAMAIAH INSTITUTE OF TECHNOLOGY",
+            "size": 12,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Build a benchmarking framework that helps companies choose AI models and providers using eviden",
+            "size": 17,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Organized by ACE Club",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "P",
+            "cls": "",
+            "text": "Ramaiah Institute of Technology",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Visual credits",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Back to top \u2191",
+            "size": 14,
+            "contrast": 11.200099213067176,
+            "minimum": 4.5,
+            "pass": true
+          }
+        ]
+      },
+      "layout": {
+        "overflow": 0,
+        "bad": []
+      }
+    }
+  ]
+}

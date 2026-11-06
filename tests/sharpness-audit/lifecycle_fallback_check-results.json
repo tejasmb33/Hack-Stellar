@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "mode": "hdr",
+      "progress": 0.0,
+      "beforeVisiblePixels": 2684,
+      "afterVisiblePixels": 2684,
+      "difference": 0.0
+    },
+    {
+      "mode": "hdr",
+      "progress": 0.125,
+      "beforeVisiblePixels": 2517,
+      "afterVisiblePixels": 2517,
+      "difference": 0.0
+    },
+    {
+      "mode": "hdr",
+      "progress": 0.25,
+      "beforeVisiblePixels": 2553,
+      "afterVisiblePixels": 2553,
+      "difference": 0.0
+    },
+    {
+      "mode": "hdr",
+      "progress": 0.375,
+      "beforeVisiblePixels": 2768,
+      "afterVisiblePixels": 2768,
+      "difference": 0.0
+    },
+    {
+      "mode": "hdr",
+      "progress": 0.5,
+      "beforeVisiblePixels": 2933,
+      "afterVisiblePixels": 2933,
+      "difference": 0.0
+    },
+    {
+      "mode": "hdr",
+      "progress": 0.625,
+      "beforeVisiblePixels": 3087,
+      "afterVisiblePixels": 3087,
+      "difference": 0.0
+    },
+    {
+      "mode": "hdr",
+      "progress": 0.75,
+      "beforeVisiblePixels": 3657,
+      "afterVisiblePixels": 3657,
+      "difference": 0.0
+    },
+    {
+      "mode": "hdr",
+      "progress": 0.875,
+      "beforeVisiblePixels": 3770,
+      "afterVisiblePixels": 3770,
+      "difference": 0.0
+    },
+    {
+      "mode": "hdr",
+      "progress": 1.0,
+      "beforeVisiblePixels": 4104,
+      "afterVisiblePixels": 4104,
+      "difference": 0.0
+    },
+    {
+      "mode": "unorm8",
+      "progress": 0.0,
+      "beforeVisiblePixels": 1377,
+      "afterVisiblePixels": 2018,
+      "difference": 0.10795568596965682
+    },
+    {
+      "mode": "unorm8",
+      "progress": 0.125,
+      "beforeVisiblePixels": 1592,
+      "afterVisiblePixels": 1901,
+      "difference": 0.05369545144325344
+    },
+    {
+      "mode": "unorm8",
+      "progress": 0.25,
+      "beforeVisiblePixels": 1648,
+      "afterVisiblePixels": 1922,
+      "difference": 0.04688612002233585
+    },
+    {
+      "mode": "unorm8",
+      "progress": 0.375,
+      "beforeVisiblePixels": 1054,
+      "afterVisiblePixels": 2121,
+      "difference": 0.1872187489735364
+    },
+    {
+      "mode": "unorm8",
+      "progress": 0.5,
+      "beforeVisiblePixels": 754,
+      "afterVisiblePixels": 2270,
+      "difference": 0.25962685995204365
+    },
+    {
+      "mode": "unorm8",
+      "progress": 0.625,
+      "beforeVisiblePixels": 598,
+      "afterVisiblePixels": 2507,
+      "difference": 0.31603217529990985
+    },
+    {
+      "mode": "unorm8",
+      "progress": 0.75,
+      "beforeVisiblePixels": 572,
+      "afterVisiblePixels": 3056,
+      "difference": 0.4192752528293899
+    },
+    {
+      "mode": "unorm8",
+      "progress": 0.875,
+      "beforeVisiblePixels": 532,
+      "afterVisiblePixels": 3205,
+      "difference": 0.4391557998386855
+    },
+    {
+      "mode": "unorm8",
+      "progress": 1.0,
+      "beforeVisiblePixels": 522,
+      "afterVisiblePixels": 3495,
+      "difference": 0.5015191661283436
+    }
+  ],
+  "errors": []
+}

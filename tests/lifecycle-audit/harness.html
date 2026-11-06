@@ -31,7 +31,7 @@ renderer.render=(scene,cam)=>{
   m.userData.original??=m.fragmentShader;
   let source=options.baseline?baseline:m.userData.original;
   if(options.onlyDust)source=source.replace('gl_FragColor=vec4(light,encodedDepth);','gl_FragColor=vec4(vec3(0.),encodedDepth);');
-  if(options.noSky)source=source.replace('if(!captured)light+=environment(pos,normalize(dir))*transmittance;','');
+  if(options.noSky)source=source.replace('if(!captured)light+=environment(pos,normalize(dir))*transmittance;','').replace('if(!captured)light+=sky*transmittance;','');
   if(source!==m.fragmentShader){m.fragmentShader=source;m.needsUpdate=true;}
  }
  originalRender(scene,cam);

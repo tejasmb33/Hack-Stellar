@@ -37,10 +37,10 @@ function updateFloating() {
   const style = getComputedStyle(floating);
   const right = parseFloat(style.right) || 16;
   const bottom = parseFloat(style.bottom) || 16;
-  const width = floating.offsetWidth || (innerWidth < 600 ? 176 : 194);
+  const width = floating.offsetWidth || parseFloat(style.width) || (innerWidth < 600 ? 176 : 194);
   const height = floating.offsetHeight || 52;
   const candidate = {left: innerWidth - right - width - 8, right: innerWidth - right + 8, top: innerHeight - bottom - height - 8, bottom: innerHeight - bottom + 8};
-  const blocked = [...document.querySelectorAll('.logo-safe, .judge-body, .preview-row, .faq-list summary')].some(node => {
+  const blocked = [...document.querySelectorAll('.logo-safe, .provider-name, .affiliation-note, .provider-context, .group-heading, .judge-body, .preview-row, .faq-list summary, .reading-surface h2, .reading-surface h3, .reading-surface p, .reading-surface dt, .reading-surface dd, .event-shortcut a, .gallery-zoom, .site-footer a, .site-footer p')].some(node => {
     const rect = node.getBoundingClientRect();
     return rect.width > 0 && rect.left < candidate.right && rect.right > candidate.left && rect.top < candidate.bottom && rect.bottom > candidate.top;
   });

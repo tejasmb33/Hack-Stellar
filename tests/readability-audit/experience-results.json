@@ -1,0 +1,87 @@
+{
+  "layouts": [
+    {
+      "viewport": [
+        320,
+        700
+      ],
+      "scheduleCards": "stacked",
+      "heroOverlap": false,
+      "keyboardFocus": true,
+      "deadlineProtected": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "scheduleCards": "stacked",
+      "heroOverlap": false,
+      "keyboardFocus": true,
+      "deadlineProtected": true
+    },
+    {
+      "viewport": [
+        720,
+        450
+      ],
+      "scheduleCards": "stacked",
+      "heroOverlap": false,
+      "keyboardFocus": true,
+      "deadlineProtected": true
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "scheduleCards": "side by side",
+      "heroOverlap": false,
+      "keyboardFocus": true,
+      "deadlineProtected": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "scheduleCards": "side by side",
+      "heroOverlap": false,
+      "keyboardFocus": true,
+      "deadlineProtected": true
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "scheduleCards": "side by side",
+      "heroOverlap": false,
+      "keyboardFocus": true,
+      "deadlineProtected": true
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "scheduleCards": "side by side",
+      "heroOverlap": false,
+      "keyboardFocus": true,
+      "deadlineProtected": true
+    }
+  ],
+  "zoom": {
+    "compositorScale": 2,
+    "equivalentReflow": [
+      720,
+      450
+    ]
+  },
+  "animation": {
+    "framesAdvanced": 203,
+    "clockAdvanced": 3.3831999999999933,
+    "glError": 0
+  },
+  "errors": []
+}

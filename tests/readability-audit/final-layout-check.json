@@ -1,0 +1,120 @@
+{
+  "layout": [
+    {
+      "overflow": 0,
+      "hero": {
+        "top": 80,
+        "bottom": 800,
+        "height": 720
+      },
+      "conversionBottom": 668.03125,
+      "bottomTop": 710.21875,
+      "button": {
+        "x": 37,
+        "y": 472.9375,
+        "width": 246,
+        "height": 52.5,
+        "top": 472.9375,
+        "right": 283,
+        "bottom": 525.4375,
+        "left": 37
+      },
+      "bad": [],
+      "width": 320,
+      "CLS": 0.0036946845105229596
+    },
+    {
+      "overflow": 0,
+      "hero": {
+        "top": 80,
+        "bottom": 844,
+        "height": 764
+      },
+      "conversionBottom": 626.203125,
+      "bottomTop": 754.21875,
+      "button": {
+        "x": 55,
+        "y": 431.109375,
+        "width": 280,
+        "height": 52.5,
+        "top": 431.109375,
+        "right": 335,
+        "bottom": 483.609375,
+        "left": 55
+      },
+      "bad": [],
+      "width": 390,
+      "CLS": 0.0027187121505322467
+    },
+    {
+      "overflow": 0,
+      "hero": {
+        "top": 100,
+        "bottom": 1024,
+        "height": 924
+      },
+      "conversionBottom": 667.859375,
+      "bottomTop": 946.921875,
+      "button": {
+        "x": 171.8125,
+        "y": 536.5625,
+        "width": 190.984375,
+        "height": 52.5,
+        "top": 536.5625,
+        "right": 362.796875,
+        "bottom": 589.0625,
+        "left": 171.8125
+      },
+      "bad": [],
+      "width": 768,
+      "CLS": 0.0012321323156356812
+    },
+    {
+      "overflow": 0,
+      "hero": {
+        "top": 100,
+        "bottom": 768,
+        "height": 668
+      },
+      "conversionBottom": 631.46875,
+      "bottomTop": 692.921875,
+      "button": {
+        "x": 84.359375,
+        "y": 510.171875,
+        "width": 190.984375,
+        "height": 52.5,
+        "top": 510.171875,
+        "right": 275.34375,
+        "bottom": 562.671875,
+        "left": 84.359375
+      },
+      "bad": [],
+      "width": 1024,
+      "CLS": 0.0006465974729508162
+    },
+    {
+      "overflow": 0,
+      "hero": {
+        "top": 100,
+        "bottom": 900,
+        "height": 800
+      },
+      "conversionBottom": 704.734375,
+      "bottomTop": 822.921875,
+      "button": {
+        "x": 101,
+        "y": 573.4375,
+        "width": 190.984375,
+        "height": 52.5,
+        "top": 573.4375,
+        "right": 291.984375,
+        "bottom": 625.9375,
+        "left": 101
+      },
+      "bad": [],
+      "width": 1440,
+      "CLS": 0.0004118427962105625
+    }
+  ],
+  "errors": []
+}

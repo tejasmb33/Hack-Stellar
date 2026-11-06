@@ -1,0 +1,121 @@
+{
+  "fidelity": [
+    {
+      "width": 1440,
+      "region": "upper",
+      "RMSETo3xOriginal": {
+        "before": 5.250304212183934,
+        "after": 5.002238975369065
+      },
+      "improvementPercent": 4.724778351684944
+    },
+    {
+      "width": 1440,
+      "region": "lower",
+      "RMSETo3xOriginal": {
+        "before": 6.005863389254408,
+        "after": 5.866457300040946
+      },
+      "improvementPercent": 2.3211665031023676
+    },
+    {
+      "width": 390,
+      "region": "upper",
+      "RMSETo3xOriginal": {
+        "before": 6.450942778868549,
+        "after": 6.1053212017189935
+      },
+      "improvementPercent": 5.35769094529428
+    },
+    {
+      "width": 390,
+      "region": "lower",
+      "RMSETo3xOriginal": {
+        "before": 7.318550283952347,
+        "after": 6.905802981877003
+      },
+      "improvementPercent": 5.639741288385903
+    }
+  ],
+  "quality": [
+    {
+      "profile": "capped-desktop",
+      "oldScale": 0.4,
+      "newScale": 0.9500000000000001,
+      "region": "upper",
+      "RMSETo3xOriginal": {
+        "before": 31.26339886352787,
+        "after": 22.447832605570756
+      },
+      "improvementPercent": 28.197721867795455
+    },
+    {
+      "profile": "capped-desktop",
+      "oldScale": 0.4,
+      "newScale": 0.9500000000000001,
+      "region": "lower",
+      "RMSETo3xOriginal": {
+        "before": 32.84570926822308,
+        "after": 23.661943547545288
+      },
+      "improvementPercent": 27.960320922534386
+    },
+    {
+      "profile": "mobile",
+      "oldScale": 0.72,
+      "newScale": 0.72,
+      "region": "upper",
+      "RMSETo3xOriginal": {
+        "before": 21.98713261301732,
+        "after": 16.840617970698744
+      },
+      "improvementPercent": 23.406938653163078
+    },
+    {
+      "profile": "mobile",
+      "oldScale": 0.72,
+      "newScale": 0.72,
+      "region": "lower",
+      "RMSETo3xOriginal": {
+        "before": 25.041734165752377,
+        "after": 19.974055099978955
+      },
+      "improvementPercent": 20.2369334017773
+    }
+  ],
+  "cadence": [
+    {
+      "mode": "before",
+      "fps": 30,
+      "resolution": {
+        "output": [
+          1280,
+          800
+        ],
+        "volume": [
+          512,
+          320
+        ],
+        "scale": 0.4
+      },
+      "gpuMs": null
+    },
+    {
+      "mode": "after",
+      "fps": 30,
+      "resolution": {
+        "output": [
+          1280,
+          800
+        ],
+        "volume": [
+          1216,
+          760
+        ],
+        "scale": 0.9500000000000001
+      },
+      "gpuMs": 12.854827875000002
+    }
+  ],
+  "errors": []
+}

@@ -5,12 +5,14 @@ import {createPipeline} from './pipeline.js';
 export function startExperience(){
   const canvas=document.querySelector('#universe-canvas');
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-  const constrained=innerWidth<=760||navigator.connection?.saveData||(navigator.deviceMemory&&navigator.deviceMemory<4);
+  const lowPower=navigator.connection?.saveData||(navigator.deviceMemory&&navigator.deviceMemory<4);
+  const constrained=innerWidth<=760||lowPower;
   let renderer;
   try{renderer=new THREE.WebGLRenderer({canvas,alpha:false,antialias:false,powerPreference:constrained?'low-power':'high-performance'});}
   catch{document.body.classList.add('scene-unavailable');return;}
   renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.NoToneMapping;
-  renderer.setPixelRatio(Math.min(devicePixelRatio,constrained?1.25:1.75,2400/innerWidth));
+  function setPixelRatio(){renderer.setPixelRatio(Math.min(devicePixelRatio,lowPower?1.25:constrained?2:1.75,2400/innerWidth));}
+  setPixelRatio();
   renderer.info.autoReset=false;
   const camera=new THREE.PerspectiveCamera(43,innerWidth/innerHeight,.1,350);
   const flight=createFlight(camera);
@@ -36,15 +38,22 @@ export function startExperience(){
     flight(progress,elapsed,innerWidth<=760);
     pipeline.render(elapsed,Math.abs(scroll-previous)/Math.max(delta,.016)/90.);
     projected.set(0,0,0).project(camera);
-    Object.assign(state,{frames:state.frames+1,diskTime:elapsed,diskPhase:elapsed*1.28,paused,camera:camera.position.toArray(),cameraZ:camera.position.z,center:[projected.x*.5+.5,projected.y*.5+.5],pathProgress:progress,pixelRatio:renderer.getPixelRatio(),resolution:pipeline.resolution,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles});
+    Object.assign(state,{frames:state.frames+1,diskTime:elapsed,diskPhase:elapsed*1.28,paused,camera:camera.position.toArray(),cameraZ:camera.position.z,center:[projected.x*.5+.5,projected.y*.5+.5],pathProgress:progress,pixelRatio:renderer.getPixelRatio(),resolution:pipeline.resolution,gpuMs:pipeline.gpuMs,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles});
     if(!paused){
       qualityFrames++;
       if(now-qualityStart>1800){
         const fps=qualityFrames*1000/(now-qualityStart);state.fps=+fps.toFixed(1);
-        state.samples.push({time:+elapsed.toFixed(2),fps:state.fps,scale});if(state.samples.length>24)state.samples.shift();
+        state.samples.push({time:+elapsed.toFixed(2),fps:state.fps,scale,gpuMs:pipeline.gpuMs});if(state.samples.length>24)state.samples.shift();
         if(now>qualityCooldown){
-          if(fps<(constrained?27:47)&&scale>.4){scale=Math.max(.4,scale*Math.max(.55,Math.sqrt(fps/(constrained?30:55))*.92));pipeline.resize(scale);state.mode='adaptive';qualityCooldown=now+1800;}
-          else if(fps>58&&scale<(constrained?.8:1.0)){scale=Math.min(constrained?.8:1.,scale+.05);pipeline.resize(scale);qualityCooldown=now+5000;}
+          const gpuMs=pipeline.gpuMs,budget=constrained?30:18;
+          // Preserve the FPS-based fallback on browsers without GPU timers.
+          const overloaded=gpuMs!==null?gpuMs>budget*1.1:fps<(constrained?27:47);
+          const headroom=gpuMs!==null?gpuMs<budget*.75:fps>58;
+          if(overloaded&&scale>.4){
+            const ratio=gpuMs!==null?Math.sqrt(budget/gpuMs):Math.sqrt(fps/(constrained?30:55));
+            scale=Math.max(.4,scale*Math.max(.55,ratio*.92));pipeline.resize(scale);state.mode='adaptive';qualityCooldown=now+1800;
+          }
+          else if(headroom&&scale<(constrained?.8:1.0)){scale=Math.min(constrained?.8:1.,scale+.05);pipeline.resize(scale);state.mode='adaptive';qualityCooldown=now+5000;}
         }
         qualityFrames=0;qualityStart=now;
       }
@@ -58,7 +67,7 @@ export function startExperience(){
     if(!document.hidden&&!restore)raf=requestAnimationFrame(draw);
   }
   addEventListener('scroll',()=>{targetScroll=scrollY;requestStatic();},{passive:true});
-  addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();pipeline?.resize(scale);requestStatic();});
+  addEventListener('resize',()=>{setPixelRatio();camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();pipeline?.resize(scale);requestStatic();});
   reduced.addEventListener('change',configure);document.addEventListener('visibilitychange',configure);
   canvas.addEventListener('webglcontextlost',event=>{
     event.preventDefault();restore=true;cancelAnimationFrame(raf);

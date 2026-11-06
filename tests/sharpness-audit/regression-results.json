@@ -1,0 +1,22 @@
+[
+  {
+    "test": "browser_check.py",
+    "status": "passed",
+    "result": "browser_check-results.json"
+  },
+  {
+    "test": "sharpness_ui_check.py",
+    "status": "passed",
+    "result": "sharpness_ui_check-results.json"
+  },
+  {
+    "test": "lifecycle_fallback_check.py",
+    "status": "passed",
+    "result": "lifecycle_fallback_check-results.json"
+  },
+  {
+    "test": "lifecycle_context_check.py",
+    "status": "passed",
+    "result": "lifecycle_context_check-results.json"
+  }
+]
